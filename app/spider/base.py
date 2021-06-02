@@ -32,7 +32,7 @@ def log(content, path, name=None):
     item = root.split("app")[0]
     LogPath = item + "runtime/spider/"+path
     file = ""
-    if name == None:
+    if name is None:
         file = (timestamp()+ ".html")
         file = (timestamp() + ".html")
     else:
