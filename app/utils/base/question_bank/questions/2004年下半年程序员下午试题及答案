@@ -1,0 +1,753 @@
+
+
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+
+　　【流程图说明]
+
+　　下面的流程图描述了对8位二进制整数求补的算法。
+
+　　该算法的计算过程如下：从二进制数的低位（最右位）开始，依次向高位逐位查看，直到首次遇到&#8220;1&#8221;时，停止查看。然后，对该&#8220;1&#8221;位左面的更高位（如果有的话），逐位求反，所得的结果就是对原二进制数求补的结果。
+
+　　例如：对二进制整数10101000求补的结果时01011000。
+
+　　设8位二进制整数中的各位，从低位到高位，依次存放在整型数组bit的bit[1]～bit[8]中。例如，二进制整数10101000存放在数组bit后，就有bit[1]＝0，bit[2]=0,&#8230;,bit[7]=0,bit[8]=1。若流程图中存在空操作，则用nop表示。
+
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+
+　　【函数说明】
+
+　　函数sort（int a[]，int n）的功能时对数组a中的a[0]～a[n-1]这n个元素进行排序。排序过程如下：第一趟对所有的偶数下标p，比较a和a[p+1],若a＞a[p+1],则将两者交换；第二趟对所有的奇数下标q，比较a[q]和a[q+1]，若a[q]＞a[q+1]，则将两者交换；第三趟对偶数下标，第四趟对奇数下标，&#8230;，依次类推，直至整个数组元素有序排列为止。
+
+　　【函数]
+
+　　void sort (int a[],int n)
+　　{
+　 　　int i ,j,t,tag=1;
+　　　for(j=0;j＜n;j++＝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+　　　　for (i=__(1)__;i＜n-1;__(2)__＝&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　　if (a＞a[i+1])&nbsp;&nbsp;&nbsp;&nbsp; {t=a;a=a[i+1];a[i+1]=t;tag=0;}
+　　　　}
+　　　　tag++
+　　　　if (__(3)__) break;
+　　　}
+　　}
+　　对包含十个元素的数组a采用上述方法排序时，元素间的比较次数最少为__(4)__次，最多为__(5)__次。
+
+　　typedef struct node {&nbsp;&nbsp;&nbsp;&nbsp;
+　　　int key;
+　　　struct node *next;
+　　}*linkedlist
+　　【函数]
+　　int movetoend(linkedlist la,int i)
+　　{
+　　　linkedlist p ,q,prep;
+　　　int k=1;
+　　　p=la-&gt;next;prep=la;
+　　　while(__(1)__){　　　　　　/*查找第i个元素并使指针p指向该结点*/
+　　　　prep=p; p=-&gt;next;k++
+　　　}
+　　　if (!p||k&gt;i)return -1;
+　　　if (__(2)__)　　　　　　　　/*第i个元素结点已经是表尾结点，则无需移动*/
+　　　return 0;
+　　　q=p;
+　　　while(__(3)__)q=q-﹥next;　/*查找表尾并使q指向表尾结点*/
+　　　__(4)__=p-&gt;next;
+　　　p-&gt;next=null;
+　　　__(5)__;
+　　　return 0;
+　　}
+
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+
+　　【说明]
+
+　　某单位举办了一场知识竞赛，参加竞赛的选手为300名，依次从1～300进行编号。竞赛时间为9：00～11：00。8道竞赛题目依次从&#8216;a&#8217;～&#8216;h&#8217;编号，选手可按任意次序答题，每完成一道题目，可立即提交答案。若答题正确（y），则选择其他题目进行解答，否则，可继续做该题目或选择其他题目进行解答，直至竞赛结束。
+
+　　选手提交答案的情况及判定结果由专人即时录入，录入的数据如下表1所示，对竞赛情况进行统计和排名的结果如表2所示。
+
+　　1. 若选手x在竞赛时提交的题目p解答正确，2. 则解答该题目所用时间如下计算：
+
+　　解答题目p的用时＝提交题目p正确的时间－竞赛的开始时间＋罚时
+
+　　罚时＝提交题目p错误解答的次数&#215;20
+
+　　例如：表1中14号选手在10:27提交了题目a的正确解答，因此该选手正确解答该题目所用时间为87分钟，由于之前的两次提交错误解答，罚时为2&#215;20＝40分钟，所以14号选手解答题目a的用时＝87＋40＝127（分钟）。
+
+　　2．已经提交正确答案的题目再次提交时不再计算。&nbsp;
+
+　　3．竞赛结束时，选手的总用时为所有解答正确的题目用时累加所得，解答不正确的题目不计时。&nbsp;
+
+　　4．排名时，完成题目数量多者排名靠前；若完成的题目数相同，则用时少者排名靠前；若完成的题目数和所用时间均相等，则名次相同；完成题目数为0的选手不参加排名。&nbsp;
+
+　　函数void statistic()的功能是：读取输入数据，进行统计、排名并输出结果。
+
+　　＃define maxn 300
+　　typedef struct {
+　　　int no;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*选手编号*/
+　　　int num;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*完成的题目数量*/
+　　　int time;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*完成题目的总用时*/
+　　　int d[8];&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*d用于记录提交第i个题目错误答案的次数*/
+　　　int a[8];&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*a用于记录第i个题目是否已经提交正确答案*/
+　　}info;
+　【函数】
+　　void statistic () {
+　　　char ch,pass;
+　　　int i,j,k,h,m,t,time,maxindex;
+　　　info r[maxn+1];
+　　　for(i=1;i&lt;=maxn;i++){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*数组r的元素置初值0*/
+　　　　r no=0; r num=0; r time=0;
+　　　　for(j=0;j&lt;8;j++){r.d[j]=0;r.a[j]=0;}
+　　　}/*for*/
+　　　maxindex=0;
+　　　while(1) {
+　　　　/*录入一名选手提交答案的信息（小时：分钟，选手编号，题目号，是否正确）*/
+　　　　scanf(&#8221;%d:%d,%d,%c&#8221;,&amp;h,&amp;m,&amp;k,&amp;ch,&amp;pass);
+　　　　if (h= =0) break;
+　　　　r[k] no=k;
+　　　　time=__(1)__;
+　　　　if (isupper(ch))&nbsp;&nbsp;&nbsp;&nbsp; ch=&#8217;a&#8217;+ch-&#8216;a&#8217;;
+　　　　if (pass !=&#8217;y&#8217;&amp;&amp; pass !=&#8217;y&#8217;) { r[k] d[ch-&#8216;a&#8217;]++;continue;}
+　　　　if (r[k] a[ch-&#8216;a&#8217;]= =1) continue;
+　　　　r[k] a[ch-&#8216;a&#8217;]=1;
+　　　　r[k] num++;
+　　　　r[k] time+=__(2)__;
+　　　　if (k&gt;maxindex)&nbsp;&nbsp;maxindex=k;
+　　　}　　　　　/*while*/
+　　　for (i=1;i&lt;maxindex;i++) {　　/*选择排序*/
+　　　　for(t=i,j=i+1;j&lt;=maxindex;j++)
+　　　　if (r[t] num&lt;r[j] num || __(3)__ t=j;)
+　　　　if(__(4)__) { r[0]=r[t];r[t]=r;r=r[0];}
+　　　}　　/*for*/
+　　　k=1;r[0]=r[1];
+　　　for(i=1;i&lt;=maxindex;i++)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*输出排名情况*/
+　　　if(r[i]．num&gt;0){&nbsp;
+　　　　if (r num!=r[0] num || r time!=r[0] time) k++;
+　　　　r[0]=__(5)__;
+　　　　printf(&#8220;%d: %3d %4d %5d &#8221;,k,r no,r num r time);
+　　　}　/*if*/
+　　}　/*statistic*/
+
+　　阅读下列说明及visual basic程序代码，将应填入__(n)__的字句写在答题纸的对应栏内。
+
+　　【应用说明]
+
+　　某单位举办了一场知识竞赛，参加竞赛的选手为300名，依次从1～300进行编号。竞赛时间为9：00～　11：00。8道竞赛题目依次从&#8216;a&#8217;～&#8216;h&#8217;编号，选手可按任意次序答题，每完成一道题目，可立即提交答案。若答题正确（y），则选择其他题目进行解答，否则，可继续做该题目或选择其他题目进行解答，直至竞赛结束。
+
+　　选手提交答案的情况及判定结果由专人即时录入，录入数据包括提交答案的时间、选手编号、题目编号（a～h）、是否正确（y/n）。
+
+　　对竞赛情况进行统计和排名的规则如下：
+
+　　1.若选手x在竞赛时提交的题目p解答正确，则解答该题目所用时间如下计算：
+
+　　解答题目p的用时＝提交题目p正确的时间－竞赛的开始时间＋罚时
+
+　　罚时＝提交题目p错误解答的次数&#215;20
+
+　　例如：表1中14号选手在10：27提交了题目a的正确解答，因此该选手正确解答该题目所用时间为87分钟，由于他在09：37和09：52两次提交了题目a的错误解答，因此罚时为2&#215;20＝40分钟，所以14号选手解答题目a的用时＝87＋40＝127（分钟）。
+
+　　2.已经提交正确答案的题目再次提交时不再计算。
+
+　　3.竞赛结束时，选手的总用时为所有解答正确的题目用时累加所得，解答不正确的题目不计时。
+
+　　4.排名时，完成题目数量多者排名靠前；若完成的题目数相同，则用时少者排名靠前；若完成的题目数和所用时间均相等，则名次相同；完成题目数为0的选手不参加排名。
+
+　　本应用程序的运行窗口如下图所示：
+
+
+　　在开发过程中，需要编写的部分程序代码如下：
+
+　　【程序代码]
+
+　　private type info
+　　　no as integer&nbsp;&nbsp; &#8217;选手编号
+　　　num as integer &#8217;完成题目数量
+　　　time as integer &#8217;完成题目的总用时
+　　　d(8) as integer&nbsp;&nbsp;&#8217;d用于记录提交第i个题目错误答案的次数
+　　　a(8) as boolean &#8217;a用于记录第i个题目是否已经提交正确答案
+　　end type
+　　dim r(301) as info&nbsp;&nbsp;&#8217;r[j]用于统计编号为j的选手提交答案的情况
+　　dim maxindex as integer &#8217;maxindex记录提交答案的选手中编号最大者
+　　　for&nbsp;&nbsp;i=1 to 8
+　　　　combo1.additem chr(__(1)__)
+　　　next
+　　　combol.text = combol.list(0):&nbsp;&nbsp;txt_time .text=&#8221;&#8221;:&nbsp;&nbsp;txt_player.text=&#8221;&#8221;
+　　　for i=1 to 300
+　　　　r(i).num=0:&nbsp;&nbsp;r(i).time=0: r(i).no=i
+　　　　for&nbsp;&nbsp;j=1 to 8
+　　　　　r(i).d(j)=0: r(i).a(j)=false
+　　　next j,i
+　　end sub
+　　　dim h, m,k, time as integer,ch ,pass,s1 as string
+　　　k= instr(txt _time .text,&#8221;:&#8221;):if k&lt;2 then goto error1
+　　　h=val(left(txt_time.text,k-1)):m=val(mid(txt_time.text,k+1))
+　　　if h&gt;11 or h=11 and m&gt;0 or m&gt;=60 then goto error1
+　　　time =__(2)__　　&#8217;计算答题时间，以分钟为单位
+　　　if&nbsp;&nbsp;txt_plater.text&lt;1 or txt_player .text&gt;300 then goto error1
+　　　ch=&nbsp;&nbsp;__(3)__&nbsp;
+　　　pass=iif(chk_yn.__(4)__&nbsp;=0,&#8221;n&#8221;,&#8221;y&#8221;)
+　　　s1=txt_time.text+space(4)+txt_player.text
+　　　s1=s1+space(10-len(txt_player.text))+ch+space(8)+pass
+　　　list1.additem s1
+　　　k= val(txt_player.text)&nbsp; 　　　　'k为选手编号
+　　　r(k).no=k　　　　'编号为k的选手的提交信息记录在下标为k的数组元素中
+　　　if k &gt;maxindex then maxindex=k
+　　　m = asc(ch)-asc(&#8220;a&#8221;)
+　　　if pass &lt;&gt;&#8221;y&#8221; then&nbsp;&nbsp;&nbsp; 　　　　　'编号为k的选手提交第m个题目的解答不正确
+　　　　r(k).d(m)=r(k).d(m)+1
+　　　else if r(k).a(m)&lt;&gt;true then　　'已经提交正确的题目的解答不再计算
+　　　　　r(k).a(m)=true:r(k).num=r(k).num+1
+　　　　　r(k).time=r(k).time +&nbsp;&nbsp;__(5)__&nbsp;&nbsp;
+　　　　　call statistic　　　　　　　'调用过程statistic进行实时排名和输出
+　　　end if
+　　　exit sub
+　　　error1:msgbox&#8221;录入信息有错误！&#8221;，vbokonly
+　　end sub
+
+　　阅读以下说明和c++程序，将应填入&nbsp;__(n)__处的字句写在答题纸的对应栏内
+
+　　【说明】
+
+　　以下程序的功能是计算三角形、矩形和正方形的面积并输出。
+
+　　程序由4个类组成：类triangle,rectangle和square分别表示三角形、矩形和正方形；抽象类finure提供了一个纯虚拟函数getarea（），作为计算上述三种图形面积的通用接口。
+
+　　【c++程序】
+　　 #include&lt;iostream.h&gt;
+　　 #include&lt;math.h&gt;
+　　　public:
+　　　virtual double getarea()=0;　　//纯虚拟函数
+　　};
+　　　protected:
+　　　double height;
+　　　double width;
+　　　public:
+　　　rectangle(){};
+　　　rectangle(double height,double width){
+　　　　this-&gt;height=height;
+　　　　this-&gt;width=width;
+　　　}
+　　　double getarea(){
+　　　　return&nbsp;&nbsp;__(2)__&nbsp;;
+　　　}
+　　};
+　　　public:
+　　　square(double width){
+　　　　__(4)__&nbsp;;
+　　　}
+　　};
+　　　double la;
+　　　double lb;
+　　　double lc;
+　　　public:
+　　　triangle(double la ,double lb,double lc){
+　　　　this -&gt;la=la;&nbsp;&nbsp;this-&gt;lb;&nbsp;&nbsp;this-&gt;lc;
+　　　}
+　　　double getarea(){
+　　　　double s=(la +lb+lc)/2.0;
+　　　　return sqrt(s*(s-la)**(s-lb) *(s-lc));
+　　　}
+　　};
+　　　figure* figures[3]={
+　　　　new triangle(2,3,3),new rectangle(5,8),new square(5)};
+　　　　for (int i=0;i&lt;3;i++){
+　　　　　cout&lt;&lt;&#8221;figures[&#8220;&lt;&lt;i&lt;&lt;&#8221;]area= &#8220;&lt;&lt;(figures)-&gt;getarea()&lt;&lt;endl;
+　　　　}
+　　　}
+　　 }
+
+　　阅读以下应用说明及vb部分的程序代码，将应填入__(n)__处的字句写在答题纸的对应栏内
+
+　　【应用说明]
+
+　　设一个简单的&#8220;通讯录&#8221;存储在一个access类型的数据库表中，包括姓名、电话和email三个字段。下面的应用程序实现对&#8220;通讯录&#8221;数据库表中的记录进行增加、删除及修改处理，其运行界面如下： 
+
+
+
+　　（2）文本框txt_name,txt_phone和txt_email 分别与数据库中的姓名、电话和email字段绑定，用于显示当前记录的内容。
+
+　　（3）应用程序启动时，"确定"按钮（cmd_ok）和"取消"按钮（cmd_cancel）不可操作，文本框中显示表中的第一条记录，这时文本框处于不可操作状态。
+
+　　（4）单击"增加"按钮（cmd_add）或"修改"按钮（cmd_modify）后，方可以编辑记录内容，同时增加、删除、修改和退出按钮变为不可操作状态。增加和修改操作需通过确定和取消按钮确认。
+
+　　（5）单击删除按钮（cmd_del）后，弹出对话框，再单击确定按钮，当前记录被删除。
+
+　　【程序代码】
+
+　　private sub enableop(isenabled as boolean)
+　　　txt_name.enabled=isenabled :txt _phone.enabled=isenabled
+　　　txt_email.enabled=isenabled
+　　　cmd_ok.enabled= isenabled: cmd_cancel.enabled= isenabled
+　　　cmd_add.enabled= not isenabled: cmd_del.enabled= not isenabled
+　　　cmd_end.enabled= not isenabled: cmd_modify.enabled= not isenabled
+　　end sub
+　　　call enableop(false)
+　　　detal.refresh
+　　　if data1.recordset.recordcount=0 then
+　　　　cmd_del.enabled= false: cmd_modify.enabled=&nbsp;__(1)__
+　　　end if
+　　end sub
+　　　call enableop(&nbsp;__(2)__&nbsp;)
+　　　data1.recordset.addnew　　　　'在数据库表中添加一个新记录
+　　　txt_name.__(3)__
+　　end sub
+　　　on error goto error3
+　　　ans=msgbox(&#8220;确定删除吗？&#8221;，vbyesno+vbinformation,&#8221; 操作提示！&#8221;)
+　　　if (ans=vbyes) then
+　　　　data1.recordset.__(4)__
+　　　　data1.recordset.movenext
+　　　　if data1.recordset.eof then data1.refresh
+　　　end if
+　　　exit sub
+　　　error3:
+　　　msgbox err.description,vbokonly,&#8221;错误提示！&#8221;
+　　end sub
+　　　on error goto error1
+　　　data1.recordset.__(5)__
+　　　call enableop(false)
+　　　exit sub
+　　　error1:
+　　　msgbox err.description,vbokonly,&#8221;错误提示！&#8221;
+　　　data1,updatecontrols
+　　call enableop(false)
+　　end sub
+　　'修改和取消按钮的程序代码略
+
+　　阅读以下说明和java程序，将应填入__(n)__处的字句写在答题纸的对应栏内
+
+　　【说明】
+
+　　以下程序的功能时三角形、矩形和正方形的面积输出。
+
+　　程序由5个类组成：areatest是主类，类triangle,rectangle和square分别表示三角形、矩形和正方形，抽象类figure提供了一个计算面积的抽象方法。
+
+　　【程序】
+
+　　public class areatest{
+　　　public static viod main(string args[]){
+　　　　figure[]figures={
+　　　　　new triangle(2,3,3),new rectangle(5,8),new square(5)
+　　　　};
+　　　　for (int i= 0;i&lt; figures.length;i++){
+　　　　　system.out.println(figures+&#8221;area=&#8221;+ figures.getarea());
+　　　　}
+　　　}
+　　}
+　　　　return&#8221;rectangle: height=&#8221;+ height +&#8221;, width=&#8221;+ width +&#8221;:&#8221;;
+　　　}
+　　　public double getarea(){
+　　　　return&nbsp;&nbsp;__(2)__&nbsp;&nbsp;
+　　　}
+　　}
+　　public class square exends&nbsp;&nbsp;__(3)__&nbsp;&nbsp;
+　　{
+　　　public square(double width) {
+　　　　__(4)__&nbsp;;
+　　　}
+　　　　return&#8221; square:width=&#8221;+width&#8221;:&#8221;;
+　　　}
+　　}
+　　{
+　　　double la;
+　　　double lb;
+　　　double lc;
+　　　public triangle(double la ,double lb,double lc){
+　　　　this.la=la;&nbsp;&nbsp;this.lb=lb;&nbsp;&nbsp;this.lc=lc;
+　　　}
+　　　public string tostring(){
+　　　　return&#8221; triangle:sides=&#8221;+la+&#8221;, &#8221;+lb+&#8221;, &#8221;+lc+&#8221;:&#8221;;
+　　　}
+　　　public double get area(){
+　　　　double s=(la+lb+lc)/2.0;
+　　　　return math.sqrt(s*(s-la) *(s-lb) *(s-lc));
+　　　}
+　　}
+
+(1)i:1，1，8
+(2)1→sw
+(3) 0→bit[i]
+(4)nop，或空操作
+(5)1→bit[i] 
+
+(1)j%2，及其等价形式
+(2)i+=2，及其等价形式
+(3)tag&gt;2，或tag==3或tag&gt;=3，及其等价形式
+(4)9
+(5)45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+(1)p &amp;&amp; k&lt;i，及其等价形式
+(2)!p-&gt;next，及其等价形式
+(3)q-&gt;next
+(4)prep-&gt;next
+(5)q-&gt;next=p
+
+(1)(h-9)*60+m，及其等价形式
+(2)time + r[k].d[ch-'a']*20 其中ch-'a'可以表示为ch-97，r[k]可以表示为r[r[k].no]
+(3)r[t].num == r[j].num &amp;&amp; r[t].time &gt; r[j].time，及其等价形式
+(4)t!=i，及其等价形式，表达式的值为真也正确
+(5)r[i]，及其等价形式
+
+(1)asc("a")+i-1，或64+i，及其等价形式
+(2)(h-9)*60+m，及其等价形式
+(3)combol.text
+(4)value
+(5)time+r(k).d(m)*20 其中m可表示为asc(ch)-asc("a")或asc(ch)-65，k可表示为r(r(k).no)
+&nbsp;&nbsp;
+试题六 （c++）
+
+(1)public figure
+(2)height*width
+(3)public rectangle
+(4)this-&gt;height=this-&gt;width=width
+(5)public figure 若填public rectangle只给1分
+
+(1)false
+(2)true
+(3)setfocus
+(4)delete
+(5)update 
+
+(1)figure
+(2)height*width
+(3)rectangle
+(4)super(width，width)
+(5)figure
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+　　【流程图说明]
+　　下面的流程图描述了对8位二进制整数求补的算法。
+　　该算法的计算过程如下：从二进制数的低位（最右位）开始，依次向高位逐位查看，直到首次遇到&#8220;1&#8221;时，停止查看。然后，对该&#8220;1&#8221;位左面的更高位（如果有的话），逐位求反，所得的结果就是对原二进制数求补的结果。
+　　例如：对二进制整数10101000求补的结果时01011000。
+　　设8位二进制整数中的各位，从低位到高位，依次存放在整型数组bit的bit[1]～bit[8]中。例如，二进制整数10101000存放在数组bit后，就有bit[1]＝0，bit[2]=0,&#8230;,bit[7]=0,bit[8]=1。若流程图中存在空操作，则用nop表示。
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+　　【函数说明】
+　　函数sort（int a[]，int n）的功能时对数组a中的a[0]～a[n-1]这n个元素进行排序。排序过程如下：第一趟对所有的偶数下标p，比较a和a[p+1],若a＞a[p+1],则将两者交换；第二趟对所有的奇数下标q，比较a[q]和a[q+1]，若a[q]＞a[q+1]，则将两者交换；第三趟对偶数下标，第四趟对奇数下标，&#8230;，依次类推，直至整个数组元素有序排列为止。
+　　【函数]
+　　void sort (int a[],int n)
+　　{
+　 　　int i ,j,t,tag=1;
+　　　for(j=0;j＜n;j++＝&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+　　　　for (i=__(1)__;i＜n-1;__(2)__＝&nbsp;&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　　if (a＞a[i+1])&nbsp;&nbsp;&nbsp;&nbsp; {t=a;a=a[i+1];a[i+1]=t;tag=0;}
+　　　　}
+　　　　tag++
+　　　　if (__(3)__) break;
+　　　}
+　　}
+　　对包含十个元素的数组a采用上述方法排序时，元素间的比较次数最少为__(4)__次，最多为__(5)__次。
+　　typedef struct node {&nbsp;&nbsp;&nbsp;&nbsp;
+　　　int key;
+　　　struct node *next;
+　　}*linkedlist
+　　【函数]
+　　int movetoend(linkedlist la,int i)
+　　{
+　　　linkedlist p ,q,prep;
+　　　int k=1;
+　　　p=la-&gt;next;prep=la;
+　　　while(__(1)__){　　　　　　/*查找第i个元素并使指针p指向该结点*/
+　　　　prep=p; p=-&gt;next;k++
+　　　}
+　　　if (!p||k&gt;i)return -1;
+　　　if (__(2)__)　　　　　　　　/*第i个元素结点已经是表尾结点，则无需移动*/
+　　　return 0;
+　　　q=p;
+　　　while(__(3)__)q=q-﹥next;　/*查找表尾并使q指向表尾结点*/
+　　　__(4)__=p-&gt;next;
+　　　p-&gt;next=null;
+　　　__(5)__;
+　　　return 0;
+　　}
+　　阅读下列说明和流程图，将应填入__(n)__的字句写在答题纸的对应栏内。
+　　【说明]
+　　某单位举办了一场知识竞赛，参加竞赛的选手为300名，依次从1～300进行编号。竞赛时间为9：00～11：00。8道竞赛题目依次从&#8216;a&#8217;～&#8216;h&#8217;编号，选手可按任意次序答题，每完成一道题目，可立即提交答案。若答题正确（y），则选择其他题目进行解答，否则，可继续做该题目或选择其他题目进行解答，直至竞赛结束。
+　　选手提交答案的情况及判定结果由专人即时录入，录入的数据如下表1所示，对竞赛情况进行统计和排名的结果如表2所示。
+　　1. 若选手x在竞赛时提交的题目p解答正确，2. 则解答该题目所用时间如下计算：
+　　解答题目p的用时＝提交题目p正确的时间－竞赛的开始时间＋罚时
+　　罚时＝提交题目p错误解答的次数&#215;20
+　　例如：表1中14号选手在10:27提交了题目a的正确解答，因此该选手正确解答该题目所用时间为87分钟，由于之前的两次提交错误解答，罚时为2&#215;20＝40分钟，所以14号选手解答题目a的用时＝87＋40＝127（分钟）。
+　　2．已经提交正确答案的题目再次提交时不再计算。&nbsp;
+　　3．竞赛结束时，选手的总用时为所有解答正确的题目用时累加所得，解答不正确的题目不计时。&nbsp;
+　　4．排名时，完成题目数量多者排名靠前；若完成的题目数相同，则用时少者排名靠前；若完成的题目数和所用时间均相等，则名次相同；完成题目数为0的选手不参加排名。&nbsp;
+　　函数void statistic()的功能是：读取输入数据，进行统计、排名并输出结果。
+　　＃define maxn 300
+　　typedef struct {
+　　　int no;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*选手编号*/
+　　　int num;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*完成的题目数量*/
+　　　int time;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*完成题目的总用时*/
+　　　int d[8];&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*d用于记录提交第i个题目错误答案的次数*/
+　　　int a[8];&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*a用于记录第i个题目是否已经提交正确答案*/
+　　}info;
+　【函数】
+　　void statistic () {
+　　　char ch,pass;
+　　　int i,j,k,h,m,t,time,maxindex;
+　　　info r[maxn+1];
+　　　for(i=1;i&lt;=maxn;i++){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*数组r的元素置初值0*/
+　　　　r no=0; r num=0; r time=0;
+　　　　for(j=0;j&lt;8;j++){r.d[j]=0;r.a[j]=0;}
+　　　}/*for*/
+　　　maxindex=0;
+　　　while(1) {
+　　　　/*录入一名选手提交答案的信息（小时：分钟，选手编号，题目号，是否正确）*/
+　　　　scanf(&#8221;%d:%d,%d,%c&#8221;,&amp;h,&amp;m,&amp;k,&amp;ch,&amp;pass);
+　　　　if (h= =0) break;
+　　　　r[k] no=k;
+　　　　time=__(1)__;
+　　　　if (isupper(ch))&nbsp;&nbsp;&nbsp;&nbsp; ch=&#8217;a&#8217;+ch-&#8216;a&#8217;;
+　　　　if (pass !=&#8217;y&#8217;&amp;&amp; pass !=&#8217;y&#8217;) { r[k] d[ch-&#8216;a&#8217;]++;continue;}
+　　　　if (r[k] a[ch-&#8216;a&#8217;]= =1) continue;
+　　　　r[k] a[ch-&#8216;a&#8217;]=1;
+　　　　r[k] num++;
+　　　　r[k] time+=__(2)__;
+　　　　if (k&gt;maxindex)&nbsp;&nbsp;maxindex=k;
+　　　}　　　　　/*while*/
+　　　for (i=1;i&lt;maxindex;i++) {　　/*选择排序*/
+　　　　for(t=i,j=i+1;j&lt;=maxindex;j++)
+　　　　if (r[t] num&lt;r[j] num || __(3)__ t=j;)
+　　　　if(__(4)__) { r[0]=r[t];r[t]=r;r=r[0];}
+　　　}　　/*for*/
+　　　k=1;r[0]=r[1];
+　　　for(i=1;i&lt;=maxindex;i++)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /*输出排名情况*/
+　　　if(r[i]．num&gt;0){&nbsp;
+　　　　if (r num!=r[0] num || r time!=r[0] time) k++;
+　　　　r[0]=__(5)__;
+　　　　printf(&#8220;%d: %3d %4d %5d &#8221;,k,r no,r num r time);
+　　　}　/*if*/
+　　}　/*statistic*/
+　　阅读下列说明及visual basic程序代码，将应填入__(n)__的字句写在答题纸的对应栏内。
+　　【应用说明]
+　　某单位举办了一场知识竞赛，参加竞赛的选手为300名，依次从1～300进行编号。竞赛时间为9：00～　11：00。8道竞赛题目依次从&#8216;a&#8217;～&#8216;h&#8217;编号，选手可按任意次序答题，每完成一道题目，可立即提交答案。若答题正确（y），则选择其他题目进行解答，否则，可继续做该题目或选择其他题目进行解答，直至竞赛结束。
+　　选手提交答案的情况及判定结果由专人即时录入，录入数据包括提交答案的时间、选手编号、题目编号（a～h）、是否正确（y/n）。
+　　对竞赛情况进行统计和排名的规则如下：
+　　1.若选手x在竞赛时提交的题目p解答正确，则解答该题目所用时间如下计算：
+　　解答题目p的用时＝提交题目p正确的时间－竞赛的开始时间＋罚时
+　　罚时＝提交题目p错误解答的次数&#215;20
+　　例如：表1中14号选手在10：27提交了题目a的正确解答，因此该选手正确解答该题目所用时间为87分钟，由于他在09：37和09：52两次提交了题目a的错误解答，因此罚时为2&#215;20＝40分钟，所以14号选手解答题目a的用时＝87＋40＝127（分钟）。
+　　2.已经提交正确答案的题目再次提交时不再计算。
+　　3.竞赛结束时，选手的总用时为所有解答正确的题目用时累加所得，解答不正确的题目不计时。
+　　4.排名时，完成题目数量多者排名靠前；若完成的题目数相同，则用时少者排名靠前；若完成的题目数和所用时间均相等，则名次相同；完成题目数为0的选手不参加排名。
+　　本应用程序的运行窗口如下图所示：
+　　在开发过程中，需要编写的部分程序代码如下：
+　　【程序代码]
+　　private type info
+　　　no as integer&nbsp;&nbsp; &#8217;选手编号
+　　　num as integer &#8217;完成题目数量
+　　　time as integer &#8217;完成题目的总用时
+　　　d(8) as integer&nbsp;&nbsp;&#8217;d用于记录提交第i个题目错误答案的次数
+　　　a(8) as boolean &#8217;a用于记录第i个题目是否已经提交正确答案
+　　end type
+　　dim r(301) as info&nbsp;&nbsp;&#8217;r[j]用于统计编号为j的选手提交答案的情况
+　　dim maxindex as integer &#8217;maxindex记录提交答案的选手中编号最大者
+　　　for&nbsp;&nbsp;i=1 to 8
+　　　　combo1.additem chr(__(1)__)
+　　　next
+　　　combol.text = combol.list(0):&nbsp;&nbsp;txt_time .text=&#8221;&#8221;:&nbsp;&nbsp;txt_player.text=&#8221;&#8221;
+　　　for i=1 to 300
+　　　　r(i).num=0:&nbsp;&nbsp;r(i).time=0: r(i).no=i
+　　　　for&nbsp;&nbsp;j=1 to 8
+　　　　　r(i).d(j)=0: r(i).a(j)=false
+　　　next j,i
+　　end sub
+　　　dim h, m,k, time as integer,ch ,pass,s1 as string
+　　　k= instr(txt _time .text,&#8221;:&#8221;):if k&lt;2 then goto error1
+　　　h=val(left(txt_time.text,k-1)):m=val(mid(txt_time.text,k+1))
+　　　if h&gt;11 or h=11 and m&gt;0 or m&gt;=60 then goto error1
+　　　time =__(2)__　　&#8217;计算答题时间，以分钟为单位
+　　　if&nbsp;&nbsp;txt_plater.text&lt;1 or txt_player .text&gt;300 then goto error1
+　　　ch=&nbsp;&nbsp;__(3)__&nbsp;
+　　　pass=iif(chk_yn.__(4)__&nbsp;=0,&#8221;n&#8221;,&#8221;y&#8221;)
+　　　s1=txt_time.text+space(4)+txt_player.text
+　　　s1=s1+space(10-len(txt_player.text))+ch+space(8)+pass
+　　　list1.additem s1
+　　　k= val(txt_player.text)&nbsp; 　　　　'k为选手编号
+　　　r(k).no=k　　　　'编号为k的选手的提交信息记录在下标为k的数组元素中
+　　　if k &gt;maxindex then maxindex=k
+　　　m = asc(ch)-asc(&#8220;a&#8221;)
+　　　if pass &lt;&gt;&#8221;y&#8221; then&nbsp;&nbsp;&nbsp; 　　　　　'编号为k的选手提交第m个题目的解答不正确
+　　　　r(k).d(m)=r(k).d(m)+1
+　　　else if r(k).a(m)&lt;&gt;true then　　'已经提交正确的题目的解答不再计算
+　　　　　r(k).a(m)=true:r(k).num=r(k).num+1
+　　　　　r(k).time=r(k).time +&nbsp;&nbsp;__(5)__&nbsp;&nbsp;
+　　　　　call statistic　　　　　　　'调用过程statistic进行实时排名和输出
+　　　end if
+　　　exit sub
+　　　error1:msgbox&#8221;录入信息有错误！&#8221;，vbokonly
+　　end sub
+　　阅读以下说明和c++程序，将应填入&nbsp;__(n)__处的字句写在答题纸的对应栏内
+　　【说明】
+　　以下程序的功能是计算三角形、矩形和正方形的面积并输出。
+　　程序由4个类组成：类triangle,rectangle和square分别表示三角形、矩形和正方形；抽象类finure提供了一个纯虚拟函数getarea（），作为计算上述三种图形面积的通用接口。
+　　【c++程序】
+　　 #include&lt;iostream.h&gt;
+　　 #include&lt;math.h&gt;
+　　　public:
+　　　virtual double getarea()=0;　　//纯虚拟函数
+　　};
+　　　protected:
+　　　double height;
+　　　double width;
+　　　public:
+　　　rectangle(){};
+　　　rectangle(double height,double width){
+　　　　this-&gt;height=height;
+　　　　this-&gt;width=width;
+　　　}
+　　　double getarea(){
+　　　　return&nbsp;&nbsp;__(2)__&nbsp;;
+　　　}
+　　};
+　　　public:
+　　　square(double width){
+　　　　__(4)__&nbsp;;
+　　　}
+　　};
+　　　double la;
+　　　double lb;
+　　　double lc;
+　　　public:
+　　　triangle(double la ,double lb,double lc){
+　　　　this -&gt;la=la;&nbsp;&nbsp;this-&gt;lb;&nbsp;&nbsp;this-&gt;lc;
+　　　}
+　　　double getarea(){
+　　　　double s=(la +lb+lc)/2.0;
+　　　　return sqrt(s*(s-la)**(s-lb) *(s-lc));
+　　　}
+　　};
+　　　figure* figures[3]={
+　　　　new triangle(2,3,3),new rectangle(5,8),new square(5)};
+　　　　for (int i=0;i&lt;3;i++){
+　　　　　cout&lt;&lt;&#8221;figures[&#8220;&lt;&lt;i&lt;&lt;&#8221;]area= &#8220;&lt;&lt;(figures)-&gt;getarea()&lt;&lt;endl;
+　　　　}
+　　　}
+　　 }
+　　阅读以下应用说明及vb部分的程序代码，将应填入__(n)__处的字句写在答题纸的对应栏内
+　　【应用说明]
+　　设一个简单的&#8220;通讯录&#8221;存储在一个access类型的数据库表中，包括姓名、电话和email三个字段。下面的应用程序实现对&#8220;通讯录&#8221;数据库表中的记录进行增加、删除及修改处理，其运行界面如下： 
+　　（2）文本框txt_name,txt_phone和txt_email 分别与数据库中的姓名、电话和email字段绑定，用于显示当前记录的内容。
+　　（3）应用程序启动时，"确定"按钮（cmd_ok）和"取消"按钮（cmd_cancel）不可操作，文本框中显示表中的第一条记录，这时文本框处于不可操作状态。
+　　（4）单击"增加"按钮（cmd_add）或"修改"按钮（cmd_modify）后，方可以编辑记录内容，同时增加、删除、修改和退出按钮变为不可操作状态。增加和修改操作需通过确定和取消按钮确认。
+　　（5）单击删除按钮（cmd_del）后，弹出对话框，再单击确定按钮，当前记录被删除。
+　　【程序代码】
+　　private sub enableop(isenabled as boolean)
+　　　txt_name.enabled=isenabled :txt _phone.enabled=isenabled
+　　　txt_email.enabled=isenabled
+　　　cmd_ok.enabled= isenabled: cmd_cancel.enabled= isenabled
+　　　cmd_add.enabled= not isenabled: cmd_del.enabled= not isenabled
+　　　cmd_end.enabled= not isenabled: cmd_modify.enabled= not isenabled
+　　end sub
+　　　call enableop(false)
+　　　detal.refresh
+　　　if data1.recordset.recordcount=0 then
+　　　　cmd_del.enabled= false: cmd_modify.enabled=&nbsp;__(1)__
+　　　end if
+　　end sub
+　　　call enableop(&nbsp;__(2)__&nbsp;)
+　　　data1.recordset.addnew　　　　'在数据库表中添加一个新记录
+　　　txt_name.__(3)__
+　　end sub
+　　　on error goto error3
+　　　ans=msgbox(&#8220;确定删除吗？&#8221;，vbyesno+vbinformation,&#8221; 操作提示！&#8221;)
+　　　if (ans=vbyes) then
+　　　　data1.recordset.__(4)__
+　　　　data1.recordset.movenext
+　　　　if data1.recordset.eof then data1.refresh
+　　　end if
+　　　exit sub
+　　　error3:
+　　　msgbox err.description,vbokonly,&#8221;错误提示！&#8221;
+　　end sub
+　　　on error goto error1
+　　　data1.recordset.__(5)__
+　　　call enableop(false)
+　　　exit sub
+　　　error1:
+　　　msgbox err.description,vbokonly,&#8221;错误提示！&#8221;
+　　　data1,updatecontrols
+　　call enableop(false)
+　　end sub
+　　'修改和取消按钮的程序代码略
+　　阅读以下说明和java程序，将应填入__(n)__处的字句写在答题纸的对应栏内
+　　【说明】
+　　以下程序的功能时三角形、矩形和正方形的面积输出。
+　　程序由5个类组成：areatest是主类，类triangle,rectangle和square分别表示三角形、矩形和正方形，抽象类figure提供了一个计算面积的抽象方法。
+　　【程序】
+　　public class areatest{
+　　　public static viod main(string args[]){
+　　　　figure[]figures={
+　　　　　new triangle(2,3,3),new rectangle(5,8),new square(5)
+　　　　};
+　　　　for (int i= 0;i&lt; figures.length;i++){
+　　　　　system.out.println(figures+&#8221;area=&#8221;+ figures.getarea());
+　　　　}
+　　　}
+　　}
+　　　　return&#8221;rectangle: height=&#8221;+ height +&#8221;, width=&#8221;+ width +&#8221;:&#8221;;
+　　　}
+　　　public double getarea(){
+　　　　return&nbsp;&nbsp;__(2)__&nbsp;&nbsp;
+　　　}
+　　}
+　　public class square exends&nbsp;&nbsp;__(3)__&nbsp;&nbsp;
+　　{
+　　　public square(double width) {
+　　　　__(4)__&nbsp;;
+　　　}
+　　　　return&#8221; square:width=&#8221;+width&#8221;:&#8221;;
+　　　}
+　　}
+　　{
+　　　double la;
+　　　double lb;
+　　　double lc;
+　　　public triangle(double la ,double lb,double lc){
+　　　　this.la=la;&nbsp;&nbsp;this.lb=lb;&nbsp;&nbsp;this.lc=lc;
+　　　}
+　　　public string tostring(){
+　　　　return&#8221; triangle:sides=&#8221;+la+&#8221;, &#8221;+lb+&#8221;, &#8221;+lc+&#8221;:&#8221;;
+　　　}
+　　　public double get area(){
+　　　　double s=(la+lb+lc)/2.0;
+　　　　return math.sqrt(s*(s-la) *(s-lb) *(s-lc));
+　　　}
+　　}
+(1)i:1，1，8
+(2)1→sw
+(3) 0→bit[i]
+(4)nop，或空操作
+(5)1→bit[i] 
+(1)j%2，及其等价形式
+(2)i+=2，及其等价形式
+(3)tag&gt;2，或tag==3或tag&gt;=3，及其等价形式
+(4)9
+(5)45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(1)p &amp;&amp; k&lt;i，及其等价形式
+(2)!p-&gt;next，及其等价形式
+(3)q-&gt;next
+(4)prep-&gt;next
+(5)q-&gt;next=p
+(1)(h-9)*60+m，及其等价形式
+(2)time + r[k].d[ch-'a']*20 其中ch-'a'可以表示为ch-97，r[k]可以表示为r[r[k].no]
+(3)r[t].num == r[j].num &amp;&amp; r[t].time &gt; r[j].time，及其等价形式
+(4)t!=i，及其等价形式，表达式的值为真也正确
+(5)r[i]，及其等价形式
+(1)asc("a")+i-1，或64+i，及其等价形式
+(2)(h-9)*60+m，及其等价形式
+(3)combol.text
+(4)value
+(5)time+r(k).d(m)*20 其中m可表示为asc(ch)-asc("a")或asc(ch)-65，k可表示为r(r(k).no)
+&nbsp;&nbsp;
+试题六 （c++）
+(1)public figure
+(2)height*width
+(3)public rectangle
+(4)this-&gt;height=this-&gt;width=width
+(5)public figure 若填public rectangle只给1分
+(1)false
+(2)true
+(3)setfocus
+(4)delete
+(5)update 
+(1)figure
+(2)height*width
+(3)rectangle
+(4)super(width，width)
+(5)figure

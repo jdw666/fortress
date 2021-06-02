@@ -1,0 +1,48 @@
+
+
+试题二 
+[问题1] 
+[问题2] 
+[问题3] 
+
+试题三 
+
+【问题1】 
+【问题2】 
+【问题3】 
+
+试题四 
+【问题1】 
+【问题2】 
+【问题3】 
+【说明】 
+函数 gethostbyname 查询指定的域名地址对应的 ip 地址，返回一个 hostent结构的指针，如果不成功返回 null。
+
+int_socket(int domain，int_type，int protocol)；
+函数 socket 创建一个套接字描述符，如果失败返回 -1。domain 为地址类型，type为套接字类型，本题中为 sock_stream ；protocol 指定协议，本题中为 0 。
+int connect( int sockfd,struct sockaddr *servaddr, int addrlen)；
+函数connect与服务器建立一个连接，成功返回 0，失败返回- 1。servaddr 为远程服务器的套接字地址，包括服务器的 ip 地址和端口号；addrlen 为地址的长度。
+int read( int fd，char *buf，int len)；
+int write( int fd，char *buf，int len)；
+函数read和write从套接字读和写数据，成功返回数据量大小，否则返回 -1。buf 指定数据缓冲区，len 指定接收或发送的数据量大小。 
+试题二 
+[问题1] 
+[问题2] 
+[问题3] 
+试题三 
+【问题1】 
+【问题2】 
+【问题3】 
+试题四 
+【问题1】 
+【问题2】 
+【问题3】 
+【说明】 
+函数 gethostbyname 查询指定的域名地址对应的 ip 地址，返回一个 hostent结构的指针，如果不成功返回 null。
+int_socket(int domain，int_type，int protocol)；
+函数 socket 创建一个套接字描述符，如果失败返回 -1。domain 为地址类型，type为套接字类型，本题中为 sock_stream ；protocol 指定协议，本题中为 0 。
+int connect( int sockfd,struct sockaddr *servaddr, int addrlen)；
+函数connect与服务器建立一个连接，成功返回 0，失败返回- 1。servaddr 为远程服务器的套接字地址，包括服务器的 ip 地址和端口号；addrlen 为地址的长度。
+int read( int fd，char *buf，int len)；
+int write( int fd，char *buf，int len)；
+函数read和write从套接字读和写数据，成功返回数据量大小，否则返回 -1。buf 指定数据缓冲区，len 指定接收或发送的数据量大小。 

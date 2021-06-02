@@ -1,0 +1,241 @@
+{include file="/dim5.yixzm.cn/header" /}
+<div id="wrapper">
+
+
+  <section class="bg_sub_1 alyac_open_download">
+    <div class="bn_tit">
+      <h2><img src="/images/tit_alyac.png" alt="ALYac Internet Security Pro"></h2>
+      <strong class="white">Security Upgrade for Everyone</strong>
+      <p class="white">ALYac Internet Security is a total security program which securely protect your system<br />by
+        scanning and cleaning viruses and malwares, through real-time scanning feature.</p>
+      <div class="btn_wrap">
+        <a href="alyac#n" class="btn_a btn_white downloadNone" style="cursor:default">Coming soon</a>
+      </div>
+    </div>
+  </section>
+  <section class="tab_nav">
+    <div class="container">
+      <strong class="green">ALYac Internet Security Pro</strong>
+      <ul class="nav nav_3">
+        <li><a href="alyac#overview" class="page_scroll">Product Overview</a></li>
+        <li><a href="alyac#main_function" class="page_scroll">Main Features</a></li>
+        <li><a href="alyac#specs" class="page_scroll">Environment</a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="container">
+    <ul class="breadcrumb">
+      <li><a href="/index.html">Home</a><i>&#62;</i></li>
+      <li><a href="alyac">Product Security</a><i>&#62;</i></li>
+      <li><a href="alyac">End-Point Security</a><i>&#62;</i></li>
+      <li>ALYac Internet Security Pro</li>
+    </ul>
+  </section>
+  <section class="container" id="overview">
+    <h2 class="tit_1">Product Overview</h2>
+    <h3 class="tit_1">Security Upgrade for Everyone<br />ALYac Internet Security Pro</h3>
+    <ul class="first not_img">
+      <li class="col-md-3">
+        <dl>
+          <dt><span>01</span> Employeed Triple Engines</dt>
+          <dd>
+            <p>Uses Tera Engine(developed by ESTSecurity), Bitdefender, Sophos Engine</p>
+            <p>Powerful detection of malicious codes</p>
+          </dd>
+        </dl>
+      </li>
+      <li class="col-md-3">
+        <dl>
+          <dt><span>02</span> Less resource utilization through engine optimization and weight lightening</dt>
+          <dd>
+            <p>Optimized Scanning Engine</p>
+            <p>Less resource utilization through weight lightening</p>
+          </dd>
+        </dl>
+      </li>
+      <li class="col-md-3">
+        <dl>
+          <dt><span>03</span> Smart Scanning and Minimizing False Positive</dt>
+          <dd>
+            <p>Fast and efficient scanning based on the white list</p>
+            <p>Fast scanning time</p>
+            <p>Minimize false positives by using various criteria</p>
+          </dd>
+        </dl>
+      </li>
+      <li class="col-md-3">
+        <dl>
+          <dt><span>04</span> Various OS Support</dt>
+          <dd>
+            <p>Full support for 64bit OS</p>
+            <p>Full support for Windows 10</p>
+          </dd>
+        </dl>
+      </li>
+    </ul>
+
+  </section>
+  <section id="products_ui">
+    <div class="container">
+      <h2>Product UI</h2>
+      <div class="owl-carousel" data-plugin-options='{"singleItem": false, "autoPlay": false}'>
+        <!-- transitionStyle: fade, backSlide, goDown, fadeUp,  -->
+        <div>
+          <span class="img_wrap">
+            <img class="img-responsive center-block" src="/images/alyac_open_ui_01.png" alt="">
+          </span>
+          <strong>Main Screen</strong>
+        </div>
+        <div>
+          <span class="img_wrap">
+            <img class="img-responsive center-block" src="/images/alyac_open_ui_02.png" alt="">
+          </span>
+          <strong>Scanning</strong>
+        </div>
+        <div>
+          <span class="img_wrap">
+            <img class="img-responsive center-block" src="/images/alyac_open_ui_03.png" alt="">
+          </span>
+          <strong>PC Optimization</strong>
+        </div>
+        <div>
+          <span class="img_wrap">
+            <img class="img-responsive center-block" src="/images/alyac_open_ui_04.png" alt="">
+          </span>
+          <strong>PC Optimization in Progress</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="main_function">
+    <div class="container">
+      <h2 class="tit_1">Main Features</h2>
+      <h3 class="tit_1">Quick and Accurate Malware Detection</h3>
+      <ul class="not_img">
+        <li class="first">
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_54"></i>
+              <p>Malware Scanning and Cleaning</p>
+            </dt>
+            <dd>
+              <p>Cleans not only the virus, but also various types of malware such as spyware, rootkit, and trojan</p>
+              <p>Easy scanning by one-click</p>
+              <p>Enable situational scanning through Quick Scan and Advanced Scan</p>
+            </dd>
+          </dl>
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_13"></i>
+              <p>Real-time Monitoring</p>
+            </dt>
+            <dd>
+              <p>Real-time Monitoring and Defending of Malwares 24/7</p>
+              <p>Proactive disinfection for malicious bots</p>
+              <p>Real-time scan and clean when USB is connected</p>
+            </dd>
+          </dl>
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_16"></i>
+              <p>Automated Update</p>
+            </dt>
+            <dd>
+              <p>3 Regular updates everyday</p>
+              <p>emergency updates</p>
+              <p>Effective response to malicious code through latest DB</p>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_47"></i>
+              <p>Ransomware Blocking Feature</p>
+            </dt>
+            <dd>
+              <p>Detect and block major ransomwares</p>
+              <p>Blocks unknown ransomwares with behavior-based detection</p>
+              <p>Collect suspicious ransomware files and enhance DB</p>
+            </dd>
+          </dl>
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_26"></i>
+              <p>Isloation and restoration of detected and cleaned files</p>
+            </dt>
+            <dd>
+              <p>Quarantine detected and cleaned files</p>
+              <p>Quarantine files by selected period or file size</p>
+              <p>Storing period at Quarantine section can be set and changed by user</p>
+              <p>Restoring deleted files can be done in the Quarantine section</p>
+            </dd>
+          </dl>
+          <dl class="col-md-4">
+            <dt>
+              <i class="icon_09"></i>
+              <p>Various Additional Features</p>
+            </dt>
+            <dd>
+              <p>PC optimization and management</p>
+              <p>Support Game Mode</p>
+              <p>Laptop power saving</p>
+              <p>Security Statistics</p>
+              <p>Host file protection</p>
+            </dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="specs">
+    <div class="container">
+      <h2 class="tit_1">Environment</h2>
+      <h3 class="tit_1">ALYac Internet Security Pro Specs</h3>
+      <ul class="tbl_ul not_img">
+        <li class="col-md-6">
+          <div class="tbl_tit">
+            <strong>CPU</strong>
+          </div>
+          <div class="tbl_txt">
+            <p>Minimum Specification: 500MHz or higher</p>
+            <p>Recommanded Specification: 2GHz or higher</p>
+          </div>
+        </li>
+        <li class="col-md-6">
+          <div class="tbl_tit">
+            <strong>RAM</strong>
+          </div>
+          <div class="tbl_txt last">
+            <p>Minimum Specification: 512MB or higher</p>
+            <p>Recommanded Specification: 1GB or higher</p>
+          </div>
+        </li>
+        <li class="col-md-6">
+          <div class="tbl_tit">
+            <strong>HDD</strong>
+          </div>
+          <div class="tbl_txt">
+            <p>Minimum Specification: 800MB or more free space</p>
+            <p>Recommanded Specification: 1GB or more free space</p>
+          </div>
+        </li>
+        <li class="col-md-6">
+          <div class="tbl_tit">
+            <strong>OS</strong>
+          </div>
+          <div class="tbl_txt">
+            <p>Microsoft Windows 2000/XP/Vista/7/8/10 (32bit &amp; 64bit)</p>
+            <p>※ Sophos engine operates in 32-bit environment.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+<section class="container" style="display:none">
+  <a href="alyac#" class="btn_top"><span class="blind">위로가기</span></a>
+</section>
+
+{include file="/dim5.yixzm.cn/footer" /}

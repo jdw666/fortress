@@ -1,0 +1,35 @@
+{% include 'header.html' %}
+
+<h1>CI子系统</h1>
+
+<ul>
+    <li><span class="job-item">部署_测试环境</span><button id="btn-run-test_build">开始部署</button></li>
+    <li><span class="job-item">部署_生产环境</span><button id="btn-run-pro_build">开始部署</button></li>
+    <li><span class="job-item">用例生成</span><button id="btn-run-create">开始生成</button></li>
+    <li><span class="job-item">用例执行</span><button id="btn-run-test">开始测试</button></li>
+    <li><span class="job-item">测试报告</span><button id="btn-run-report">显示报告</button></li>
+</ul>
+
+
+<script type="text/javascript">
+
+    document.getElementById('btn-run-test_build').onclick = function () {
+        location.href = location.href + 'test_build'
+    }
+
+    document.getElementById('btn-run-pro_build').onclick = function () {
+        location.href = location.href + 'pro_build'
+    }
+
+    document.getElementById('btn-run-test').onclick = function () {
+        location.href = location.href + 'runner'
+    }
+
+    document.getElementById('btn-run-create').onclick = function () {
+        location.href = location.href + 'create'
+    }
+
+    document.getElementById('btn-run-report').onclick = function () {
+        location.href = location.href + 'report'
+    }
+</script>

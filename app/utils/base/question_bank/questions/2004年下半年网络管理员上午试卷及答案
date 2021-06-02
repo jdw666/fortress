@@ -1,0 +1,247 @@
+
+　　（1）a.软盘　　　　b.硬盘　　　　c.u盘　　　　 d.软盘或硬盘
+　　（2）a.常规　　　　b.硬件　　　　c.共享　　　　d.工具
+　　（3）a.在驱动器或文件夹窗口中，选择要删除的文件并单击退格键
+　　　　b.在驱动器或文件夹窗口中，选择要删除的文件同时按下&lt;shift&gt;+&lt;del&gt;键&nbsp;
+　　　　c.在要删除的文件或文件夹上单击鼠标右键，选择"删除"。
+　　　　d.用鼠标直接拖动选中的文件夹到"回收站"。　　● 在以下关于电子邮件的叙述中，&#8220;_(4)_&#8221;是不正确的。
+　　（4）a.打开来历不明的电子邮件附件可能会传染计算机病毒
+　　　　b.在网络拥塞的情况下，发送电子邮件后，接收者可能过几个小时后才能收到&nbsp;
+　　　 c.在试发电子邮件时，可向自己的email邮箱发一封电子邮件
+　　　 d.电子邮箱的容量指的是用户当前使用的计算机上，分配给电子邮箱的硬盘容量
+　　（5）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（6）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（7）a.0　　　　　　 b.－1　　　　　 c.＋1　　　　　 d.128
+　　（8）a.2047　　　　　b.2048　　　　　c.4095　　　　　d.4096
+　　（9）a.-2047　　　　 b.-2048　　　　 c.-4095　　　　 d.-4096
+　　（10）a.10110101　　 b.00110101　　　c.01101011　　　d.01101010
+　　（11）a.堆栈的顶　　 b.堆栈中的数据　c.堆栈指针　　　d.堆栈的底
+　　（12）a.寄存器　　　 b.相对　　　　　c.基址变址　　　d.寄存器间接
+　　（13）a.4　　　　　　b.8　　　　　　 c.12　　　　　　d.16
+　　（14）a.24　　　　　 b.33　　　　　　c.42　　　　　　d.51
+　　（15）a.应用软件　　 b.系统软件　　　c.工具软件　　　d.杀毒软件
+　　（16）a.进程被进程调度程序选中　　　 b.等待某一事件
+　　　　　c.等待事件发生　　　　　　　　 d.时间片用完
+　　（17）a.提供用户操作界面　　　　　　 b.管理系统资源
+　　　　　c.提供应用程序接口　　　　　　 d.提供html
+　　　　　c.j1→j3→j4→j2　　　　　　　　d.j4→j3→j2→j1
+　　（19）a.45 b.58.5　　　　　　　　　　 c.64.5 d.72
+　　设又关系student（学号，姓名，年龄，性别，系名），如果要查询姓名至少包括5个字母，且倒数第二个字母为"g"的学生的学号、姓名以及所在系，则对应的select语句如下：
+　　select 学号，姓名，系名
+　　from students
+　　where _(23)_ like _(24)_；
+　　（20）a.元组　　　　　　b.列　　　　　c.字段　　　　　d.表
+　　（21）a.数据项　　　　　b.表　　　　　c.索引　　　　　d.列
+　　（22）a.视图　　　　　　b.列　　　　　c.字段　　　　　d.元组
+　　（23）a."_ _ _g_%"　　　b."_ _ _%g_"&nbsp;　c.姓名 d."_ _ _g%"
+　　（24) a."_ _ _g_%"　　　b."_ _ _%g_"&nbsp;　c.姓名 d."_ _ _g%"
+　　（25）a.其终生及其死亡后50年　　　　　b.没有期限
+　　　　　c.软件开发完成后25年　　　　　　d.软件开发完成后50年
+　　（26）a.gb　　　　　　　b.qj　　　　　c.q　　　　　　　 d.db
+　　（27）a.地域性　　　　　b.公平性　　　c.公证性　　　　　d.有效性
+　　（28）a.大声喧哗　　　　b.有强烈震动　c.装入程序　　　　d.有日光照射
+　　（29）a.电子邮件 b.硬盘 c.软盘 d.rom
+　　（31）a．输入和输出设备　　　　　　　　　 b．数据复用设备
+　　　　　c．数据终端设备dte　　　　　　　　　d．数据通信设备dce
+　　（32）a．输入和输出设备　b．数据复用设备　c．数据终端设备dte　 d．数据通信设备dce
+　　（33）a．频带传输　　　　b．数字传输　　　c．基带传输　　　　　d．ip传输
+　　（34）a．传输介质为阻抗100ω的5类utp，介质访问控制方式为csma/cd，每段电缆的长度限制为100米，数据传输速率为100mb/s
+　　　　　b．传输介质为阻抗100ω的3类utp，介质访问控制方式为csma/cd，每段电缆的长度限制为185米，数据传输速率为loomb/s
+　　　　　c．传输介质为阻抗100ω的3类utp，介质访问控制方式为tokenring，每段电缆的长度限制为185米，数据传输速率为loomb/s
+　　　　　d．传输介质为阻抗looω的5类utp，介质访问控制方式为tokenring，每段电缆的长度限制为100米，数据传输速率为loomb/s&nbsp;
+　　（35）a．长波光纤　　　　b．铜缆　　　　　　c．双绞线　　　　　d．短波光纤
+　　（36）a．同属一个冲突域，但不属一个广播域
+　　　　　b．同属一个冲突域，也同属一个广播域
+　　　　　c．不属一个冲突域，但同属一个广播域
+　　　　　d．不属一个冲突域，也不属一个广播域
+　　（37）a．同属一个冲突域，但不属一个广播域
+　　　　　b．同属一个冲突域，也同属一个广播域
+　　　　　c．不属一个冲突域，但同属一个广播域
+　　　　　d．不属一个冲突域，也不属一个广播域
+　　（38）a．仅有菊花链堆叠　　　　　　　　　　b．既可以菊花链堆叠，又可以矩阵堆叠
+　　　　　c．仅有矩阵堆叠　　　　　　　　　　　d．并联堆叠
+　　（39）a．基于mac地址的划分　　　　　　　　 b．基于p组播的划分
+　　　　　c．基于网络层协议的划分　　　　　　　d．基于域名的划分
+　　（40）a．vlan0　　　　　b．vlanl　　　　　 c．vlan2　　　　　　d．vlan3
+　　（41）a．广域网必须使用拨号接入　　　　　　b．广域网必须使用专用的物理通信线路
+　　　　　c．广域网必须进行路由选择　　　　　　d．广域网都按广播方式进行数据通信
+　　（42）a．195.26.15.3　　b．195.26.18.128　 c．195.26.24.254　　d．195.26.31.64
+　　（43）a．1021　　　　　 b．1024　　　　　　c．4093　　　　　　 d．4096
+　　（44）a．单模光纤　　　 b．5类utp　　　　　c．同轴电缆　　　　 d．多模光纤
+　　（45）a．在同一台pc机上可以安装多个操作系统
+　　　　　b．在同一台pc机上可以安装多个网卡
+　　　　　c．在pc机的一个网卡上可以同时绑定多个ip地址
+　　　　　d．一个ip地址可以同时绑定到多个网卡上
+　　（46）a．dns服务器　　　b．web服务器　　　 c．路由器　　　　　d．交换机
+　　（47）a．/home和/usr　　b．/和/usr　　　　 c．/和/swap　　　　d．/home和/swap
+　　（48）a．信息转发　　　 b．路由选择　　 　 c．域名解析　　　　d．帧封装
+　　（49）a．smtp和pop3　　 b．smtp和rmon　　　c．rmon和snmp　　　d．snmp和pop3
+　　（50）a．dhcp服务器　　 b．dns服务器　　　 c．ftp服务器　　　 d．路由器
+　　（51）a．http　　　　　 b．ip　　　　　　　c．tcp　　　　　　 d．udp
+　　（52）a．java　　　　　 b．vrml　　　　　　c．html　　　　　　d．c#
+　　（53）a．dreamweaver　　b．word　　　　　　c．frontpage　　　 d．outlookexpress
+　　（54）a．text　　　　　 b．checkbox　　　　c．radio　　　　　 d．password
+　　（55）a．dsp　　　　　　b．jsp　　　　　　 c．php　　　　　　 d．cgi
+　　（56）a．utf-8　　　　　b．utf-16　　　　　c．big5　　　　　　d．gb2312
+　　（57）a．包过滤防火墙、应用层网关防火墙和状态检测防火墙 b．包过滤防火墙、应用层网关防火墙和代理防火墙 c．包过滤防火墙、代理防火墙和软件防火墙d．状态检测防火墙、代理防火墙和动态包过滤防火墙
+　　（58）a．基于主机的ids和基于网络的ids
+　　　　　b．基于主机的ids和基于域控制器的ids
+　　　　　c．基于服务器的ids和基于域控制器的ids
+　　　　　d．基于浏览器的ids和基于网络的ds
+　　（59）a．拒绝服务　　　　d．口令入侵　　　　c．网络监听　　　　d．ip欺骗
+　　（60）a．用户自主保护级　b．访问控制级　　　c．系统审计保护级　d．结构化保护级
+　　（62）a　中继器　　　　b　网桥　　　　　　　c.交换机　　　d.路由器
+
+　　● tcp/ip网络的体系结构分为应用层、传输层、网络互联层和网络接口层。属于传输层协议的是_(63)_。
+　　（63）a.tcp和icmp　　 b.ip和ftp　　　　　 c.tcp和udp　　d.icmp和udp
+
+　　● 在www服务器与客户机之间发送和接收html文档时，使用的协议时_(64)_。
+　　（64）a.ftp　　　　　 b.gopher　　　　　　c.http　　　　d.nntp
+
+　　● 为了在internet上浏览网页，需要在客户端安装浏览器，不属于浏览器软件的时_(65)_。
+　　（65）a.internet explorer　b.fireworks　　c.hot java　　d.netscape communicator
+　　（66）a.web server　　b.web page　　　　　c.web browser 　d.web site
+
+　　● the term"_(67)_program"means a program written in high-level language.
+　　（67）a.compiler　　　b.executable　　　　c.source　　　　d.object
+
+　　● very long, complex expressions in program are difficult to write correctly and difficult to _(68)_.
+　　（68）a.defend　　　　b.detect　　　　　　c.default　　　　d.debug
+
+　　● in c language, functions are important because they provide a way to _(69)_code so that a large complex program can be written by combining many smaller parts.
+　　（69）a.modify　　　　b.modularize　　　　c.block　　　　　d.board
+
+　　● the standard _(70)_ in c language contain many useful functions for input and output, string handling, mathematical computations, and system programming tasks.
+　　（70）a.database　　　b.files　　　　　　 c.libraries　　　d.subroutine
+
+　　● in _(71)_ programming, the user determines the sequence of instructions to be executed,not the programmer.
+　　（71）a.top-down　　　b.structure　　　　 c.data-driven　　d.event-driven
+
+　　● _(72)_ is a clickable string or graphic that points to another web page or document.
+　　（72）a.link　　　　　b.anchor　　　　　　c.browser　　　　d.hyperlink
+
+　　● one solution to major security problems is _(73)_,which are frequently installed to fix known security holes.
+　　（73）a.patches　　　 b.compensations　　 c.complements　　d.additions
+
+　　● a programmer must know about a function's _(74)_ to call it correctly.
+　　（74）a.location　　　b.algorithm　　　　 c.interface　　　d.statements
+
+　　● on a _(75)_ memory system,the logical memory space available to the program is totally independent of the physical memory space.
+　　（75）a.cache　　　　 b.virtual　　　　　 c.ram　　　　　　d.rom
+　　（1）a.软盘　　　　b.硬盘　　　　c.u盘　　　　 d.软盘或硬盘
+　　（2）a.常规　　　　b.硬件　　　　c.共享　　　　d.工具
+　　（3）a.在驱动器或文件夹窗口中，选择要删除的文件并单击退格键
+　　　　b.在驱动器或文件夹窗口中，选择要删除的文件同时按下&lt;shift&gt;+&lt;del&gt;键&nbsp;
+　　　　c.在要删除的文件或文件夹上单击鼠标右键，选择"删除"。
+　　　　d.用鼠标直接拖动选中的文件夹到"回收站"。　　● 在以下关于电子邮件的叙述中，&#8220;_(4)_&#8221;是不正确的。
+　　（4）a.打开来历不明的电子邮件附件可能会传染计算机病毒
+　　　　b.在网络拥塞的情况下，发送电子邮件后，接收者可能过几个小时后才能收到&nbsp;
+　　　 c.在试发电子邮件时，可向自己的email邮箱发一封电子邮件
+　　　 d.电子邮箱的容量指的是用户当前使用的计算机上，分配给电子邮箱的硬盘容量
+　　（5）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（6）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（7）a.0　　　　　　 b.－1　　　　　 c.＋1　　　　　 d.128
+　　（8）a.2047　　　　　b.2048　　　　　c.4095　　　　　d.4096
+　　（9）a.-2047　　　　 b.-2048　　　　 c.-4095　　　　 d.-4096
+　　（10）a.10110101　　 b.00110101　　　c.01101011　　　d.01101010
+　　（11）a.堆栈的顶　　 b.堆栈中的数据　c.堆栈指针　　　d.堆栈的底
+　　（12）a.寄存器　　　 b.相对　　　　　c.基址变址　　　d.寄存器间接
+　　（13）a.4　　　　　　b.8　　　　　　 c.12　　　　　　d.16
+　　（14）a.24　　　　　 b.33　　　　　　c.42　　　　　　d.51
+　　（15）a.应用软件　　 b.系统软件　　　c.工具软件　　　d.杀毒软件
+　　（16）a.进程被进程调度程序选中　　　 b.等待某一事件
+　　　　　c.等待事件发生　　　　　　　　 d.时间片用完
+　　（17）a.提供用户操作界面　　　　　　 b.管理系统资源
+　　　　　c.提供应用程序接口　　　　　　 d.提供html
+　　　　　c.j1→j3→j4→j2　　　　　　　　d.j4→j3→j2→j1
+　　（19）a.45 b.58.5　　　　　　　　　　 c.64.5 d.72
+　　设又关系student（学号，姓名，年龄，性别，系名），如果要查询姓名至少包括5个字母，且倒数第二个字母为"g"的学生的学号、姓名以及所在系，则对应的select语句如下：
+　　select 学号，姓名，系名
+　　from students
+　　where _(23)_ like _(24)_；
+　　（20）a.元组　　　　　　b.列　　　　　c.字段　　　　　d.表
+　　（21）a.数据项　　　　　b.表　　　　　c.索引　　　　　d.列
+　　（22）a.视图　　　　　　b.列　　　　　c.字段　　　　　d.元组
+　　（23）a."_ _ _g_%"　　　b."_ _ _%g_"&nbsp;　c.姓名 d."_ _ _g%"
+　　（24) a."_ _ _g_%"　　　b."_ _ _%g_"&nbsp;　c.姓名 d."_ _ _g%"
+　　（25）a.其终生及其死亡后50年　　　　　b.没有期限
+　　　　　c.软件开发完成后25年　　　　　　d.软件开发完成后50年
+　　（26）a.gb　　　　　　　b.qj　　　　　c.q　　　　　　　 d.db
+　　（27）a.地域性　　　　　b.公平性　　　c.公证性　　　　　d.有效性
+　　（28）a.大声喧哗　　　　b.有强烈震动　c.装入程序　　　　d.有日光照射
+　　（29）a.电子邮件 b.硬盘 c.软盘 d.rom
+　　（31）a．输入和输出设备　　　　　　　　　 b．数据复用设备
+　　　　　c．数据终端设备dte　　　　　　　　　d．数据通信设备dce
+　　（32）a．输入和输出设备　b．数据复用设备　c．数据终端设备dte　 d．数据通信设备dce
+　　（33）a．频带传输　　　　b．数字传输　　　c．基带传输　　　　　d．ip传输
+　　（34）a．传输介质为阻抗100ω的5类utp，介质访问控制方式为csma/cd，每段电缆的长度限制为100米，数据传输速率为100mb/s
+　　　　　b．传输介质为阻抗100ω的3类utp，介质访问控制方式为csma/cd，每段电缆的长度限制为185米，数据传输速率为loomb/s
+　　　　　c．传输介质为阻抗100ω的3类utp，介质访问控制方式为tokenring，每段电缆的长度限制为185米，数据传输速率为loomb/s
+　　　　　d．传输介质为阻抗looω的5类utp，介质访问控制方式为tokenring，每段电缆的长度限制为100米，数据传输速率为loomb/s&nbsp;
+　　（35）a．长波光纤　　　　b．铜缆　　　　　　c．双绞线　　　　　d．短波光纤
+　　（36）a．同属一个冲突域，但不属一个广播域
+　　　　　b．同属一个冲突域，也同属一个广播域
+　　　　　c．不属一个冲突域，但同属一个广播域
+　　　　　d．不属一个冲突域，也不属一个广播域
+　　（37）a．同属一个冲突域，但不属一个广播域
+　　　　　b．同属一个冲突域，也同属一个广播域
+　　　　　c．不属一个冲突域，但同属一个广播域
+　　　　　d．不属一个冲突域，也不属一个广播域
+　　（38）a．仅有菊花链堆叠　　　　　　　　　　b．既可以菊花链堆叠，又可以矩阵堆叠
+　　　　　c．仅有矩阵堆叠　　　　　　　　　　　d．并联堆叠
+　　（39）a．基于mac地址的划分　　　　　　　　 b．基于p组播的划分
+　　　　　c．基于网络层协议的划分　　　　　　　d．基于域名的划分
+　　（40）a．vlan0　　　　　b．vlanl　　　　　 c．vlan2　　　　　　d．vlan3
+　　（41）a．广域网必须使用拨号接入　　　　　　b．广域网必须使用专用的物理通信线路
+　　　　　c．广域网必须进行路由选择　　　　　　d．广域网都按广播方式进行数据通信
+　　（42）a．195.26.15.3　　b．195.26.18.128　 c．195.26.24.254　　d．195.26.31.64
+　　（43）a．1021　　　　　 b．1024　　　　　　c．4093　　　　　　 d．4096
+　　（44）a．单模光纤　　　 b．5类utp　　　　　c．同轴电缆　　　　 d．多模光纤
+　　（45）a．在同一台pc机上可以安装多个操作系统
+　　　　　b．在同一台pc机上可以安装多个网卡
+　　　　　c．在pc机的一个网卡上可以同时绑定多个ip地址
+　　　　　d．一个ip地址可以同时绑定到多个网卡上
+　　（46）a．dns服务器　　　b．web服务器　　　 c．路由器　　　　　d．交换机
+　　（47）a．/home和/usr　　b．/和/usr　　　　 c．/和/swap　　　　d．/home和/swap
+　　（48）a．信息转发　　　 b．路由选择　　 　 c．域名解析　　　　d．帧封装
+　　（49）a．smtp和pop3　　 b．smtp和rmon　　　c．rmon和snmp　　　d．snmp和pop3
+　　（50）a．dhcp服务器　　 b．dns服务器　　　 c．ftp服务器　　　 d．路由器
+　　（51）a．http　　　　　 b．ip　　　　　　　c．tcp　　　　　　 d．udp
+　　（52）a．java　　　　　 b．vrml　　　　　　c．html　　　　　　d．c#
+　　（53）a．dreamweaver　　b．word　　　　　　c．frontpage　　　 d．outlookexpress
+　　（54）a．text　　　　　 b．checkbox　　　　c．radio　　　　　 d．password
+　　（55）a．dsp　　　　　　b．jsp　　　　　　 c．php　　　　　　 d．cgi
+　　（56）a．utf-8　　　　　b．utf-16　　　　　c．big5　　　　　　d．gb2312
+　　（57）a．包过滤防火墙、应用层网关防火墙和状态检测防火墙 b．包过滤防火墙、应用层网关防火墙和代理防火墙 c．包过滤防火墙、代理防火墙和软件防火墙d．状态检测防火墙、代理防火墙和动态包过滤防火墙
+　　（58）a．基于主机的ids和基于网络的ids
+　　　　　b．基于主机的ids和基于域控制器的ids
+　　　　　c．基于服务器的ids和基于域控制器的ids
+　　　　　d．基于浏览器的ids和基于网络的ds
+　　（59）a．拒绝服务　　　　d．口令入侵　　　　c．网络监听　　　　d．ip欺骗
+　　（60）a．用户自主保护级　b．访问控制级　　　c．系统审计保护级　d．结构化保护级
+　　（62）a　中继器　　　　b　网桥　　　　　　　c.交换机　　　d.路由器
+　　● tcp/ip网络的体系结构分为应用层、传输层、网络互联层和网络接口层。属于传输层协议的是_(63)_。
+　　（63）a.tcp和icmp　　 b.ip和ftp　　　　　 c.tcp和udp　　d.icmp和udp
+　　● 在www服务器与客户机之间发送和接收html文档时，使用的协议时_(64)_。
+　　（64）a.ftp　　　　　 b.gopher　　　　　　c.http　　　　d.nntp
+　　● 为了在internet上浏览网页，需要在客户端安装浏览器，不属于浏览器软件的时_(65)_。
+　　（65）a.internet explorer　b.fireworks　　c.hot java　　d.netscape communicator
+　　（66）a.web server　　b.web page　　　　　c.web browser 　d.web site
+　　● the term"_(67)_program"means a program written in high-level language.
+　　（67）a.compiler　　　b.executable　　　　c.source　　　　d.object
+　　● very long, complex expressions in program are difficult to write correctly and difficult to _(68)_.
+　　（68）a.defend　　　　b.detect　　　　　　c.default　　　　d.debug
+　　● in c language, functions are important because they provide a way to _(69)_code so that a large complex program can be written by combining many smaller parts.
+　　（69）a.modify　　　　b.modularize　　　　c.block　　　　　d.board
+　　● the standard _(70)_ in c language contain many useful functions for input and output, string handling, mathematical computations, and system programming tasks.
+　　（70）a.database　　　b.files　　　　　　 c.libraries　　　d.subroutine
+　　● in _(71)_ programming, the user determines the sequence of instructions to be executed,not the programmer.
+　　（71）a.top-down　　　b.structure　　　　 c.data-driven　　d.event-driven
+　　● _(72)_ is a clickable string or graphic that points to another web page or document.
+　　（72）a.link　　　　　b.anchor　　　　　　c.browser　　　　d.hyperlink
+　　● one solution to major security problems is _(73)_,which are frequently installed to fix known security holes.
+　　（73）a.patches　　　 b.compensations　　 c.complements　　d.additions
+　　● a programmer must know about a function's _(74)_ to call it correctly.
+　　（74）a.location　　　b.algorithm　　　　 c.interface　　　d.statements
+　　● on a _(75)_ memory system,the logical memory space available to the program is totally independent of the physical memory space.
+　　（75）a.cache　　　　 b.virtual　　　　　 c.ram　　　　　　d.rom

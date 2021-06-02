@@ -1,0 +1,17 @@
+db.sqlite3
+*/__pycache__
+app/admin/__pycache__
+app/ai/__pycache__
+app/ai/migrations/__pycache__
+app/spider/__pycache__
+app/spider/migrations/__pycache__
+app/testing/__pycache__
+app/testing/base/test/utils/__pycache__
+app/testing/migrations/__pycache__
+app/utils/__pycache__
+app/utils/migrations/__pycache__
+app/*/__pycache__
+app/*/*/__pycache__
+app/spider/mission/tmp/*
+vendor
+runtime/*

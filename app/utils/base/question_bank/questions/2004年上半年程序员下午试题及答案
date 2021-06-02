@@ -1,0 +1,247 @@
+
+
+
+　　阅读下列说明、流程图和算法，将应填入__(n)__处的字句写在答题纸的对应栏内．
+[流程图说明]
+　　下面的流程图用n&#8212;s盒图形式描述了数组a中的元素被划分的过程．其划分方法是：
+　　以数组中的第一个元素作为基准数，将小于基准数的元素向低下标端移动，而大于基准数的元素向高下标端移动．当划分结束时，基准数定位于a[i]，并且数组中下标小于i的元素的值均小于基准数，下标大子i的元素的值均大于基准数。设数组a的下界为low，上界为high，数组中的元素互不相同。例如，对数组(4，2，8，3，6)，以4为基准数的划分过程
+[算法说明]
+　　将上述划分的思想进一步用于被划分出的数组的两部分，就可以对整个数组实现递增排序。设函数int p(int a[]，int low，int high)实现了上述流程图的划分过程并返回基准数在数组a中的下标。递归函数void sort(int a[]，iht l，int h)的功能是实现数组a中元素的递增排序。
+[算法]
+　void sort(int a[]，iht l，int h)　{
+　if ( l &lt; h ) {
+　　k=p(a，l，r)；　　　　　//p()返回基准数在数组a中的下标
+　　sort(__ (4)__；　　　　 //小于基准数的元素排序
+　　sortl__ (5)__)；　　　　//大于基准数的元素排序
+　　}
+　} 
+试题二
+
+
+　　阅读下列函数说明和c函数，将应填入__(n)__处的字句写在答题纸的对应栏内。
+[函数2.1说明]
+　　函数palindrome(chars[])的功能是：判断字符串s是否为回文字符串，若是，则返回0，否则返回-1。若一个字符串顺读和倒读都一样时，称该字符串是回文字符串，例如：&#8220;level&#8221;是回文字符串，而&#8220;leval&#8221;不是。
+[函数2.1]
+　int palindrome(char s[])
+　{ char　*pi，*pj；
+　　pi＝s；pj＝s+strlen(s)-1：
+　　while ( pi&lt;pj &amp;&amp; __(1)__){
+　　　pi++； pj--；
+　　}
+　　if(__ (2)__)return-1；
+　　else return 0；
+　}
+[函数2.2说明]
+　　函数f(char *str，char del)的功能是；将非空字符串str分割成若干个子字符串并输出，del表示分割时的标志字符。
+　　例如若str的值为&#8220;33123333435&#8221;，del的值为&#8216;3&#8217;，调用此函数后，将输出三个子字符串，分别为&#8220;12&#8221;、&#8220;4&#8221;和&#8220;5&#8221;。
+　void f(char*str，char del)
+　{ int i，j，len；
+　　len = strlen(str)；
+　　i = 0；
+　　while　(i&lt;len){
+　　　while　(__(3)__)　i++；　　　　/*忽略连续的标志字符*/
+　　/*寻找从str[i]开始直到标志字符出现的一个子字符串*/
+　　　j = i + 1；
+　　while (str[j] !=del &amp;&amp; str[j] !='\0') j++；
+　　__ (4)__＝"\0"；　　　　　　　　 /*给找到的字符序列置字符串结束标志*/
+　　printf(" %s\t"，&amp;str[i])： &#8217;
+　　__ (5)__；
+　　}
+　} 
+
+
+　　以下是与visual basic开发应用有关的5个问题．对每一个问题，请将解答填入答题纸的对应栏内。
+　　(1)在visual basic中，工程文件、窗体文件和标准模块文件的扩展名是什么?
+　　请从下列选项中选择：
+　　prg、prj、exe、vbp、rom、frm、win、fra，std、bas、vbs、vbm 
+[说明]
+　　函数 multibaseoutput(long n，int b)的功能是：将一个无符号十进制整数 n 转换成 b（2≤b≤16）进制数并输出。该函数先将转换过程中得到的各位数字入栈，转换结束后再把 b 进制数从栈中输出。有关栈操作的诸函数功能见相应函数中的注释。c代码中的符号常量及栈的类型定义如下：
+　#define kaxsize 32
+　typedef struct{
+　　int *elem；　　/* 栈的存储区 */
+　　int max；　　　/* 栈的容量，即找中最多能存放的元素个数 */
+　　int top；　　　/* 栈顶指针 */&nbsp;
+　}stack；
+　int lnitstack(stack *s，int n)　　/* 创建容量为n的空栈 */
+　{ s-&gt;elem = (int *)matloc(n * sizeof(int))；
+　　if (s-&gt;elem == null) return -1；
+　　s-&gt;max = n；__(1)__= 0；return 0；
+　}
+　int push(stack*s，int item)　　　/* 将整数item压入栈顶 */
+　{ if(s-&gt;top == s-&gt;max){ printf("stack is full!\n")；return -1；}
+　　__(2)__；item；return 0；
+　}
+　int stackempty(stack s){ return(!s.top) ? 1；0；)　/* 判断栈是否为空 */
+　int pop(stack*s)　　　　　　　　/* 栈顶元素出栈 */
+　{ if (!s-&gt;top){ printf("pop an empty stack!\n")；return -1；)
+　　return __(3)__；
+　}
+　void multibaseoutput(long n，int b)
+　{ int m；stack s；
+　　if (init stack(&amp;s，maxsize)) { printf("failure!\n")；return；}
+　　do {
+　　　if (push(&amp;s，__(4)__)) { printf("failure!\n")；return；}
+　　　n = __(5)__：
+　　} while (n != 0)；
+　　while (!stackempty(s))　{　　　　　/* 输出b进制的数 */
+　　　m = pop(&amp;s)；
+　　　if (m &lt; 10) printf("kd"，m)；　　/* 小于10，输出数字 */
+　　　else printf("%c，m + 55)；　　　 /* 大于或等于10，输出相应的字符 */
+　　}
+　　printf("\n")；
+　}
+
+
+　　阅读以下应用说明及visual basic程序代码，将应填入__(n)__处的字句写在答题纸的对应栏内。
+[应用说明5.1]
+　　本应用程序的窗体中有一个下拉式列表框（名称为combol）和两个文本框（名称分别为txtl和txt2）。运行时，用户从combol的列表中进行选择，程序就会将选中条目的内容以及编号（从0开始）分别在文本框 txt1 和 txt2 中显示出来。
+[程序代码5.1]
+　private sub combol_c1ick()
+　　txtl.text = combol.__(1)__
+　　txt2.text = combol.__(2)__
+　end sub
+　　（注：可供(2)处选择的选项：list，index，listlndex，listcount，number）
+[应用说明5.2]
+　　本应用程序的运行窗口如下图所示： 
+开发该应用的部分程序代码如下：
+[程序代码5.2]
+　private sub cmbop_click()
+　　dim datain as double，dataout as double
+　　datain = __(3)__
+　　select case __(4)__
+　　　case "取整数部分"
+　　　　dataout = int(dataln)
+　　　case "求平方根"
+　　　　if dataln &lt; o then
+　　　　　msgbox$("负数不能开平方!")
+　　　　else
+　　　　　dataout = sqr(dataln)
+　　　　end if
+　　　case "取绝对值"
+　　　　dataout = abs(dataln)
+　　　　(txtout.text = str$(dataout)
+　　　　__5)__
+　end sub
+
+
+　　阅读下列说明、流程图和算法，将应填入__(n)__处的字句写在答题纸的对应栏内．
+[流程图说明]
+　　下面的流程图用n&#8212;s盒图形式描述了数组a中的元素被划分的过程．其划分方法是：
+　　以数组中的第一个元素作为基准数，将小于基准数的元素向低下标端移动，而大于基准数的元素向高下标端移动．当划分结束时，基准数定位于a[i]，并且数组中下标小于i的元素的值均小于基准数，下标大子i的元素的值均大于基准数。设数组a的下界为low，上界为high，数组中的元素互不相同。例如，对数组(4，2，8，3，6)，以4为基准数的划分过程
+[算法说明]
+　　将上述划分的思想进一步用于被划分出的数组的两部分，就可以对整个数组实现递增排序。设函数int p(int a[]，int low，int high)实现了上述流程图的划分过程并返回基准数在数组a中的下标。递归函数void sort(int a[]，iht l，int h)的功能是实现数组a中元素的递增排序。
+[算法]
+　void sort(int a[]，iht l，int h)　{
+　if ( l &lt; h ) {
+　　k=p(a，l，r)；　　　　　//p()返回基准数在数组a中的下标
+　　sort(__ (4)__；　　　　 //小于基准数的元素排序
+　　sortl__ (5)__)；　　　　//大于基准数的元素排序
+　　}
+　} 
+试题二
+
+
+　　阅读下列函数说明和c函数，将应填入__(n)__处的字句写在答题纸的对应栏内。
+[函数2.1说明]
+　　函数palindrome(chars[])的功能是：判断字符串s是否为回文字符串，若是，则返回0，否则返回-1。若一个字符串顺读和倒读都一样时，称该字符串是回文字符串，例如：&#8220;level&#8221;是回文字符串，而&#8220;leval&#8221;不是。
+[函数2.1]
+　int palindrome(char s[])
+　{ char　*pi，*pj；
+　　pi＝s；pj＝s+strlen(s)-1：
+　　while ( pi&lt;pj &amp;&amp; __(1)__){
+　　　pi++； pj--；
+　　}
+　　if(__ (2)__)return-1；
+　　else return 0；
+　}
+[函数2.2说明]
+　　函数f(char *str，char del)的功能是；将非空字符串str分割成若干个子字符串并输出，del表示分割时的标志字符。
+　　例如若str的值为&#8220;33123333435&#8221;，del的值为&#8216;3&#8217;，调用此函数后，将输出三个子字符串，分别为&#8220;12&#8221;、&#8220;4&#8221;和&#8220;5&#8221;。
+　void f(char*str，char del)
+　{ int i，j，len；
+　　len = strlen(str)；
+　　i = 0；
+　　while　(i&lt;len){
+　　　while　(__(3)__)　i++；　　　　/*忽略连续的标志字符*/
+　　/*寻找从str[i]开始直到标志字符出现的一个子字符串*/
+　　　j = i + 1；
+　　while (str[j] !=del &amp;&amp; str[j] !='\0') j++；
+　　__ (4)__＝"\0"；　　　　　　　　 /*给找到的字符序列置字符串结束标志*/
+　　printf(" %s\t"，&amp;str[i])： &#8217;
+　　__ (5)__；
+　　}
+　} 
+
+
+　　以下是与visual basic开发应用有关的5个问题．对每一个问题，请将解答填入答题纸的对应栏内。
+　　(1)在visual basic中，工程文件、窗体文件和标准模块文件的扩展名是什么?
+　　请从下列选项中选择：
+　　prg、prj、exe、vbp、rom、frm、win、fra，std、bas、vbs、vbm 
+[说明]
+　　函数 multibaseoutput(long n，int b)的功能是：将一个无符号十进制整数 n 转换成 b（2≤b≤16）进制数并输出。该函数先将转换过程中得到的各位数字入栈，转换结束后再把 b 进制数从栈中输出。有关栈操作的诸函数功能见相应函数中的注释。c代码中的符号常量及栈的类型定义如下：
+　#define kaxsize 32
+　typedef struct{
+　　int *elem；　　/* 栈的存储区 */
+　　int max；　　　/* 栈的容量，即找中最多能存放的元素个数 */
+　　int top；　　　/* 栈顶指针 */&nbsp;
+　}stack；
+　int lnitstack(stack *s，int n)　　/* 创建容量为n的空栈 */
+　{ s-&gt;elem = (int *)matloc(n * sizeof(int))；
+　　if (s-&gt;elem == null) return -1；
+　　s-&gt;max = n；__(1)__= 0；return 0；
+　}
+　int push(stack*s，int item)　　　/* 将整数item压入栈顶 */
+　{ if(s-&gt;top == s-&gt;max){ printf("stack is full!\n")；return -1；}
+　　__(2)__；item；return 0；
+　}
+　int stackempty(stack s){ return(!s.top) ? 1；0；)　/* 判断栈是否为空 */
+　int pop(stack*s)　　　　　　　　/* 栈顶元素出栈 */
+　{ if (!s-&gt;top){ printf("pop an empty stack!\n")；return -1；)
+　　return __(3)__；
+　}
+　void multibaseoutput(long n，int b)
+　{ int m；stack s；
+　　if (init stack(&amp;s，maxsize)) { printf("failure!\n")；return；}
+　　do {
+　　　if (push(&amp;s，__(4)__)) { printf("failure!\n")；return；}
+　　　n = __(5)__：
+　　} while (n != 0)；
+　　while (!stackempty(s))　{　　　　　/* 输出b进制的数 */
+　　　m = pop(&amp;s)；
+　　　if (m &lt; 10) printf("kd"，m)；　　/* 小于10，输出数字 */
+　　　else printf("%c，m + 55)；　　　 /* 大于或等于10，输出相应的字符 */
+　　}
+　　printf("\n")；
+　}
+
+
+　　阅读以下应用说明及visual basic程序代码，将应填入__(n)__处的字句写在答题纸的对应栏内。
+[应用说明5.1]
+　　本应用程序的窗体中有一个下拉式列表框（名称为combol）和两个文本框（名称分别为txtl和txt2）。运行时，用户从combol的列表中进行选择，程序就会将选中条目的内容以及编号（从0开始）分别在文本框 txt1 和 txt2 中显示出来。
+[程序代码5.1]
+　private sub combol_c1ick()
+　　txtl.text = combol.__(1)__
+　　txt2.text = combol.__(2)__
+　end sub
+　　（注：可供(2)处选择的选项：list，index，listlndex，listcount，number）
+[应用说明5.2]
+　　本应用程序的运行窗口如下图所示： 
+开发该应用的部分程序代码如下：
+[程序代码5.2]
+　private sub cmbop_click()
+　　dim datain as double，dataout as double
+　　datain = __(3)__
+　　select case __(4)__
+　　　case "取整数部分"
+　　　　dataout = int(dataln)
+　　　case "求平方根"
+　　　　if dataln &lt; o then
+　　　　　msgbox$("负数不能开平方!")
+　　　　else
+　　　　　dataout = sqr(dataln)
+　　　　end if
+　　　case "取绝对值"
+　　　　dataout = abs(dataln)
+　　　　(txtout.text = str$(dataout)
+　　　　__5)__
+　end sub

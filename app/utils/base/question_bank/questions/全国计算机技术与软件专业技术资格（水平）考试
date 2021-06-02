@@ -1,0 +1,321 @@
+
+　　（1）a.软盘　　　　b.硬盘　　　　c.u盘　　　　 d.软盘或硬盘
+　　（2）a.常规　　　　b.硬件　　　　c.共享　　　　d.工具
+　　（3）a.在驱动器或文件夹窗口中，选择要删除的文件并单击退格键
+　　　　b.在驱动器或文件夹窗口中，选择要删除的文件同时按下&lt;shift&gt; &lt;del&gt;键 
+　　　　c.在要删除的文件或文件夹上单击鼠标右键，选择"删除"。
+　　　　d.用鼠标直接拖动选中的文件夹到"回收站"。
+　　（4）a.打开来历不明的电子邮件附件可能会传染计算机病毒
+　　　　b.在网络拥塞的情况下，发送电子邮件后，接收者可能过几个小时后才能收到 
+　　　 c.在试发电子邮件时，可向自己的email邮箱发一封电子邮件
+　　　 d.电子邮箱的容量指的是用户当前使用的计算机上，分别给电子邮箱的硬盘容量
+　　（5）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（6）a.原码　　　　　 b.反码　　　　　 c.补码　　　　　 d.移码
+　　（7）a.0　　　　　　 b.－1　　　　　 c.＋1　　　　　 d.128
+　　（8）a.2047　　　　　b.2048　　　　　c.4095　　　　　d.4096
+　　（9）a.-2047　　　　 b.-2048　　　　 c.-4095　　　　 d.-4096
+　　（10）a.10110101　　 b.00110101　　　c.01101011　　　d.01101010
+　　（11）a.堆栈的顶　　 b.堆栈中的数据　c.堆栈指针　　　d.堆栈的底
+　　（12）a.寄存器　　　 b.相对　　　　　c.基址变址　　　d.寄存器间接
+　　（13）a.4　　　　　　b.8　　　　　　 c.12　　　　　　d.16
+　　（14）a.24　　　　　 b.33　　　　　　c.42　　　　　　d.51
+　　（15）a.应用软件　　 b.系统软件　　　c.工具软件　　　d.杀毒软件
+　　（16）a.进程被进程调度程序选中　　　 b.等待某一事件
+　　　　　c.等待事件发生　　　　　　　　 d.时 间片用完
+　　（17）a.提供用户操作界面　　　　　　 b.管理系统资源
+　　　　　c.提供应用程序接口　　　　　　 d.提供html
+　　　　　c.j1→j3→j4→j2　　　　　　　　d.j4→j3→j2→j1
+　　（19）a.45 b.58.5　　　　　　　　　　 c.64.5 d.72
+　　设又关系student（学号，姓名，年龄，性别，系名），如果要查询姓名至少包括5个字母，且倒数第二个字母为"g"的学生的学号、姓名以及所在系，则对应的select语句如下：
+　　select 学号，姓名，系名
+　　from students
+　　where _(23)_ like _(24)_；
+　　（20）a.元组　　　　　　b.列　　　　　c.字段　　　　　d.表
+　　（21）a.数据项　　　　　b.表　　　　　c.索引　　　　　d.列
+　　（22）a.视图　　　　　　b.列　　　　　c.字段　　　　　d.元组
+　　（23）a."_ _ _g_%"　　　b."_ _ _%g_" 　c.姓名 d."_ _ _g%"
+　　（24) a."_ _ _g_%"　　　b."_ _ _%g_" 　c.姓名 d."_ _ _g%"
+　　（25）a.其终生及其死亡后50年　　　　　b.没有期限
+　　　　　c.软件开发完成后25年　　　　　　d.软件开发完成后50年
+　　（26）a.gb　　　　　　　b.qj　　　　　c.q　　　　　　　 d.db
+　　（27）a.地域性　　　　　b.公平性　　　c.公证性　　　　　d.有效性
+　　（28）a.大声喧哗　　　　b.有强烈震动　c.装入程序　　　　d.有日光照射
+　　（29）a.电子邮件 b.硬盘 c.软盘 d.rom
+　　（30）a.禁用activex控件　　　　　　　　　 b.禁用cookie
+　　　　　c.禁用没有标记为安全的activex控件　 d.禁用脚本
+
+　　● 在面向对象程序设计语言中，_(31)_是利用可重用成分构造软件系统的最有效的特性，它不仅支持系统的可重用性，而且还有利于提高系统的可扩充性；_(32)_可以实现发送一个通用的消息而调用不同的方法；_(33)_是实现信息隐蔽的一种技术，其目的是使类的_(34)_相互分离。
+　　（31）a.封装　　　　　　b.消息传递　　　　c.引用　　　　d.继承
+　　（32）a.封装　　　　　　 b.消息传递　　　　 c.引用　　　　 d.继承
+　　（33）a.引用　　　　　　b.继承　　　　　　c.封装　　　　d.多态
+　　（34）a.定义与实现　　　b.分析与测试　　　c.分析与设计　d.实现与测试
+
+　　● 为了描述n个人之间的同学关系，可用_(35)_结构表示。
+　　（35）a.线性表　　　　　b.树　　　　　　　c.图　　　　　d.队列
+
+　　● 判断一个表达式中左右括号是否匹配，采用_(36)_实现较为方便。
+　　（36）a.线性表的顺序存储　　　　　　　　　b.队列
+　　　　　c.线性表的链式存储　　　　　　　　　d.栈
+
+　　● 字符串是一种线性表，其特殊性表现在_(37)_。
+　　（37）a.它的数据元素是一个字符　　　　　　b.它可以链式存储
+　　　　　c.它可以顺序存储　　　　　　　　　　d.它的数据元素可以是多个字符
+
+　　● 在一颗非空二叉树中，叶子节点的总数比度为2的节点总数多_(38)_个。
+　　（38）a.-1　　　　　　b.0　　　　　　　 c.1　　　　　　　 d.2
+
+　　● 采用邻接表表示一有向图，若图中某顶点的入度和出度分别为d1和d2，则该顶点对应的单链表的结点数为_(39)_。
+　　（39）a.d1　　　　　　b.d2　　　　　　　c.d1－d2　　　　　d.d1＋d2
+
+　　● 在第一趟排序之后，一定能把数据表中最大或最小元素放在其最终位置上的排序算法是_(40)_。
+　　（40）a.冒泡排序　　　b.基数排序　　　　c.快速排序　　　　d.归并排序
+
+　　● 编译程序在语法分析阶段能检查出_(41)_错误。
+　　（41）a.表达式中的括号不匹配　　　　　　b.以零作除数
+　　　　　c.数组下标越界　　　　　　　　　　d.无穷递归
+
+　　● 计算机能直接识别和执行的语言是_(42)_，该语言是由_(43)_组成的。
+　　（42）a.机器语言　　　b.c语言　　　　　 c.汇编语言　　　　d.数据库语言
+　　（43）a.ascii码　　　 b.sql语句　　　　 c.0、1序列　　　　d.bcd码
+
+　　● 对于二维数组a[1..4，3..6]，设每个元素占两个存储单元，若分别以行和列为主序存储，则元素a[3，4]相对于数组空间起始地址的偏移量分别是_(44)_和_(45)_。
+　　（44）a.12　　　　　　b.14　　　　　　　c.16　　　　　　　d.18
+　　（45）a.12　　　　　　 b.14　　　　　　　 c.16　　　　　　　 d.18
+
+　　● 在c语言中，若有定义"int a[10];",则_(46)_不能表示a[1]的地址。
+　　（46）a.a＋1　　　　　b.&amp;a[0] 1　　　　 c.a 　　　　　　 d.&amp;a[1]
+
+　　● 在下面的程序中，若调用f1（x）时，参数传递采用传值方式，调用f2(y)时，参数传递采用引用方式，则输出结果为_(47)_；若调用f1(x)时，参数传递采用引用方式，调用f2(y)时，参数传递采用传值方式，则输出结果为_(48)_。
+　　　main() procedure f1(x) procedure f2(y)
+　　　int a=2; f2(x); y=y*y;
+　　　f1(a); x=x x; return;
+　　　write(a); return; 
+　　（47）a.2　　　　　　 b.4　　　　　　　 c.6　　　　　　　 d.8
+　　（48）a.2　　　　　　 b.4　　　　　　　 c.6　　　　　　　 d.8
+
+　　● 软件开发环境是支持软件产品开发的软件系统，它由_(49)_和环境集成机制构成，环境集成机制包括数据集成、控制集成和界面集成。
+　　（49）a.软件工具集　　b.软件测试工具集　c.软件管理工具集　d.软件设计工具集
+
+　　● 源程序清单是在软件生存周期的_(50)_阶段产生的文档。
+　　（50）a.软件概要设计　b.编码　　　　　　c.软件详细设计　　d.测试
+
+　　● 黑盒测试也称为功能测试。黑盒测试不能发现_(51)_。
+　　（51）a.终止性错误　　b.输入是否正确接收　c.界面是否有误　d.是否存在冗余代码
+
+　　● 通常，在软件的输入输出设计中，合理的要求是：_(52)_。
+　　（52）a.数据尽量由用户来输入，以便给用户提供更大的自主性
+　　　　　b.输入过程应尽量容易，以减少错误的发生
+　　　　　c.不能在输入过程中检验数据的正确性
+　　　　　d.在输入过程中，为了不干扰用户，应尽量避免提示信息
+
+　　● _(53)_不属于存储媒体。
+　　（53）a.光盘　　　　　b.rom　　　　　　　 c.硬盘　　　　d.扫描仪
+
+　　● 声音信号的数字化过程包括采样、_(54)_和编码。
+　　（54）a.合成　　　　　b.去噪　　　　　　　c.量化　　　　d.压缩
+
+　　● 某数码相机的分辨率设定为1600&#215;1200象素，颜色深度为256色，若不采用压缩存储技术，则32m字节的存储卡最多可以存储_(55)_张照片。
+　　（55）a.8　　　　　　 b.17　　　　　　　　c.34　　　　　d.69
+　　（56）a.操作数的符号位填0，各位顺次右移1位，最低位移至进位标志位中
+　　　　　b.操作数的符号位填1，各位顺次右移1位，最低位移至进位标志位中
+　　　　　c.操作数的符号位不变，各位顺次右移1位，最低位移至进位标志位中
+　　　　　d.进位标志移至符号位，各位顺次右移1位，最低位移至进位标志位中
+
+　　● 用二进制数0与累加器x的内容进行_(57)_运算，并将结果放在累加器x中，一定可以完成对x的"清0"操作。
+　　（57）a.与　　　　　　b.或　　　　　　　　c.异或　　　　d.比较
+
+　　● 对8位累加器a中的数据7eh若逻辑左移一次，则累加器a中的数据为_(58)_。
+　　（58）a.3fh　　　　　 b.7ch　　　　　　　 c.efh　　　　 d.fch
+
+　　● 8位累加器a中的数据为fch，若将其与7eh相异或，则累加器a中的数据为_(59)_。
+　　（59）a.feh　　　　　 b.7ch　　　　　　　 c.82h　　　　 d.02h
+
+　　● ascii码是对_(60)_实现编码的一种方法。
+　　（60）a.语音　　　　　b.汉字　　　　　　　c.图形图像　　d.字符
+
+　　● 在一个办公室内，将6台计算机用交换机连接成网络，该网络的屋里拓扑结构为_(61)_。
+　　（61）a.星型　　　　　b.总线型　　　　　　c.树型　　　　d.环型
+
+　　● 属于物理层的互连设备是_(62)_。
+　　（62）a.中继器　　　　b.网桥　　　　　　　c.交换机　　　d.路由器
+
+　　● tcp/ip网络的体系结构分为应用层、传输层、网络互联层和网络接口层。属于传输层协议的是_(63)_。
+　　（63）a.tcp和icmp　　 b.ip和ftp　　　　　 c.tcp和udp　　d.icmp和udp
+
+　　● 在www服务器与客户机之间发送和接收html文档时，使用的协议时_(64)_。
+　　（64）a.ftp　　　　　 b.gopher　　　　　　c.http　　　　d.nntp
+
+　　● 为了在internet上浏览网页，需要在客户端安装浏览器，不属于浏览器软件的时_(65)_。
+　　（65）a.internet explorer　b.fireworks　　c.hot java　　d.netscape communicator
+
+　　● _(66)_means"any html document on an http server".
+　　（66）a.web server　　b.web page　　　　　c.web browser 　d.web site
+
+　　● the term"_(67)_program"means a program written in high-level language.
+　　（67）a.compiler　　　b.executable　　　　c.source　　　　d.object
+
+　　● very long, complex expressions in program are difficult to write correctly and difficult to _(68)_.
+　　（68）a.defend　　　　b.detect　　　　　　c.default　　　　d.debug
+
+　　● in c language, functions are important because they provide a way to _(69)_code so that a large complex program can be written by combining many smaller parts.
+　　（69）a.modify　　　　b.modularize　　　　c.block　　　　　d.board
+
+　　● the standard _(70)_ in c language contain many useful functions for input and output, string handling, mathematical computations, and system programming tasks.
+　　（70）a.database　　　b.files　　　　　　 c.libraries　　　d.subroutine
+
+　　● in _(71)_ programming, the user determines the sequence of instructions to be executed,not the programmer.
+　　（71）a.top-down　　　b.structure　　　　 c.data-driven　　d.event-driven
+
+　　● _(72)_ is a clickable string or graphic that points to another web page or document.
+　　（72）a.link　　　　　b.anchor　　　　　　c.browser　　　　d.hyperlink
+
+　　● one solution to major security problems is _(73)_,which are frequently installed to fix known security holes.
+　　（73）a.patches　　　 b.compensations　　 c.complements　　d.additions
+
+　　● a programmer must know about a function's _(74)_ to call it correctly.
+　　（74）a.location　　　b.algorithm　　　　 c.interface　　　d.statements
+
+　　● on a _(75)_ memory system,the logical memory space available to the program is totally independent of the physical memory space.
+　　（75）a.cache　　　　 b.virtual　　　　　 c.ram　　　　　　d.rom 
+
+　　（1）a.软盘　　　　b.硬盘　　　　c.u盘　　　　 d.软盘或硬盘
+　　（2）a.常规　　　　b.硬件　　　　c.共享　　　　d.工具
+　　（3）a.在驱动器或文件夹窗口中，选择要删除的文件并单击退格键
+　　　　b.在驱动器或文件夹窗口中，选择要删除的文件同时按下&lt;shift&gt; &lt;del&gt;键 
+　　　　c.在要删除的文件或文件夹上单击鼠标右键，选择"删除"。
+　　　　d.用鼠标直接拖动选中的文件夹到"回收站"。
+　　（4）a.打开来历不明的电子邮件附件可能会传染计算机病毒
+　　　　b.在网络拥塞的情况下，发送电子邮件后，接收者可能过几个小时后才能收到 
+　　　 c.在试发电子邮件时，可向自己的email邮箱发一封电子邮件
+　　　 d.电子邮箱的容量指的是用户当前使用的计算机上，分别给电子邮箱的硬盘容量
+　　（5）a.原码　　　　　b.反码　　　　　c.补码　　　　　d.移码
+　　（6）a.原码　　　　　 b.反码　　　　　 c.补码　　　　　 d.移码
+　　（7）a.0　　　　　　 b.－1　　　　　 c.＋1　　　　　 d.128
+　　（8）a.2047　　　　　b.2048　　　　　c.4095　　　　　d.4096
+　　（9）a.-2047　　　　 b.-2048　　　　 c.-4095　　　　 d.-4096
+　　（10）a.10110101　　 b.00110101　　　c.01101011　　　d.01101010
+　　（11）a.堆栈的顶　　 b.堆栈中的数据　c.堆栈指针　　　d.堆栈的底
+　　（12）a.寄存器　　　 b.相对　　　　　c.基址变址　　　d.寄存器间接
+　　（13）a.4　　　　　　b.8　　　　　　 c.12　　　　　　d.16
+　　（14）a.24　　　　　 b.33　　　　　　c.42　　　　　　d.51
+　　（15）a.应用软件　　 b.系统软件　　　c.工具软件　　　d.杀毒软件
+　　（16）a.进程被进程调度程序选中　　　 b.等待某一事件
+　　　　　c.等待事件发生　　　　　　　　 d.时 间片用完
+　　（17）a.提供用户操作界面　　　　　　 b.管理系统资源
+　　　　　c.提供应用程序接口　　　　　　 d.提供html
+　　　　　c.j1→j3→j4→j2　　　　　　　　d.j4→j3→j2→j1
+　　（19）a.45 b.58.5　　　　　　　　　　 c.64.5 d.72
+　　设又关系student（学号，姓名，年龄，性别，系名），如果要查询姓名至少包括5个字母，且倒数第二个字母为"g"的学生的学号、姓名以及所在系，则对应的select语句如下：
+　　select 学号，姓名，系名
+　　from students
+　　where _(23)_ like _(24)_；
+　　（20）a.元组　　　　　　b.列　　　　　c.字段　　　　　d.表
+　　（21）a.数据项　　　　　b.表　　　　　c.索引　　　　　d.列
+　　（22）a.视图　　　　　　b.列　　　　　c.字段　　　　　d.元组
+　　（23）a."_ _ _g_%"　　　b."_ _ _%g_" 　c.姓名 d."_ _ _g%"
+　　（24) a."_ _ _g_%"　　　b."_ _ _%g_" 　c.姓名 d."_ _ _g%"
+　　（25）a.其终生及其死亡后50年　　　　　b.没有期限
+　　　　　c.软件开发完成后25年　　　　　　d.软件开发完成后50年
+　　（26）a.gb　　　　　　　b.qj　　　　　c.q　　　　　　　 d.db
+　　（27）a.地域性　　　　　b.公平性　　　c.公证性　　　　　d.有效性
+　　（28）a.大声喧哗　　　　b.有强烈震动　c.装入程序　　　　d.有日光照射
+　　（29）a.电子邮件 b.硬盘 c.软盘 d.rom
+　　（30）a.禁用activex控件　　　　　　　　　 b.禁用cookie
+　　　　　c.禁用没有标记为安全的activex控件　 d.禁用脚本
+　　● 在面向对象程序设计语言中，_(31)_是利用可重用成分构造软件系统的最有效的特性，它不仅支持系统的可重用性，而且还有利于提高系统的可扩充性；_(32)_可以实现发送一个通用的消息而调用不同的方法；_(33)_是实现信息隐蔽的一种技术，其目的是使类的_(34)_相互分离。
+　　（31）a.封装　　　　　　b.消息传递　　　　c.引用　　　　d.继承
+　　（32）a.封装　　　　　　 b.消息传递　　　　 c.引用　　　　 d.继承
+　　（33）a.引用　　　　　　b.继承　　　　　　c.封装　　　　d.多态
+　　（34）a.定义与实现　　　b.分析与测试　　　c.分析与设计　d.实现与测试
+　　● 为了描述n个人之间的同学关系，可用_(35)_结构表示。
+　　（35）a.线性表　　　　　b.树　　　　　　　c.图　　　　　d.队列
+　　● 判断一个表达式中左右括号是否匹配，采用_(36)_实现较为方便。
+　　（36）a.线性表的顺序存储　　　　　　　　　b.队列
+　　　　　c.线性表的链式存储　　　　　　　　　d.栈
+　　● 字符串是一种线性表，其特殊性表现在_(37)_。
+　　（37）a.它的数据元素是一个字符　　　　　　b.它可以链式存储
+　　　　　c.它可以顺序存储　　　　　　　　　　d.它的数据元素可以是多个字符
+　　● 在一颗非空二叉树中，叶子节点的总数比度为2的节点总数多_(38)_个。
+　　（38）a.-1　　　　　　b.0　　　　　　　 c.1　　　　　　　 d.2
+　　● 采用邻接表表示一有向图，若图中某顶点的入度和出度分别为d1和d2，则该顶点对应的单链表的结点数为_(39)_。
+　　（39）a.d1　　　　　　b.d2　　　　　　　c.d1－d2　　　　　d.d1＋d2
+　　● 在第一趟排序之后，一定能把数据表中最大或最小元素放在其最终位置上的排序算法是_(40)_。
+　　（40）a.冒泡排序　　　b.基数排序　　　　c.快速排序　　　　d.归并排序
+　　● 编译程序在语法分析阶段能检查出_(41)_错误。
+　　（41）a.表达式中的括号不匹配　　　　　　b.以零作除数
+　　　　　c.数组下标越界　　　　　　　　　　d.无穷递归
+　　● 计算机能直接识别和执行的语言是_(42)_，该语言是由_(43)_组成的。
+　　（42）a.机器语言　　　b.c语言　　　　　 c.汇编语言　　　　d.数据库语言
+　　（43）a.ascii码　　　 b.sql语句　　　　 c.0、1序列　　　　d.bcd码
+　　● 对于二维数组a[1..4，3..6]，设每个元素占两个存储单元，若分别以行和列为主序存储，则元素a[3，4]相对于数组空间起始地址的偏移量分别是_(44)_和_(45)_。
+　　（44）a.12　　　　　　b.14　　　　　　　c.16　　　　　　　d.18
+　　（45）a.12　　　　　　 b.14　　　　　　　 c.16　　　　　　　 d.18
+　　● 在c语言中，若有定义"int a[10];",则_(46)_不能表示a[1]的地址。
+　　（46）a.a＋1　　　　　b.&amp;a[0] 1　　　　 c.a 　　　　　　 d.&amp;a[1]
+　　● 在下面的程序中，若调用f1（x）时，参数传递采用传值方式，调用f2(y)时，参数传递采用引用方式，则输出结果为_(47)_；若调用f1(x)时，参数传递采用引用方式，调用f2(y)时，参数传递采用传值方式，则输出结果为_(48)_。
+　　　main() procedure f1(x) procedure f2(y)
+　　　int a=2; f2(x); y=y*y;
+　　　f1(a); x=x x; return;
+　　　write(a); return; 
+　　（47）a.2　　　　　　 b.4　　　　　　　 c.6　　　　　　　 d.8
+　　（48）a.2　　　　　　 b.4　　　　　　　 c.6　　　　　　　 d.8
+　　● 软件开发环境是支持软件产品开发的软件系统，它由_(49)_和环境集成机制构成，环境集成机制包括数据集成、控制集成和界面集成。
+　　（49）a.软件工具集　　b.软件测试工具集　c.软件管理工具集　d.软件设计工具集
+　　● 源程序清单是在软件生存周期的_(50)_阶段产生的文档。
+　　（50）a.软件概要设计　b.编码　　　　　　c.软件详细设计　　d.测试
+　　● 黑盒测试也称为功能测试。黑盒测试不能发现_(51)_。
+　　（51）a.终止性错误　　b.输入是否正确接收　c.界面是否有误　d.是否存在冗余代码
+　　● 通常，在软件的输入输出设计中，合理的要求是：_(52)_。
+　　（52）a.数据尽量由用户来输入，以便给用户提供更大的自主性
+　　　　　b.输入过程应尽量容易，以减少错误的发生
+　　　　　c.不能在输入过程中检验数据的正确性
+　　　　　d.在输入过程中，为了不干扰用户，应尽量避免提示信息
+　　● _(53)_不属于存储媒体。
+　　（53）a.光盘　　　　　b.rom　　　　　　　 c.硬盘　　　　d.扫描仪
+　　● 声音信号的数字化过程包括采样、_(54)_和编码。
+　　（54）a.合成　　　　　b.去噪　　　　　　　c.量化　　　　d.压缩
+　　● 某数码相机的分辨率设定为1600&#215;1200象素，颜色深度为256色，若不采用压缩存储技术，则32m字节的存储卡最多可以存储_(55)_张照片。
+　　（55）a.8　　　　　　 b.17　　　　　　　　c.34　　　　　d.69
+　　（56）a.操作数的符号位填0，各位顺次右移1位，最低位移至进位标志位中
+　　　　　b.操作数的符号位填1，各位顺次右移1位，最低位移至进位标志位中
+　　　　　c.操作数的符号位不变，各位顺次右移1位，最低位移至进位标志位中
+　　　　　d.进位标志移至符号位，各位顺次右移1位，最低位移至进位标志位中
+　　● 用二进制数0与累加器x的内容进行_(57)_运算，并将结果放在累加器x中，一定可以完成对x的"清0"操作。
+　　（57）a.与　　　　　　b.或　　　　　　　　c.异或　　　　d.比较
+　　● 对8位累加器a中的数据7eh若逻辑左移一次，则累加器a中的数据为_(58)_。
+　　（58）a.3fh　　　　　 b.7ch　　　　　　　 c.efh　　　　 d.fch
+　　● 8位累加器a中的数据为fch，若将其与7eh相异或，则累加器a中的数据为_(59)_。
+　　（59）a.feh　　　　　 b.7ch　　　　　　　 c.82h　　　　 d.02h
+　　● ascii码是对_(60)_实现编码的一种方法。
+　　（60）a.语音　　　　　b.汉字　　　　　　　c.图形图像　　d.字符
+　　● 在一个办公室内，将6台计算机用交换机连接成网络，该网络的屋里拓扑结构为_(61)_。
+　　（61）a.星型　　　　　b.总线型　　　　　　c.树型　　　　d.环型
+　　● 属于物理层的互连设备是_(62)_。
+　　（62）a.中继器　　　　b.网桥　　　　　　　c.交换机　　　d.路由器
+　　● tcp/ip网络的体系结构分为应用层、传输层、网络互联层和网络接口层。属于传输层协议的是_(63)_。
+　　（63）a.tcp和icmp　　 b.ip和ftp　　　　　 c.tcp和udp　　d.icmp和udp
+　　● 在www服务器与客户机之间发送和接收html文档时，使用的协议时_(64)_。
+　　（64）a.ftp　　　　　 b.gopher　　　　　　c.http　　　　d.nntp
+　　● 为了在internet上浏览网页，需要在客户端安装浏览器，不属于浏览器软件的时_(65)_。
+　　（65）a.internet explorer　b.fireworks　　c.hot java　　d.netscape communicator
+　　● _(66)_means"any html document on an http server".
+　　（66）a.web server　　b.web page　　　　　c.web browser 　d.web site
+　　● the term"_(67)_program"means a program written in high-level language.
+　　（67）a.compiler　　　b.executable　　　　c.source　　　　d.object
+　　● very long, complex expressions in program are difficult to write correctly and difficult to _(68)_.
+　　（68）a.defend　　　　b.detect　　　　　　c.default　　　　d.debug
+　　● in c language, functions are important because they provide a way to _(69)_code so that a large complex program can be written by combining many smaller parts.
+　　（69）a.modify　　　　b.modularize　　　　c.block　　　　　d.board
+　　● the standard _(70)_ in c language contain many useful functions for input and output, string handling, mathematical computations, and system programming tasks.
+　　（70）a.database　　　b.files　　　　　　 c.libraries　　　d.subroutine
+　　● in _(71)_ programming, the user determines the sequence of instructions to be executed,not the programmer.
+　　（71）a.top-down　　　b.structure　　　　 c.data-driven　　d.event-driven
+　　● _(72)_ is a clickable string or graphic that points to another web page or document.
+　　（72）a.link　　　　　b.anchor　　　　　　c.browser　　　　d.hyperlink
+　　● one solution to major security problems is _(73)_,which are frequently installed to fix known security holes.
+　　（73）a.patches　　　 b.compensations　　 c.complements　　d.additions
+　　● a programmer must know about a function's _(74)_ to call it correctly.
+　　（74）a.location　　　b.algorithm　　　　 c.interface　　　d.statements
+　　● on a _(75)_ memory system,the logical memory space available to the program is totally independent of the physical memory space.
+　　（75）a.cache　　　　 b.virtual　　　　　 c.ram　　　　　　d.rom 
+

@@ -1,0 +1,4608 @@
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println(&#8220;
+
+
+
+   hi&#8221;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println(&#8220;so true&#8221;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println(&#8220;ok&#8221;); 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the string &#8220;any question?&#8221;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+.   ture 
+
+
+
+   b. false 
+
+
+
+   
+.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print &#8220;done waiting&#8221; 
+
+
+
+   c. the application compiles and print &#8220;finally&#8221; 
+
+
+
+   d. the application compiles and print &#8220;all done&#8221; 
+
+
+
+   e. the application compiles and print &#8220;interrupted&#8221; 
+   
+
+
+
+   
+.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   
+a.   ture 
+
+
+
+   b. false 
+
+
+
+   
+a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   
+a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   
+a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   
+a.   public interface person { } 
+
+
+
+      public class employee extends person{ } 
+
+
+
+      
+
+
+
+      b. public interface shape { } 
+
+
+
+      public interface rectandle extends shape { } 
+
+
+
+      c. public interface colorable { } 
+
+
+
+      public class shape implements colorable 
+
+
+
+      
+
+
+
+      { } 
+
+
+
+      d. public class species{ } 
+
+
+
+      public class animal{private species species;} 
+
+
+
+      e. interface component{ } 
+
+
+
+      class container implements component{ 
+
+
+
+      private component[] children; 
+
+
+
+      
+
+
+
+      } 
+
+
+
+      
+a.   ture 
+
+
+
+      b. false 
+
+
+
+      
+a.   the application compiles but doesn t print anything. 
+
+
+
+      b. the application compiles and print  ;done waiting ; 
+
+
+
+      c. the application compiles and print  ;finally ; 
+
+
+
+      d. the application compiles and print  ;all done ; 
+
+
+
+      e. the application compiles and print  ;interrupted ;  
+      
+
+
+
+      

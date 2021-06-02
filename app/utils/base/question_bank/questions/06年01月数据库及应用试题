@@ -1,0 +1,687 @@
+
+在每小题列出的四个备选项中只有一个是符合题目要求的，请将其代码填写在题后的括号内。错选、多选或未选均无分。
+1.以下不是数据库技术所具备的特点是（　　　）
+　a.数据结构化 b.数据冗余小
+　c.有较高的数据独立性 d.数据联系弱
+2.在信息模型的&#8220;学生&#8221;实体中，对每个学生的具体情况的描述，称为（　　　）
+　a.实体值 b.实体型
+　c.属性值 d.属性型
+3.可用于区别实体集中不同个体的属性或属性组合，称为该实体的（　　　）
+　a.属性型 b.键
+　c.外部键 d.实体型
+4.设一个体育项目可以有多个运动员报名，一个运动员可参加多个项目，运动员与体育项目之间是（　　　）
+　a.一对一的联系 b.一对多的联系
+　c.多对一的联系 d.多对多的联系
+5.实体完整性约束可以通过（　　　）
+　a.定义外部键来保证 b.定义主键来保证
+　c.用户定义的完整性来保证 d.定义字段类型来保证
+6.下面结论不正确的是（　　　）
+　a.若a→b，b→c，则a→c b.若a→b，a→c，则a→（b,c）
+　c.若b→a，c→a，则（b,c）→a d.若（b,c）→a，则b→a，c→a
+7.设r为k1度关系，s为k2度关系，则r和s的笛卡尔积的度为（　　　）
+　a.k1 b.k2
+　c.k1 k2 d.k1&#215;k2
+8.将e&#8212;r图转换为关系模型，属于数据库设计的（　　　）
+　a.事务设计阶段 b.物理设计阶段
+　c.逻辑设计阶段 d.应用程序设计阶段
+9.数据库系统开发完成以后，不需要提供给用户的文档资料是（　　　）
+　a.系统说明书 b.技术说明书
+　c.使用说明书 d.可行性说明书
+10.使用sql语句在学生成绩表（学号，课程号，成绩）中，查询平均成绩大于60分的学生时，不必使用的子句是（　　　）
+　a.select b.group by
+　c.where d.having
+11.定义内存变量时，不能使用的数据类型是（　　　）
+　a.数值型 b.日 期型
+　c.通用型 d.字符型
+12.下列函数中，返回非逻辑型值的函数是（　　　）
+　a.bof b.recno
+　c.found d.eof
+13.在foxpro中，对数函数log（n）是以（　　　）
+　a.10为底 b.2为底
+　c.e为底 d.n为底
+14.在foxpro中定义字段变量时，允许用户自行定义数据长度的是（　　　）
+　a.逻辑型 b.数值型
+　c.日 期型 d.通用型
+15.下列命令中，不与用户进行交互方式操作的命令是（　　　）
+　a.browse b.replace
+　c.edit d.modify
+
+
+16.在数据库文件已打开、而索引文件尚未打开时，打开索引文件的命令是（　　　）
+　a.use&lt;索引文件名&gt; b.index to&lt;索引文件名&gt;
+　c.index on&lt;索引文件名&gt; d.set index to&lt;索引文件名&gt;
+17.下列叙述中，正确的是（　　　）
+　a.创建数据库文件的索引文件时，只能按关键字表达式的值升序排列
+　b.一个数据库文件可以在不同工作区中同时打开
+　c.字段变量不受工作区的约束，任意使用
+　d.在一个工作区中可以同时打开由join命令生成的库文件以及原来的库文件
+18.设x=123.456，执行命令
+@10，10 say＂x=＂ get x picture ＂99999.99＂
+输出结果是（其中： 表示一个空格）（　　　）
+　a.x=123.456 b.x= 123.45
+　c.x= 123.46 d.x=123.45
+19.存盘并关闭命令文件编辑窗口的按键是（　　　）
+　a.ctrl ks b.ctrl w
+　c.ctrl kd d.ctrl s
+20.生成屏幕程序后，要对其进行修改，必须首先修改的文件的扩展名是（　　　）
+　a.scx b.sct
+　c.spr d.spx
+
+
+请在每小题的空格中填上正确答案。错填、不填均无分。
+21.关系数据操纵语言的操作对象与结果都是________________。
+22.数据模型应具有描述数据和________________两方面的功能。
+23.实体和属性属于________________世界的术语。
+24.设关系表r（a，b）中包含3个元组，表s（c，d，e）中包含2个元组，r和s做自然连接后所得关系的基数为__________。
+25.引用完整性约束规则是限制引用________________的记录。
+26.关系模式的分解应保持无损性和________________。
+27.1nf的关系消除非主属性对候选键的__________函数依赖后，可将范式等级提高到2nf。
+28.在foxpro中，字符型字段的最大字符数为________________。
+29.foxpro中使用index命令建立索引文件，索引表达式允许是字符型、数值型、日 期型表达式，当需要多字段索引时，索引表达式必须是_____表达式。
+30.在foxpro的格式化输出命令中，picture子句的作用是用于定义数据的________________。
+
+
+sno sname age sex cno avgrade
+99001 王晓明 23 男 90991 54.4
+99002 张雨梅 22 女 90992 90.6
+99003 何玉鑫 24 男 90993 68.0
+99004 周雨心 22 女 90991 69.8
+99005 商 海 25 男 90991 82.0
+99006 刘达西 24 男 90192 91.4
+99007 朱国海 23 男 90991 85.6
+99008 周维维 23 女 90993 77.7
+给出下述程序的执行结果。
+set talk off
+use stud
+go 2
+list next 3 fields sname for cno=＂90992＂.and. sex=＂女＂
+index on cno to studidx
+go 3
+skip-2
+display fields sname, sex for cno=＂90991＂
+list fields sname, avgrade for avgrade&gt;90
+set talk on
+return
+执行结果为：
+（1）
+（2）
+（3）
+
+
+
+
+32.给出下述程序的执行结果。
+set talk off
+s=0
+x=1
+for i=1 to 8 step 2
+s=s x
+x=2*x
+? x
+endfor
+? s
+return
+执行结果：
+（1）
+（2）
+（3）
+（4）
+（5）
+
+
+33.现有数据库文件supply.dbf，用于存放供应信息，其字段有：sname(供应商，字符型)，iname（商品，字符型），price（单价，数值型）。supply.dbf中的内容如下：
+sname iname price
+s1 i1 80
+s2 i1 90
+s3 i3 70
+s2 i2 90
+s3 i4 80
+s1 i2 90
+给出下述程序的执行结果。
+set talk off
+clear all
+dimension ary(3)
+use supply
+sort to new on iname, price
+use new
+do while. not. eof( )
+scatter to ary
+mnum=1
+scan rest while iname=ary(2)
+if price&lt; &gt;ary (3)then
+mnum=mnum 1
+endif
+endscan
+if mnum=1 then
+? ary(2) space(2) str(ary(3),2)
+endif
+enddo
+use
+return
+执行结果：（1）
+（2）
+（3）
+
+
+34.已知考试成绩数据库文件grade.dbf，其字段有：number(序号，字符型)，name（姓名，字符型），age(年龄，数值型)，math（数字，数值型），english（英语，数值型），pass（通过，逻辑型）。现要求将数学和英语成绩均不低于60分的记录的pass字段值置为真。请完成下述程序。
+set talk off
+use grade
+replace pass with (1) for (2) all
+list for (3) to (4) 
+use
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+35.已知数据库文件 product.dbf，其字段有pno（产品编号，字符型），pname（产品名，字符型），amount（数量，数值型），price（价格，数值型），parea（产地，字符型）。现要求列出产地为&#8220;四川&#8221;的产品的数量，以及产品数量最多的产地。请完成下述程序：
+set talk off
+clear
+select sum（amount）, parea from (1) ；
+where parea=＂四川＂；
+order by amount desc
+select product
+index on (2) to pindx
+total on (3) to ptot
+d=space(20)
+select 2
+use ptot
+max1=amount
+do while.not.eof( )
+if (4) then
+max1=amount
+d=parea
+endif
+skip
+enddo
+?＂产地:＂，d,＂最大数量＂，max1
+close all
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+
+
+36.已知学生数据库文件stud.dbf，其字段有sno（学号，数值型），sname（姓名，字符型）。现抽取学号能被3整除的学生参加数学建模比赛，要求显示被抽到的学生的学号和姓名。请完成下述程序。
+set talk off
+use stud
+copy structure to stud1 fields sno, sname
+select 2
+use stud1
+append blank
+select 1
+do while (1) 
+if (2) then
+select 2
+replace sno with a-&gt;sno, sname with a-&gt;sname
+(3) 
+endif
+select 1
+(4) 
+enddo
+select 2
+list
+close all
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+37.数据库文件study.dbf的字段有：sname（学生名，字符型），cno（课程号，字符型），grade（分数，数值型）。数据库文件course.dbf的字段有：cname（课程名，字符型），cno（课程号，字符型），credit（学分，数值型）。下述程序的功能是查找只有一个学生学过的课程信息。请完成下述程序。
+set talk off
+(1) 
+select b
+use course
+select a
+use study
+join with course to new fields cno, course-&gt;cname, course-&gt;credit, sname;
+for (2) 
+use new
+index on cno to new
+do while (3) 
+scatter to ary
+count to num while (4) 
+if num=1 then
+? ary(1), ary(2), ary(3)
+endif
+enddo
+clear all
+return
+(1)
+(2)
+(3)
+(4)
+
+
+
+
+38.数据库文件orders.dbf用于存放顾客的购物信息，其字段有：cname（顾客名，字符型），iname（商品名，字符型），num（数量，数值型）。下述程序的功能是按数量对orders.dbf中的记录以升序排列。请完成下述程序。
+set talk off
+dimension ary(3), tmp(3)
+use orders
+for i=reccount( ) to 1 step &#8211;1
+go i
+scatter to ary
+(1) 
+scan next i
+if (2) then
+(3) 
+gather from ary
+for j=1 to 3
+ary(j)=tmp(j)
+endfor
+endif
+endscan
+gather from ary
+endfor
+list
+use
+return
+(1)
+(2)
+(3)
+
+
+
+
+＂b＂、＂c＂、＂d＂四类房型。请说明函数occupy( )，roty( )，ropr( )的功能。
+set talk off
+set procedure to stat
+use hotel
+clear
+?? occupy ( )
+?? roty ( )
+?? ropr ( )
+use
+set procedure to
+return
+function occupy( )
+private num
+num=0
+scan
+if occupied then
+num=num 1
+endif
+endscan
+occupy=num/reccount( )
+return occupy
+private num1
+num1=0
+scan
+if occupied .and. roomtype=＂a＂then
+num1=num1 1
+endif
+endscan
+roty=num1
+return roty
+
+
+function ropr( )
+private num2
+num2=0
+scan
+if occupied .and. roomtype=＂b＂then
+num2=num2 roomprice
+endif
+endscan
+ropr=num2
+return ropr
+（1）函数occupy（）功能：
+（2）函数roty（）功能：
+（3）函数ropr（）功能：
+
+
+40.已知关系模式r（city, street, zip）其中city为城市编号，street为街道编号，zip为邮政编码，一个城市的一条街道只有一个邮政编码，一个邮政编码只属于一个城市。请写出r上成立的所有函数依赖及所有候选键，并说明r最高是第几范式。
+在每小题列出的四个备选项中只有一个是符合题目要求的，请将其代码填写在题后的括号内。错选、多选或未选均无分。
+1.以下不是数据库技术所具备的特点是（　　　）
+　a.数据结构化 b.数据冗余小
+　c.有较高的数据独立性 d.数据联系弱
+2.在信息模型的&#8220;学生&#8221;实体中，对每个学生的具体情况的描述，称为（　　　）
+　a.实体值 b.实体型
+　c.属性值 d.属性型
+3.可用于区别实体集中不同个体的属性或属性组合，称为该实体的（　　　）
+　a.属性型 b.键
+　c.外部键 d.实体型
+4.设一个体育项目可以有多个运动员报名，一个运动员可参加多个项目，运动员与体育项目之间是（　　　）
+　a.一对一的联系 b.一对多的联系
+　c.多对一的联系 d.多对多的联系
+5.实体完整性约束可以通过（　　　）
+　a.定义外部键来保证 b.定义主键来保证
+　c.用户定义的完整性来保证 d.定义字段类型来保证
+6.下面结论不正确的是（　　　）
+　a.若a→b，b→c，则a→c b.若a→b，a→c，则a→（b,c）
+　c.若b→a，c→a，则（b,c）→a d.若（b,c）→a，则b→a，c→a
+7.设r为k1度关系，s为k2度关系，则r和s的笛卡尔积的度为（　　　）
+　a.k1 b.k2
+　c.k1 k2 d.k1&#215;k2
+8.将e&#8212;r图转换为关系模型，属于数据库设计的（　　　）
+　a.事务设计阶段 b.物理设计阶段
+　c.逻辑设计阶段 d.应用程序设计阶段
+9.数据库系统开发完成以后，不需要提供给用户的文档资料是（　　　）
+　a.系统说明书 b.技术说明书
+　c.使用说明书 d.可行性说明书
+10.使用sql语句在学生成绩表（学号，课程号，成绩）中，查询平均成绩大于60分的学生时，不必使用的子句是（　　　）
+　a.select b.group by
+　c.where d.having
+11.定义内存变量时，不能使用的数据类型是（　　　）
+　a.数值型 b.日 期型
+　c.通用型 d.字符型
+12.下列函数中，返回非逻辑型值的函数是（　　　）
+　a.bof b.recno
+　c.found d.eof
+13.在foxpro中，对数函数log（n）是以（　　　）
+　a.10为底 b.2为底
+　c.e为底 d.n为底
+14.在foxpro中定义字段变量时，允许用户自行定义数据长度的是（　　　）
+　a.逻辑型 b.数值型
+　c.日 期型 d.通用型
+15.下列命令中，不与用户进行交互方式操作的命令是（　　　）
+　a.browse b.replace
+　c.edit d.modify
+
+
+16.在数据库文件已打开、而索引文件尚未打开时，打开索引文件的命令是（　　　）
+　a.use&lt;索引文件名&gt; b.index to&lt;索引文件名&gt;
+　c.index on&lt;索引文件名&gt; d.set index to&lt;索引文件名&gt;
+17.下列叙述中，正确的是（　　　）
+　a.创建数据库文件的索引文件时，只能按关键字表达式的值升序排列
+　b.一个数据库文件可以在不同工作区中同时打开
+　c.字段变量不受工作区的约束，任意使用
+　d.在一个工作区中可以同时打开由join命令生成的库文件以及原来的库文件
+18.设x=123.456，执行命令
+@10，10 say＂x=＂ get x picture ＂99999.99＂
+输出结果是（其中： 表示一个空格）（　　　）
+　a.x=123.456 b.x= 123.45
+　c.x= 123.46 d.x=123.45
+19.存盘并关闭命令文件编辑窗口的按键是（　　　）
+　a.ctrl ks b.ctrl w
+　c.ctrl kd d.ctrl s
+20.生成屏幕程序后，要对其进行修改，必须首先修改的文件的扩展名是（　　　）
+　a.scx b.sct
+　c.spr d.spx
+
+
+请在每小题的空格中填上正确答案。错填、不填均无分。
+21.关系数据操纵语言的操作对象与结果都是________________。
+22.数据模型应具有描述数据和________________两方面的功能。
+23.实体和属性属于________________世界的术语。
+24.设关系表r（a，b）中包含3个元组，表s（c，d，e）中包含2个元组，r和s做自然连接后所得关系的基数为__________。
+25.引用完整性约束规则是限制引用________________的记录。
+26.关系模式的分解应保持无损性和________________。
+27.1nf的关系消除非主属性对候选键的__________函数依赖后，可将范式等级提高到2nf。
+28.在foxpro中，字符型字段的最大字符数为________________。
+29.foxpro中使用index命令建立索引文件，索引表达式允许是字符型、数值型、日 期型表达式，当需要多字段索引时，索引表达式必须是_____表达式。
+30.在foxpro的格式化输出命令中，picture子句的作用是用于定义数据的________________。
+
+
+sno sname age sex cno avgrade
+99001 王晓明 23 男 90991 54.4
+99002 张雨梅 22 女 90992 90.6
+99003 何玉鑫 24 男 90993 68.0
+99004 周雨心 22 女 90991 69.8
+99005 商 海 25 男 90991 82.0
+99006 刘达西 24 男 90192 91.4
+99007 朱国海 23 男 90991 85.6
+99008 周维维 23 女 90993 77.7
+给出下述程序的执行结果。
+set talk off
+use stud
+go 2
+list next 3 fields sname for cno=＂90992＂.and. sex=＂女＂
+index on cno to studidx
+go 3
+skip-2
+display fields sname, sex for cno=＂90991＂
+list fields sname, avgrade for avgrade&gt;90
+set talk on
+return
+执行结果为：
+（1）
+（2）
+（3）
+
+
+
+
+32.给出下述程序的执行结果。
+set talk off
+s=0
+x=1
+for i=1 to 8 step 2
+s=s x
+x=2*x
+? x
+endfor
+? s
+return
+执行结果：
+（1）
+（2）
+（3）
+（4）
+（5）
+
+
+33.现有数据库文件supply.dbf，用于存放供应信息，其字段有：sname(供应商，字符型)，iname（商品，字符型），price（单价，数值型）。supply.dbf中的内容如下：
+sname iname price
+s1 i1 80
+s2 i1 90
+s3 i3 70
+s2 i2 90
+s3 i4 80
+s1 i2 90
+给出下述程序的执行结果。
+set talk off
+clear all
+dimension ary(3)
+use supply
+sort to new on iname, price
+use new
+do while. not. eof( )
+scatter to ary
+mnum=1
+scan rest while iname=ary(2)
+if price&lt; &gt;ary (3)then
+mnum=mnum 1
+endif
+endscan
+if mnum=1 then
+? ary(2) space(2) str(ary(3),2)
+endif
+enddo
+use
+return
+执行结果：（1）
+（2）
+（3）
+
+
+34.已知考试成绩数据库文件grade.dbf，其字段有：number(序号，字符型)，name（姓名，字符型），age(年龄，数值型)，math（数字，数值型），english（英语，数值型），pass（通过，逻辑型）。现要求将数学和英语成绩均不低于60分的记录的pass字段值置为真。请完成下述程序。
+set talk off
+use grade
+replace pass with (1) for (2) all
+list for (3) to (4) 
+use
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+35.已知数据库文件 product.dbf，其字段有pno（产品编号，字符型），pname（产品名，字符型），amount（数量，数值型），price（价格，数值型），parea（产地，字符型）。现要求列出产地为&#8220;四川&#8221;的产品的数量，以及产品数量最多的产地。请完成下述程序：
+set talk off
+clear
+select sum（amount）, parea from (1) ；
+where parea=＂四川＂；
+order by amount desc
+select product
+index on (2) to pindx
+total on (3) to ptot
+d=space(20)
+select 2
+use ptot
+max1=amount
+do while.not.eof( )
+if (4) then
+max1=amount
+d=parea
+endif
+skip
+enddo
+?＂产地:＂，d,＂最大数量＂，max1
+close all
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+
+
+36.已知学生数据库文件stud.dbf，其字段有sno（学号，数值型），sname（姓名，字符型）。现抽取学号能被3整除的学生参加数学建模比赛，要求显示被抽到的学生的学号和姓名。请完成下述程序。
+set talk off
+use stud
+copy structure to stud1 fields sno, sname
+select 2
+use stud1
+append blank
+select 1
+do while (1) 
+if (2) then
+select 2
+replace sno with a-&gt;sno, sname with a-&gt;sname
+(3) 
+endif
+select 1
+(4) 
+enddo
+select 2
+list
+close all
+set talk on
+return
+(1)
+(2)
+(3)
+(4)
+
+
+37.数据库文件study.dbf的字段有：sname（学生名，字符型），cno（课程号，字符型），grade（分数，数值型）。数据库文件course.dbf的字段有：cname（课程名，字符型），cno（课程号，字符型），credit（学分，数值型）。下述程序的功能是查找只有一个学生学过的课程信息。请完成下述程序。
+set talk off
+(1) 
+select b
+use course
+select a
+use study
+join with course to new fields cno, course-&gt;cname, course-&gt;credit, sname;
+for (2) 
+use new
+index on cno to new
+do while (3) 
+scatter to ary
+count to num while (4) 
+if num=1 then
+? ary(1), ary(2), ary(3)
+endif
+enddo
+clear all
+return
+(1)
+(2)
+(3)
+(4)
+
+
+
+
+38.数据库文件orders.dbf用于存放顾客的购物信息，其字段有：cname（顾客名，字符型），iname（商品名，字符型），num（数量，数值型）。下述程序的功能是按数量对orders.dbf中的记录以升序排列。请完成下述程序。
+set talk off
+dimension ary(3), tmp(3)
+use orders
+for i=reccount( ) to 1 step &#8211;1
+go i
+scatter to ary
+(1) 
+scan next i
+if (2) then
+(3) 
+gather from ary
+for j=1 to 3
+ary(j)=tmp(j)
+endfor
+endif
+endscan
+gather from ary
+endfor
+list
+use
+return
+(1)
+(2)
+(3)
+
+
+
+
+＂b＂、＂c＂、＂d＂四类房型。请说明函数occupy( )，roty( )，ropr( )的功能。
+set talk off
+set procedure to stat
+use hotel
+clear
+?? occupy ( )
+?? roty ( )
+?? ropr ( )
+use
+set procedure to
+return
+function occupy( )
+private num
+num=0
+scan
+if occupied then
+num=num 1
+endif
+endscan
+occupy=num/reccount( )
+return occupy
+private num1
+num1=0
+scan
+if occupied .and. roomtype=＂a＂then
+num1=num1 1
+endif
+endscan
+roty=num1
+return roty
+
+
+function ropr( )
+private num2
+num2=0
+scan
+if occupied .and. roomtype=＂b＂then
+num2=num2 roomprice
+endif
+endscan
+ropr=num2
+return ropr
+（1）函数occupy（）功能：
+（2）函数roty（）功能：
+（3）函数ropr（）功能：
+
+
+40.已知关系模式r（city, street, zip）其中city为城市编号，street为街道编号，zip为邮政编码，一个城市的一条街道只有一个邮政编码，一个邮政编码只属于一个城市。请写出r上成立的所有函数依赖及所有候选键，并说明r最高是第几范式。

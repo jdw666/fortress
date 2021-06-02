@@ -1,0 +1,1345 @@
+  choose the three valid identifiers from those listed below. 
+
+   @a. idolikethelongnameclass 
+   b. $byte
+   c. const
+   d. _ok 
+   e. 3_case
+   解答：a, b, d 
+
+
+
+   点评：java中的标示符必须是字母、美元符($)或下划线(_)开头。关键字与保留字不能作为标示符。选项c中的const是java的保留字，所以不能作标示符。选项e中的3_case以数字开头，违反了java的规则。 
+
+
+
+   
+
+
+
+   ●how can you force garbage collection of an object? 
+
+
+
+   @a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   解答：a 
+
+
+
+   点评：在java中垃圾收集是不能被强迫立即执行的。调用system.gc()或runtime.gc()静态方法不能保证垃圾收集器的立即执行，因为，也许存在着更高优先级的线程。所以选项b、d不正确。选项c的错误在于，system.gc()方法是不接受参数的。选项e中的方法可以使对象在下次垃圾收集器运行时被收集。 
+
+
+
+   
+
+
+
+   ●consider the following class: 
+    class test(int i) { 
+    void test(int i) { 
+    system.out.println( ;i am an int. ;); 
+    } 
+    void test(string s) { 
+    system.out.println( ;i am a string. ;); 
+    }
+    public static void main(string args[]) { 
+    test t=new test(); 
+    char ch= ;y ;; 
+    t.test(ch); 
+    } 
+    }
+    
+    which of the statements below is true?(choose one.) 
+
+
+
+   @a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   解答：d 
+   
+
+
+
+   点评：在第12行，16位长的char型变量ch在编译时会自动转化为一个32位长的int型，并在运行时传给void test(int i)方法。 
+
+
+
+   
+
+
+
+   ●which of the following lines of code will compile without error？ 
+
+
+
+   @a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println( ;
+
+
+
+   hi ;); 
+
+
+
+   } 
+
+
+
+   
+
+
+
+   b. 
+
+
+
+   boolean b=true; 
+
+
+
+   boolean b2=true; 
+
+
+
+   if(b==b2) { 
+
+
+
+   system.out.println( ;so true ;); 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   c. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if(i==1|| j==2) 
+
+
+
+   system.out.println( ;ok ;); 
+
+
+
+   
+
+
+
+   d. 
+
+
+
+   int i=1; 
+
+
+
+   int j=2; 
+
+
+
+   if (i==1 &amp;| j==2) 
+
+
+
+   system.out.println( ;ok ;); 
+
+
+
+   解答：b, c 
+
+
+
+   
+
+
+
+   点评：选项a错，因为if语句后需要一个boolean类型的表达式。逻辑操作有^、&amp;、| 和 &amp;&amp;、||,但是 ;&amp;| ;是非法的，所以选项d不正确。 
+
+
+
+
+
+
+   
+   
+   ●which two demonstrate a "has a" relationship? (choose two) 
+
+
+
+   @a.   public interface person { } 
+
+
+
+   public class employee extends person{ } 
+
+
+
+   
+
+
+
+   b. public interface shape { } 
+
+
+
+   public interface rectandle extends shape { } 
+
+
+
+   c. public interface colorable { } 
+
+
+
+   public class shape implements colorable 
+
+
+
+   
+
+
+
+   { } 
+
+
+
+   d. public class species{ } 
+
+
+
+   public class animal{private species species;} 
+
+
+
+   e. interface component{ } 
+
+
+
+   class container implements component{ 
+
+
+
+   private component[] children; 
+
+
+
+   
+
+
+
+   } 
+
+
+
+   解答：d, e 
+
+
+
+   点评： 在java中代码重用有两种可能的方式，即组合（ ;has a ;关系）和继承（ ;is a ;关系）。 ;has a ;关系是通过定义类的属性的方式实现的；而 ;is a ;关系是通过类继承实现的。本例中选项a、b、c体现了 ;is a ;关系；选项d、e体现了 ;has a ;关系。 
+
+
+
+   ●which two statements are true for the class java.  util.treeset? (choose two) 
+
+
+
+   @a.   the elements in the collection are ordered. 
+
+
+
+   b. the collection is guaranteed to be immutable. 
+
+
+
+   c. the elements in the collection are guaranteed to be unique. 
+
+
+
+   d. the elements in the collection are accessed using a unique key. 
+
+
+
+   e. the elements in the collection are guaranteed to be synchronized 
+
+
+
+   解答：a, c 
+
+
+
+   点评：treeset类实现了set接口。set的特点是其中的元素惟一，选项c正确。由于采用了树形存储方式，将元素有序地组织起来，所以选项a也正确。 
+
+
+
+
+
+
+
+
+
+   ●true or false: readers have methods that can read and return floats and doubles. 
+
+
+
+   @a.   ture 
+
+
+
+   b. false 
+
+
+
+   解答：b 
+
+
+
+   点评： reader/writer只处理unicode字符的输入输出。float和double可以通过stream进行i/o. 
+   
+
+
+
+   
+
+
+
+   ●what does the following
+
+
+
+   paint() method draw? 
+
+
+
+   1. public void paint(graphics g) { 
+
+
+
+   2. g.drawstring( ;any question ;, 10, 0); 
+
+
+
+   3. } 
+
+
+
+   @a.   the string  ;any question? ;, with its top-left corner at 10,0 
+
+
+
+   b. a little squiggle coming down from the top of the component. 
+
+
+
+   
+
+
+
+   解答：b 
+
+
+
+   点评：drawstring(string str, int x, int y)方法是使用当前的颜色和字符，将str的内容显示出来，并且最左的字符的基线从（x,y）开始。在本题中，y=0，所以基线位于最顶端。我们只能看到下行字母的一部分，即字母&#8216;y&#8217;、&#8216;q&#8217;的下半部分。 
+
+
+
+   
+
+
+
+   ●what happens when you try to compile and run the following application? choose all correct options. 
+
+
+
+   1. public class z { 
+
+
+
+   2. public static void main(string[] args) { 
+
+
+
+   3. new z(); 
+
+
+
+   4. } 
+
+
+
+   5. 
+
+
+
+   6. z() { 
+
+
+
+   7. z alias1 = this; 
+
+
+
+   8. z alias2 = this; 
+
+
+
+   9. synchronized(alias1) { 
+
+
+
+   10. try { 
+
+
+
+   11. alias2.wait(); 
+
+
+
+   12. system.out.println( ;done waiting ;); 
+
+
+
+   
+
+
+
+   13. } 
+
+
+
+   14. catch (interruptedexception e) { 
+
+
+
+   15. system.out.println( ;interr 
+
+
+
+   upted ;); 
+
+
+
+   16. } 
+
+
+
+   17. catch (exception e) { 
+
+
+
+   18. system.out.println( ;other exception ;); 
+
+
+
+   19. } 
+
+
+
+   20. finally { 
+
+
+
+   21. system.out.println 
+
+
+
+   ( ;finally ;); 
+
+
+
+   22. } 
+
+
+
+   23. } 
+
+
+
+   24. system.out.println( ;all done ;); 
+
+
+
+   25. } 
+
+
+
+   26. } 
+
+
+
+   @a.   the application compiles but doesn t print anything. 
+
+
+
+   b. the application compiles and print  ;done waiting ; 
+
+
+
+   c. the application compiles and print  ;finally ; 
+
+
+
+   d. the application compiles and print  ;all done ; 
+
+
+
+   e. the application compiles and print  ;interrupted ; 
+   
+
+
+
+   解答：a 
+
+
+
+   点评：在java中，每一个对象都有锁。任何时候，该锁都至多由一个线程控制。由于alias1与alias2指向同一对象z，在执行第11行前，线程拥有对象z的锁。在执行完第11行以后，该线程释放了对象z的锁，进入等待池。但此后没有线程调用对象z的notify()和notifyall()方法，所以该进程一直处于等待状态，没有输出。 
+   
+
+
+
+   
+
+
+
+   ●which statement or statements are true about the code listed below? choose three. 
+
+
+
+   1. public class mytextarea extends textarea { 
+
+
+
+   2. public mytextarea(int nrows, int ncols) { 
+
+
+
+   3. enableevents(awtevent.
+
+
+
+   text_ 
+
+
+
+   event_mask); 
+
+
+
+   4. } 
+
+
+
+   5. 
+
+
+
+   6. public void processtextevent 
+ 
+
+
+
+   (textevent te) { 
+
+
+
+   7. system.out.println( ;processing a text event. ;); 
+
+
+
+   8. } 
+
+
+
+   9. } 
+
+
+
+   @a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+   b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+   c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+   d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+   e. between lines 7 and 8, the following code should appear: super.processtextevent(te). 
+   
+
+
+
+   解答：a, b, e 
+
+
+
+   点评：由于类是public，所以文件名必须与之对应，选项a正确。如果不在2、3行之间加上super(nrows,ncols)的话，则会调用无参数构建器textarea(), 使nrows、ncols信息丢失，故选项b正确。在java2中，所有的事件处理方法都不返回值，选项c、d错误。选项e正确，因为如果不加super.processtextevent(te)，注册的listener将不会被唤醒。
+
+
+
+   ●choose the three valid identifiers from those listed below. 
+
+
+
+   @a.   idolikethelongnameclass 
+
+
+
+   b. $byte
+
+
+
+   c. const 
+
+
+
+   d. _ok 
+
+
+
+   e. 3_case 
+
+
+
+   解答：a, b, d 
+
+
+
+   点评：java中的标示符必须是字母、美元符($)或下划线(_)开头。关键字与保留字不能作为标示符。选项c中的const是java的保留字，所以不能作标示符。选项e中的3_case以数字开头，违反了java的规则。 
+
+
+
+   
+
+
+
+   ●how can you force garbage collection of an object? 
+
+
+
+   @a.   garbage collection cannot be forced 
+
+
+
+   b. call system.gc(). 
+
+
+
+   c. call system.gc(), passing in a reference to the object to be garbage collected. 
+
+
+
+   d. call runtime.gc(). 
+
+
+
+   e. set all references to the object to new values（null, for example）. 
+
+
+
+   解答：a 
+
+
+
+   点评：在java中垃圾收集是不能被强迫立即执行的。调用system.gc()或runtime.gc()静态方法不能保证垃圾收集器的立即执行，因为，也许存在着更高优先级的线程。所以选项b、d不正确。选项c的错误在于，system.gc()方法是不接受参数的。选项e中的方法可以使对象在下次垃圾收集器运行时被收集。 
+
+
+
+   
+
+
+
+   ●consider the following class: 
+
+
+
+   1. class test(int i) { 
+
+
+
+   2. void test(int i) { 
+
+
+
+   3. system.out.println( ;i am an int. ;); 
+
+
+
+   4. } 
+
+
+
+   5. void test(string s) { 
+
+
+
+   6. system.out.println( ;i am a string. ;); 
+
+
+
+   7. } 
+
+
+
+   8. 
+
+
+
+   9. public static void main(string args[]) { 
+
+
+
+   10. test t=new test(); 
+
+
+
+   11. char ch= ;y ;; 
+
+
+
+   12. t.test(ch); 
+
+
+
+   13. } 
+
+
+
+   14. } 
+
+
+
+   which of the statements below is true?(choose one.) 
+
+
+
+   @a.   line 5 will not compile, because void methods cannot be overridden. 
+
+
+
+   b. line 12 will not compile, because there is no version of test() that rakes a char argument. 
+
+
+
+   c. the code will compile but will throw an exception at line 12. 
+
+
+
+   d. the code will compile and produce the following output: i am an int. 
+
+
+
+   e. the code will compile and produce the following output: i am a string. 
+
+
+
+   解答：d 
+   
+
+
+
+   点评：在第12行，16位长的char型变量ch在编译时会自动转化为一个32位长的int型，并在运行时传给void test(int i)方法。 
+
+
+
+   
+
+
+
+   ●which of the following lines of code will compile without error？ 
+
+
+
+   @a.   int i=0; 
+
+
+
+   if (i) { 
+
+
+
+   system.out.println( ;
+
+
+
+    hi ;); 
+
+
+
+      } 
+
+
+
+      
+
+
+
+      b. 
+
+
+
+      boolean b=true; 
+
+
+
+      boolean b2=true; 
+
+
+
+      if(b==b2) { 
+
+
+
+      system.out.println( ;so true ;); 
+
+
+
+      
+
+
+
+      } 
+
+
+
+      c. 
+
+
+
+      int i=1; 
+
+
+
+      int j=2; 
+
+
+
+      if(i==1|| j==2) 
+
+
+
+      system.out.println( ;ok ;); 
+
+
+
+      
+
+
+
+      d. 
+
+
+
+      int i=1; 
+
+
+
+      int j=2; 
+
+
+
+      if (i==1 &amp;| j==2) 
+
+
+
+      system.out.println( ;ok ;); 
+
+
+
+      解答：b, c 
+
+
+
+      
+
+
+
+      点评：选项a错，因为if语句后需要一个boolean类型的表达式。逻辑操作有^、&amp;、| 和 &amp;&amp;、||,但是 ;&amp;| ;是非法的，所以选项d不正确。  
+
+
+
+
+
+
+      
+      
+      ●which two demonstrate a "has a" relationship? (choose two) 
+
+
+
+      @a.   public interface person { } 
+
+
+
+      public class employee extends person{ } 
+
+
+
+      
+
+
+
+      b. public interface shape { } 
+
+
+
+      public interface rectandle extends shape { } 
+
+
+
+      c. public interface colorable { } 
+
+
+
+      public class shape implements colorable 
+
+
+
+      
+
+
+
+      { } 
+
+
+
+      d. public class species{ } 
+
+
+
+      public class animal{private species species;} 
+
+
+
+      e. interface component{ } 
+
+
+
+      class container implements component{ 
+
+
+
+      private component[] children; 
+
+
+
+      
+
+
+
+      } 
+
+
+
+      解答：d, e 
+
+
+
+      点评： 在java中代码重用有两种可能的方式，即组合（ ;has a ;关系）和继承（ ;is a ;关系）。 ;has a ;关系是通过定义类的属性的方式实现的；而 ;is a ;关系是通过类继承实现的。本例中选项a、b、c体现了 ;is a ;关系；选项d、e体现了 ;has a ;关系。  
+
+
+
+      ●which two statements are true for the class java.  util.treeset? (choose two) 
+
+
+
+      @a.   the elements in the collection are ordered. 
+
+
+
+      b. the collection is guaranteed to be immutable. 
+
+
+
+      c. the elements in the collection are guaranteed to be unique. 
+
+
+
+      d. the elements in the collection are accessed using a unique key. 
+
+
+
+      e. the elements in the collection are guaranteed to be synchronized  
+
+
+
+      解答：a, c 
+
+
+
+      点评：treeset类实现了set接口。set的特点是其中的元素惟一，选项c正确。由于采用了树形存储方式，将元素有序地组织起来，所以选项a也正确。 
+
+
+
+
+
+
+
+
+
+      ●true or false: readers have methods that can read and return floats and doubles. 
+
+
+
+      @a.   ture 
+
+
+
+      b. false 
+
+
+
+      解答：b 
+
+
+
+      点评： reader/writer只处理unicode字符的输入输出。float和double可以通过stream进行i/o.  
+      
+
+
+
+      
+
+
+
+      ●what does the following
+
+
+
+      paint() method draw? 
+
+
+
+      1. public void paint(graphics g) { 
+
+
+
+      2. g.drawstring( ;any question ;, 10, 0); 
+
+
+
+      3. } 
+
+
+
+      @a.   the string  ;any question? ;, with its top-left corner at 10,0 
+
+
+
+      b. a little squiggle coming down from the top of the component. 
+
+
+
+      
+
+
+
+      解答：b 
+
+
+
+      点评：drawstring(string str, int x, int y)方法是使用当前的颜色和字符，将str的内容显示出来，并且最左的字符的基线从（x,y）开始。在本题中，y=0，所以基线位于最顶端。我们只能看到下行字母的一部分，即字母&#8216;y&#8217;、&#8216;q&#8217;的下半部分。  
+
+
+
+      
+
+
+
+      ●what happens when you try to compile and run the following application? choose all correct options. 
+
+
+
+      1. public class z { 
+
+
+
+      2. public static void main(string[] args) { 
+
+
+
+      3. new z(); 
+
+
+
+      4. } 
+
+
+
+      5. 
+
+
+
+      6. z() { 
+
+
+
+      7. z alias1 = this; 
+
+
+
+      8. z alias2 = this; 
+
+
+
+      9. synchronized(alias1) { 
+
+
+
+      10. try { 
+
+
+
+      11. alias2.wait(); 
+
+
+
+      12. system.out.println( ;done waiting ;); 
+
+
+
+      
+
+
+
+      13. } 
+
+
+
+      14. catch (interruptedexception e) { 
+
+
+
+      15. system.out.println( ;interr 
+
+
+
+      upted ;); 
+
+
+
+      16. } 
+
+
+
+      17. catch (exception e) { 
+
+
+
+      18. system.out.println( ;other exception ;); 
+
+
+
+      19. } 
+
+
+
+      20. finally { 
+
+
+
+      21. system.out.println 
+
+
+
+      ( ;finally ;); 
+
+
+
+      22. } 
+
+
+
+      23. } 
+
+
+
+      24. system.out.println( ;all done ;); 
+
+
+
+      25. } 
+
+
+
+      26. } 
+
+
+
+      @a.   the application compiles but doesn t print anything. 
+
+
+
+      b. the application compiles and print  ;done waiting ; 
+
+
+
+      c. the application compiles and print  ;finally ; 
+
+
+
+      d. the application compiles and print  ;all done ; 
+
+
+
+      e. the application compiles and print  ;interrupted ;  
+      
+
+
+
+      解答：a 
+
+
+
+      点评：在java中，每一个对象都有锁。任何时候，该锁都至多由一个线程控制。由于alias1与alias2指向同一对象z，在执行第11行前，线程拥有对象z的锁。在执行完第11行以后，该线程释放了对象z的锁，进入等待池。但此后没有线程调用对象z的notify()和notifyall()方法，所以该进程一直处于等待状态，没有输出。  
+      
+
+
+
+      
+
+
+
+      ●which statement or statements are true about the code listed below? choose three. 
+
+
+
+      1. public class mytextarea extends textarea { 
+
+
+
+      2. public mytextarea(int nrows, int ncols) { 
+
+
+
+      3. enableevents(awtevent.
+
+
+
+      text_  
+
+
+
+      event_mask); 
+
+
+
+      4. } 
+
+
+
+      5. 
+
+
+
+      6. public void processtextevent  
+  
+
+
+
+      (textevent te) { 
+
+
+
+      7. system.out.println( ;processing a text event. ;); 
+
+
+
+      8. } 
+
+
+
+      9. } 
+
+
+
+      @a.   the source code must appear in a file called mytextarea.  java 
+
+
+
+      b. between lines 2 and 3, a call should be made to super(nrows, ncols) so that the new component will have the correct size. 
+
+
+
+      c. at line 6, the return type of processtextevent() should be declared boolean, not void. 
+
+
+
+      d. between lines 7 and 8, the following code should appear: return true. 
+
+
+
+      e. between lines 7 and 8, the following code should appear: super.processtextevent(te).  
+      
+
+
+
+      解答：a, b, e 
+
+
+
+      点评：由于类是public，所以文件名必须与之对应，选项a正确。如果不在2、3行之间加上super(nrows,ncols)的话，则会调用无参数构建器textarea(), 使nrows、ncols信息丢失，故选项b正确。在java2中，所有的事件处理方法都不返回值，选项c、d错误。选项e正确，因为如果不加super.processtextevent(te)，注册的listener将不会被唤醒。

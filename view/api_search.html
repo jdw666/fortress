@@ -1,0 +1,66 @@
+{% include 'header.html' %}
+<head>
+	<style type="text/css">
+		#box{ width: 380px; margin: 50px auto; font-size: 14px; } input{ width: 260px; border: 1px solid #e2e2e2; height: 30px; float: left; background-image: url(images/search.jpg); background-repeat: no-repeat; background-size: 25px; background-position:5px center; padding:0 0 0 40px; } #search{ width: 78px; height: 32px; float: right; background: #0fa0f5; color: white; text-align: center; line-height: 32px; cursor: pointer; }
+	</style>
+</head>
+<body>
+	<div id="pull" style="margin-left: 100px;">
+		<button>拉取最新代码</button>
+	</div>
+	<div id="box">
+		<input type="search" id="result" name="search" placeholder="请输入关键字">
+		<div id="search">搜索</div>
+	</div>
+	<div id="div" style="margin-top: 100px;">
+		<div id="d-pre" style="width:80%;margin: 0 auto">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function() {
+	    $('#search').click(function() {
+	      //js发送请求
+	      var dname = $('#result').val();
+	      console.info(dname);
+	      $.ajax({
+	        url: '/utils/filtrate/',
+	        async: true,
+	        data: '{"dname":"' + dname + '", "filtrate":"api_filtrate"}',
+	        type: "post",
+	        contentType: "application/json;charset=UTF-8",
+	        success: function(result) { //js接收结果
+	          if (200 == result.code) {
+	            $("#d-pre").empty();
+	            $.each(result.msg,
+	            function(i, item) {
+	              $('#d-pre').append('<pre href="" style="margin-top: 20px; font-size: 20px;">' + i + item + '</pre>');
+				  $('#d-pre').append('<span>' + '==============================================================' + '<span>');
+	            });
+	          } else {
+	            $("#d-pre").empty();
+	            $('#d-pre').append('<h3 style="font-size: 44px;text-align: center;margin-top: 300px;">' + "暂无搜索结果!" + '</h3>')
+	          }
+	        },
+	        error: function() {
+	          alert('服务问题，请求失败')
+	        }
+	      });
+	    }); $('#pull').click(function() {
+	      $.ajax({
+	        url: '/utils/s_pull/',
+	        async: true,
+	        type: "post",
+	        contentType: "application/json;charset=UTF-8",
+	        success: function(result) { //js接收结果
+	          if (200 == result.code) {
+	            alert(result.msg)
+	          }
+	        },
+	        error: function() {
+	          alert('拉取失败')
+	        }
+	      });
+	    })
+	  })
+</script>

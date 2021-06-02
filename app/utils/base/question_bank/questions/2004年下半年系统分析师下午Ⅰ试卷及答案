@@ -1,0 +1,573 @@
+
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于软件配置管理的叙述，回答问题1、问题2和问题3。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在&#8212;些大中型软件项目中，经常会出现一些混乱和差错，如版本错误、数据不一致等。在软件的开发过程中，随着工作的进展也会产生许多信息，如规格说明、设计说明、源程序、各种数据等，以及合同、计划书、会议录、报告等需要管理的文档。对于一个大中型软件项目来说，这些信息文档的数量可以达到几百个甚至上千个，如果没有一套严谨、科学的管理办法，出现混乱和差错几乎是必然的。软件配置管理为软件开发提供了一套管理办法和原则，以防止混乱和差错的产生，并且适应软件的各类变更。典型的配置问题有：多重维护、共享数据、同时修改、丢失版本号或者没有版本号。一般地，实施软件配置管理应完成以下几方面的任务：确定软件配置管理计划，确定配置标识规则，实施变更控制，报告配置状态，进行配置审核，进行版本管理和发行管理。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1］(12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)软件配置管理的一个重要内容就是对变更加以控制，使变更对成本、工期和质量的影响降到最小。用150字以内文字，说明软件配置管理中&#8220;变更管理&#8221;的主要任务。??(2)为了有效地进行变更控制，通常会借助&#8220;配置数据库&#8221;。请用200字以内文字，说明配置数据库的主要作用及其分类。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](7分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　配置状态报告对于大型软件开发项目的成功起着至关重要的作用。请用200字以内文字，说明配置状态报告的主要作用及其包含的主要信息。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　软件的变更控制机制通常只能跟踪到工程变更顺序产生为止。为了获知变更是否正确完成，一般采用两种方法：正式的技术评审和软件配置审核。请用200字以内文字，说明这两种方法的区别和联系。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　从下列的4道试题(试题二至试题五)中任选2道解答。如果解答的试题数超过2道，则题号小的2道解答有效。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题二(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于电子政务系统安全体系结构的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　某城市计划建设电子政务系统，由于经费、政务应用成熟度、使用人员观念等多方面的原因，计划采用分阶段实施的策略来建设电子政务，最先建设急需和重要的部分。在安全建设方面，先投入一部分资金保障关键部门和关键信息的安全，之后在总结经验教训的基础上分2年逐步完善系统。因此，初步考虑使用防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测、pki技术和服务等保障电子政务的安全。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在&#8212;次关于安全的方案讨论会上，张工认为由于政务网对安全性要求比较高，因此要建设防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测系统，这样就可以全面保护电子政务系统的安全。李工则认为张工的方案不够全面，还应该在张工提出的方案基础上，使用pki技术，进行认证、机密性、完整性和抗抵赖性保护。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，从安全方面，特别针对张工所列举的建设防火墙、入侵检测、安全扫描、日志审计系统进行分析，评论这些措施能够解决的问题和不能解决的问题。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](9分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用300字以内文字，主要从认证、机密性、完整性和抗抵赖性方面，论述李工的建议在安全上有哪些优点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对于复杂系统的设计与建设，在不同阶段都有很多非常重要的问题需要注意，既有技术因素阻力，又有非技术因素阻力。请结合工程的实际情况，用200字以内文字，简要说明使用pki还存在哪些重要的非技术因素方面的阻力。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题三(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于选择linux操作系统平台的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　近年来linux的迅速发展，改变了操作系统市场份额的格局，虽然linux的市场份额在我国还不到10％，但已呈稳步上升的态势。针对这一情况，某大型企业(装机量大、信息化程度高)决定从战略层面上考虑linux在本企业的发展定位，为此，需要对linux及其典型产品进行测试和评估。假定由你担任这一评测工作的项目经理，你如何考虑以下问题。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1](5分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用100字以内文字，说明你向企业决策层提交的评估报告应包括哪些主要方面的内容。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　采用linux时，安全性问题是必须慎重考虑的一个方面，通过研究，项目组认为开放源码和bug是linux自身特有的影响安全性的两个最主要方面。请仅就开放源码对安全性的影响，用150字以内文字，说明你的观点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](14分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，说明与目前广泛使用的windows操作系统相比，采用linux主要有什么优缺点?你如何看待目前基于linux操作系统的应用软件相对较少这个问题。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题四(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于数据仓库的叙述，回答问题1、问题2和问题3。随着计算机应用的不断普及，某集团公司先后建立了生产、销售、财务、人事管理等应用系统，并积累了大量的数据。面对日益激烈的市场竞争，公司领导希望建立一个分析环境，对积累的数据进行再加工，以支持高层决策。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　公司技术部门的王总工程师提出建立一个数据仓库系统。他认为数据仓库能够将企业内部分散的、跨平台的数据重新组织与加工，建立数据仓库的最终目标是建立一个全面、完善的信息应用平台，利用该信息平台，进行数据分析和数据挖掘，支持公司高层的决策分析。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　经过讨论，大家认为目前建立数据仓库需要完成的基础工作有： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)明确数据仓库的目的，了解公司的业务现状，特别要弄清数据源所在的系统和其中的数据状况。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)收集决策者的需求。分析领导的决策取向和当前最主要的工作目标，并初步建立系统的逻辑模型。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)构建数据仓库。包括数据仓库的设计、组织和管理以及决策信息的展示。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)数据仓库的应用推广和人员的培训。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(5)引进必要的产品和工具。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在讨论中，有些工程师提出了不同的意见。有人认为由于缺乏经验，应该先建立小规模的数据集市，然后再升级到完整的数据仓库系统。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)请用150字以内文字，简要叙述与数据仓库相比，数据集市具有哪些特点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)请用100字以内文字，简要说明这种开发方法的优缺点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　王总工程师提出，对于数据仓库系统的开发，一般推荐采用增量的、演进的方式。请用200字以内文字，说明如何用增量的、演进的方式开发数据仓库系统。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　有工程师建议在数据仓库的模型中，采用db(源数据库)&#8212;ods(操作数据存储)&#8212;dw(数据仓库)的模式，以替代0b(源数据库)&#8212;dw(数据仓库)的模式，请用150字以内文字简要描述ods(操作数据存储)与dw(数据仓库)的最大差别。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题五(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读下列关于软件产品线方面的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　a公司是一家中等规模的计算机企业，专门从事网络安全防护软件系统的开发。从最初仅开发基于windows的个人防火墙产品开始，现在已经延伸到基linux、windows系列、mac操作系统的个人防火墙、企业防火墙、入侵检测系统、病毒扫描系统、安全扫描系统等多种产品。公司原来的产品都是一个一个地开发，为每个软件对应地组织一个项目组。为了适应快速变化的市场，降低开发成本，公司想引入产品线方法。然而，软件产品线方法涉及了一个软件开发企业的多个产品，所以，公司的王总决定在弄清楚以下三个问题之后再做决定：首先就是本公司的业务范围是否适合使用产品线方法，其次是如何在原有产品的基础上建立产品线，最后是成功实施产品线的主要因素。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1)(5分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用100字以内文字，说明a公司是否适合采用产品线方法，并说明理由。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，说明在原有产品的基础上建立软件产品线的方式，并作简要评价。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用150字以内文字，说明成功实施产品线的主要因素。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下午试题i解答要点和评分标准 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题一&nbsp;软件配置管理 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(1)变更管理的任务包括： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①分析变更，根据成本一效益和涉及到的技术等因素判断变更实施的必要性，确定是否实施变更； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②记录变更信息，并追踪变更信息； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③确保变更在受控条件下进行。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(2)配置数据库的主要作用： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①用于收集与配置有关的所有信息； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②评价系统变更的效果； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③提供配置管理过程的管理信息。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　配置数据库可以分为3类； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①开发库，专供开发人员使用，其中的信息可能进行频繁的修改，对其控制相当宽松； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②受控库，在生存期某一阶段工作结束时释放的阶段产品，这些是与软件开发工作相关的计算机可读信息和人工可读信息： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③产品库，在开发的软件产品完成系统测试后，作为最终产品存入产品库中，等待交付用户或现场安装。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)配置状态报告是配置管理的一个组成部分，其任务是有效地记录和报告管理配置所需要的信息，目的是及时、准确地给出软件配置项的当前状况，供相关人员了解，以加强配置管理工作。配置状态报告提高了开发人员之间的通信能力，避免了可能出现的不一致和冲突。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)配置状态报告包含的信息主要有：配置状态所涉及到的实体间的关系，状态说明数据词典。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)正式的技术评审着重检查已完成修改的软件配置对象的技术正确性，评审者评价软件配置项，决定它与其他软件配置项的一致性，是否有遗漏或可能引起的副作用。除了那些最无价值的变更之外，应对所有的变更进行正式的技术评审。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)软件配置审核作为正式技术评审的补充，评价在评审期间通常没有被考虑的软件配置项的特性。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题二&nbsp;电子政务系统安全体系结构 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙是建立在内外网边界上的过滤封锁机制，它认为内网是可信的，外网是不可信的。它能够防止外网未经授权地访问内网，能够防止外网对内网的攻击，也能防止内网未经授权地访问外网。但是，根据统计：绝大多数的网络攻击来自于内网，而防火墙不能阻止内网的攻击，因此，仅使用防火墙不能有效地防止网络攻击。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测系统目的在于提供实时的入侵检测及采取相应的防护手段，它的能力要点在于能够对付来自内部的攻击。如果能够实现入侵检测系统和其它安全系统，例如防火墙的联动，则能够更加有效地防止网络攻击。但是，目前的入侵检测系统对已知的攻击有较好的检测，对未知的攻击检测能力较弱，而且存在误报率太高的缺点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;安全扫描及时发现安全漏洞。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;日志审计有助于追查责任，定位故障，系统恢复。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;防火墙、入侵检测、安全扫描、日志审计有各自的应用目的和优点，但不能全面解决网络安全问题。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测系统都不能解决政务网中的认证、机密性、完整性和抗抵赖性问题。 
+&nbsp; 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　身份认证能够解决通信或数据访问中对对方身份的认可，便于访问控制，授权管理。电子政务还有其它的安全需求，机密性防止信息在传输、存储过程中被泄漏。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　完整性防止对数据进行未授权的创建、修改或破坏，使数据一致性受到损坏。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　抗抵赖性有助于责任追查。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对于复杂系统的设计与建设，有许多非常重要的问题。有关使用pki的非技术因素阻力有： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对所有系统的有关设计、开发、使用、维护、管理等人员进行必要的安全教育，使大家认识到信息安全的重要性。&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在系统的设计、建设、运行阶段都要投入大量的资金，需要充分咨询相关领域专家。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在系统的设计、建设、运行阶段，需要对不同的设计、开发、使用、管理、维护等人员进行针对性的培训。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　相关法律与法规制度的建立、执行与监督。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题三&nbsp;选择linux操作系统平台解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　评估报告应包括以下五个方面的内容： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　linux的特点、linux的市场、各大软硬件厂商对于linux的支持、linux的发展前景、linux在本企业应用的可行性。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　开放源码对安全性的影响有正反两方面：开放源码本身就意味着进攻者发现漏洞比封闭软件多一种手段&#8212;&#8212;阅读源码； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　开放源码使在代码的形成过程中引入更多的交流，并因为有使用者参与的信息反馈和问题分析，因此开放源码的代码质量往往较高，从而提高了安全性；开放源码的漏洞能在很短的时间内得到发现和修复，特别是修复的速度比封闭系统要快。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　linux的优点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、开放源代码，用户可以根据应用需要对系统进行改进； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、与unix系统在源代码级兼容，具有许多unix系统的功能和特点； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、能够在多种硬件平台上运行，而windows只是一个运行在intel&nbsp;ia构架机器上的操作系统，有很多的局限性； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、真正意义上的多任务、多用户操作系统。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、linux对于许多硬件设备的驱动程序支持不足； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、linux不是一种桌面系统，基础操作界面不如windows友好，更适合高端服务器或专业人员使用； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、linux缺乏一个标准的管理框架，linux目前还没有一个标准的开发库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、许多非专业厂商的免费软件容易存在bug。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　应根据linux的发展趋势从以下五个方面来看待这个问题： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、各大软件公司对于linux应用软件开发的重视和投入的增加； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、linux的技术特点及发展前景； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、本企业的特点及对linux应用软件的具体需求； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、国家对linux产品的政策导向； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　5、linux市场占有率的增加。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题四&nbsp;数据仓库 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(1)与数据仓库相比，数据集市具有以下特点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;规模小，灵活，可以按照多种方式来组织数据，如按特定的应用、部门、地域、主题等 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;开发工作可由业务部门定义、设计、实施、管理和维护 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;能够快速实现，代价较低，投资回收期短，风险小 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;工具集的紧密集成 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;有利于升级到完整的数据仓库或形成分布式数据仓库 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(2)这种方法花费低、灵活性高，并能快速回报投资；但是将分散的数据集市集成起来，形成一个一致的企业仓库可能很困难。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)定义一个高层次的企业数据模型，在不同的主题和可能的应用之间，提供企业范围的、一致的、集成的数据视图。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)基于上述企业数据模型，并行地实现各自独立的数据集市和企业数据仓库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)构造分布式数据集市，对不同的数据集市进行集成。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)构造一个多层数据仓库。在多层数据仓库中，企业数据仓库是所有数据仓库数据的全权管理者，而这些数据分布在各个相关的数据集市中。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　最大差别是两者存放的数据内容不同，ods存储了当前或最近的数据，而dw存储了历史数据；ods存储了细节数据，而dw存储了细节数据和综合数据；ods可联机更新数据，而dw中数据一般为不可变的快照。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题五&nbsp;软件产品线解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　适合。原因： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)该公司的产品都是在同一个领域&#8212;&#8212;防火墙产品等，满足软件产品线建设的基本要求。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)该公司原有产品相对比较成熟，可以在原有产品的基础上建立产品线。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　在原有产品的基础上，可采用下列方式之一建立产品线： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)演化方式，即将现有产品演化为产品线：在基于现有产品体系结构设计的基础上，将特定产品的构件逐步转化为产品线的共用构件，从基于产品的方法逐步转化为基于产品线的软件开发。主要优点是通过对投资回报周期的分解、对现有系统演化的维持使产品线方法的实施风险降到了最小，与革命方式相比，完成核心资源的总周期和总投资较大。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)革命方式，即用软件产品线替代现有产品集：基本停止现有产品的开发，所有工作直接针对软件产品线的核心资源开发。遗留系统只有在符合体系结构和构件需求的情况下，才可以和新的构件协作。因重要需求的变化导致的初始投资报废的风险加大，与演化方式相比，完成核心资源的总周期和总投资较小。由于无法满足产品线方法对软硬件同步的需求，这种方法适用于软硬件结合密切且硬件需求差异大的现有产品集。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)对该领域的产品开发已具备长期积累的经验。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)一个用于构建产品的好的核心资源库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)好的产品线体系结构。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)好的管理(软件资源、人员组织、过程)支持。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于软件配置管理的叙述，回答问题1、问题2和问题3。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在&#8212;些大中型软件项目中，经常会出现一些混乱和差错，如版本错误、数据不一致等。在软件的开发过程中，随着工作的进展也会产生许多信息，如规格说明、设计说明、源程序、各种数据等，以及合同、计划书、会议录、报告等需要管理的文档。对于一个大中型软件项目来说，这些信息文档的数量可以达到几百个甚至上千个，如果没有一套严谨、科学的管理办法，出现混乱和差错几乎是必然的。软件配置管理为软件开发提供了一套管理办法和原则，以防止混乱和差错的产生，并且适应软件的各类变更。典型的配置问题有：多重维护、共享数据、同时修改、丢失版本号或者没有版本号。一般地，实施软件配置管理应完成以下几方面的任务：确定软件配置管理计划，确定配置标识规则，实施变更控制，报告配置状态，进行配置审核，进行版本管理和发行管理。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1］(12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)软件配置管理的一个重要内容就是对变更加以控制，使变更对成本、工期和质量的影响降到最小。用150字以内文字，说明软件配置管理中&#8220;变更管理&#8221;的主要任务。??(2)为了有效地进行变更控制，通常会借助&#8220;配置数据库&#8221;。请用200字以内文字，说明配置数据库的主要作用及其分类。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](7分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　配置状态报告对于大型软件开发项目的成功起着至关重要的作用。请用200字以内文字，说明配置状态报告的主要作用及其包含的主要信息。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　软件的变更控制机制通常只能跟踪到工程变更顺序产生为止。为了获知变更是否正确完成，一般采用两种方法：正式的技术评审和软件配置审核。请用200字以内文字，说明这两种方法的区别和联系。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　从下列的4道试题(试题二至试题五)中任选2道解答。如果解答的试题数超过2道，则题号小的2道解答有效。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题二(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于电子政务系统安全体系结构的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　某城市计划建设电子政务系统，由于经费、政务应用成熟度、使用人员观念等多方面的原因，计划采用分阶段实施的策略来建设电子政务，最先建设急需和重要的部分。在安全建设方面，先投入一部分资金保障关键部门和关键信息的安全，之后在总结经验教训的基础上分2年逐步完善系统。因此，初步考虑使用防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测、pki技术和服务等保障电子政务的安全。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在&#8212;次关于安全的方案讨论会上，张工认为由于政务网对安全性要求比较高，因此要建设防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测系统，这样就可以全面保护电子政务系统的安全。李工则认为张工的方案不够全面，还应该在张工提出的方案基础上，使用pki技术，进行认证、机密性、完整性和抗抵赖性保护。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，从安全方面，特别针对张工所列举的建设防火墙、入侵检测、安全扫描、日志审计系统进行分析，评论这些措施能够解决的问题和不能解决的问题。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](9分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用300字以内文字，主要从认证、机密性、完整性和抗抵赖性方面，论述李工的建议在安全上有哪些优点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对于复杂系统的设计与建设，在不同阶段都有很多非常重要的问题需要注意，既有技术因素阻力，又有非技术因素阻力。请结合工程的实际情况，用200字以内文字，简要说明使用pki还存在哪些重要的非技术因素方面的阻力。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题三(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于选择linux操作系统平台的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　近年来linux的迅速发展，改变了操作系统市场份额的格局，虽然linux的市场份额在我国还不到10％，但已呈稳步上升的态势。针对这一情况，某大型企业(装机量大、信息化程度高)决定从战略层面上考虑linux在本企业的发展定位，为此，需要对linux及其典型产品进行测试和评估。假定由你担任这一评测工作的项目经理，你如何考虑以下问题。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1](5分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用100字以内文字，说明你向企业决策层提交的评估报告应包括哪些主要方面的内容。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　采用linux时，安全性问题是必须慎重考虑的一个方面，通过研究，项目组认为开放源码和bug是linux自身特有的影响安全性的两个最主要方面。请仅就开放源码对安全性的影响，用150字以内文字，说明你的观点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](14分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，说明与目前广泛使用的windows操作系统相比，采用linux主要有什么优缺点?你如何看待目前基于linux操作系统的应用软件相对较少这个问题。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题四(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读以下关于数据仓库的叙述，回答问题1、问题2和问题3。随着计算机应用的不断普及，某集团公司先后建立了生产、销售、财务、人事管理等应用系统，并积累了大量的数据。面对日益激烈的市场竞争，公司领导希望建立一个分析环境，对积累的数据进行再加工，以支持高层决策。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　公司技术部门的王总工程师提出建立一个数据仓库系统。他认为数据仓库能够将企业内部分散的、跨平台的数据重新组织与加工，建立数据仓库的最终目标是建立一个全面、完善的信息应用平台，利用该信息平台，进行数据分析和数据挖掘，支持公司高层的决策分析。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　经过讨论，大家认为目前建立数据仓库需要完成的基础工作有： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)明确数据仓库的目的，了解公司的业务现状，特别要弄清数据源所在的系统和其中的数据状况。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)收集决策者的需求。分析领导的决策取向和当前最主要的工作目标，并初步建立系统的逻辑模型。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)构建数据仓库。包括数据仓库的设计、组织和管理以及决策信息的展示。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)数据仓库的应用推广和人员的培训。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(5)引进必要的产品和工具。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在讨论中，有些工程师提出了不同的意见。有人认为由于缺乏经验，应该先建立小规模的数据集市，然后再升级到完整的数据仓库系统。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)请用150字以内文字，简要叙述与数据仓库相比，数据集市具有哪些特点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)请用100字以内文字，简要说明这种开发方法的优缺点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　王总工程师提出，对于数据仓库系统的开发，一般推荐采用增量的、演进的方式。请用200字以内文字，说明如何用增量的、演进的方式开发数据仓库系统。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](6分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　有工程师建议在数据仓库的模型中，采用db(源数据库)&#8212;ods(操作数据存储)&#8212;dw(数据仓库)的模式，以替代0b(源数据库)&#8212;dw(数据仓库)的模式，请用150字以内文字简要描述ods(操作数据存储)与dw(数据仓库)的最大差别。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题五(25分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　阅读下列关于软件产品线方面的叙述，回答问题1、问题2和问题3。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　a公司是一家中等规模的计算机企业，专门从事网络安全防护软件系统的开发。从最初仅开发基于windows的个人防火墙产品开始，现在已经延伸到基linux、windows系列、mac操作系统的个人防火墙、企业防火墙、入侵检测系统、病毒扫描系统、安全扫描系统等多种产品。公司原来的产品都是一个一个地开发，为每个软件对应地组织一个项目组。为了适应快速变化的市场，降低开发成本，公司想引入产品线方法。然而，软件产品线方法涉及了一个软件开发企业的多个产品，所以，公司的王总决定在弄清楚以下三个问题之后再做决定：首先就是本公司的业务范围是否适合使用产品线方法，其次是如何在原有产品的基础上建立产品线，最后是成功实施产品线的主要因素。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1)(5分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用100字以内文字，说明a公司是否适合采用产品线方法，并说明理由。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2](12分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用400字以内文字，说明在原有产品的基础上建立软件产品线的方式，并作简要评价。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3](8分) 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　请用150字以内文字，说明成功实施产品线的主要因素。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下午试题i解答要点和评分标准 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题一&nbsp;软件配置管理 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(1)变更管理的任务包括： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①分析变更，根据成本一效益和涉及到的技术等因素判断变更实施的必要性，确定是否实施变更； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②记录变更信息，并追踪变更信息； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③确保变更在受控条件下进行。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(2)配置数据库的主要作用： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①用于收集与配置有关的所有信息； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②评价系统变更的效果； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③提供配置管理过程的管理信息。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　配置数据库可以分为3类； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　①开发库，专供开发人员使用，其中的信息可能进行频繁的修改，对其控制相当宽松； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　②受控库，在生存期某一阶段工作结束时释放的阶段产品，这些是与软件开发工作相关的计算机可读信息和人工可读信息： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　③产品库，在开发的软件产品完成系统测试后，作为最终产品存入产品库中，等待交付用户或现场安装。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)配置状态报告是配置管理的一个组成部分，其任务是有效地记录和报告管理配置所需要的信息，目的是及时、准确地给出软件配置项的当前状况，供相关人员了解，以加强配置管理工作。配置状态报告提高了开发人员之间的通信能力，避免了可能出现的不一致和冲突。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)配置状态报告包含的信息主要有：配置状态所涉及到的实体间的关系，状态说明数据词典。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)正式的技术评审着重检查已完成修改的软件配置对象的技术正确性，评审者评价软件配置项，决定它与其他软件配置项的一致性，是否有遗漏或可能引起的副作用。除了那些最无价值的变更之外，应对所有的变更进行正式的技术评审。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)软件配置审核作为正式技术评审的补充，评价在评审期间通常没有被考虑的软件配置项的特性。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题二&nbsp;电子政务系统安全体系结构 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;防火墙是建立在内外网边界上的过滤封锁机制，它认为内网是可信的，外网是不可信的。它能够防止外网未经授权地访问内网，能够防止外网对内网的攻击，也能防止内网未经授权地访问外网。但是，根据统计：绝大多数的网络攻击来自于内网，而防火墙不能阻止内网的攻击，因此，仅使用防火墙不能有效地防止网络攻击。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;入侵检测系统目的在于提供实时的入侵检测及采取相应的防护手段，它的能力要点在于能够对付来自内部的攻击。如果能够实现入侵检测系统和其它安全系统，例如防火墙的联动，则能够更加有效地防止网络攻击。但是，目前的入侵检测系统对已知的攻击有较好的检测，对未知的攻击检测能力较弱，而且存在误报率太高的缺点。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;安全扫描及时发现安全漏洞。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;日志审计有助于追查责任，定位故障，系统恢复。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;防火墙、入侵检测、安全扫描、日志审计有各自的应用目的和优点，但不能全面解决网络安全问题。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　防火墙、入侵检测、病毒扫描、安全扫描、日志审计、网页防篡改、私自拨号检测系统都不能解决政务网中的认证、机密性、完整性和抗抵赖性问题。 
+&nbsp; 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　身份认证能够解决通信或数据访问中对对方身份的认可，便于访问控制，授权管理。电子政务还有其它的安全需求，机密性防止信息在传输、存储过程中被泄漏。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　完整性防止对数据进行未授权的创建、修改或破坏，使数据一致性受到损坏。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　抗抵赖性有助于责任追查。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对于复杂系统的设计与建设，有许多非常重要的问题。有关使用pki的非技术因素阻力有： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　对所有系统的有关设计、开发、使用、维护、管理等人员进行必要的安全教育，使大家认识到信息安全的重要性。&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在系统的设计、建设、运行阶段都要投入大量的资金，需要充分咨询相关领域专家。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　在系统的设计、建设、运行阶段，需要对不同的设计、开发、使用、管理、维护等人员进行针对性的培训。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　相关法律与法规制度的建立、执行与监督。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题三&nbsp;选择linux操作系统平台解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　评估报告应包括以下五个方面的内容： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　linux的特点、linux的市场、各大软硬件厂商对于linux的支持、linux的发展前景、linux在本企业应用的可行性。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　开放源码对安全性的影响有正反两方面：开放源码本身就意味着进攻者发现漏洞比封闭软件多一种手段&#8212;&#8212;阅读源码； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　开放源码使在代码的形成过程中引入更多的交流，并因为有使用者参与的信息反馈和问题分析，因此开放源码的代码质量往往较高，从而提高了安全性；开放源码的漏洞能在很短的时间内得到发现和修复，特别是修复的速度比封闭系统要快。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　linux的优点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、开放源代码，用户可以根据应用需要对系统进行改进； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、与unix系统在源代码级兼容，具有许多unix系统的功能和特点； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、能够在多种硬件平台上运行，而windows只是一个运行在intel&nbsp;ia构架机器上的操作系统，有很多的局限性； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、真正意义上的多任务、多用户操作系统。
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、linux对于许多硬件设备的驱动程序支持不足； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、linux不是一种桌面系统，基础操作界面不如windows友好，更适合高端服务器或专业人员使用； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、linux缺乏一个标准的管理框架，linux目前还没有一个标准的开发库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、许多非专业厂商的免费软件容易存在bug。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　应根据linux的发展趋势从以下五个方面来看待这个问题： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　1、各大软件公司对于linux应用软件开发的重视和投入的增加； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　2、linux的技术特点及发展前景； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　3、本企业的特点及对linux应用软件的具体需求； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　4、国家对linux产品的政策导向； 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　5、linux市场占有率的增加。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题四&nbsp;数据仓库 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(1)与数据仓库相比，数据集市具有以下特点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;规模小，灵活，可以按照多种方式来组织数据，如按特定的应用、部门、地域、主题等 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;开发工作可由业务部门定义、设计、实施、管理和维护 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;能够快速实现，代价较低，投资回收期短，风险小 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;工具集的紧密集成 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　●&nbsp;有利于升级到完整的数据仓库或形成分布式数据仓库 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　(2)这种方法花费低、灵活性高，并能快速回报投资；但是将分散的数据集市集成起来，形成一个一致的企业仓库可能很困难。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)定义一个高层次的企业数据模型，在不同的主题和可能的应用之间，提供企业范围的、一致的、集成的数据视图。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)基于上述企业数据模型，并行地实现各自独立的数据集市和企业数据仓库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)构造分布式数据集市，对不同的数据集市进行集成。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)构造一个多层数据仓库。在多层数据仓库中，企业数据仓库是所有数据仓库数据的全权管理者，而这些数据分布在各个相关的数据集市中。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　最大差别是两者存放的数据内容不同，ods存储了当前或最近的数据，而dw存储了历史数据；ods存储了细节数据，而dw存储了细节数据和综合数据；ods可联机更新数据，而dw中数据一般为不可变的快照。 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试题五&nbsp;软件产品线解答要点： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题1] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　适合。原因： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)该公司的产品都是在同一个领域&#8212;&#8212;防火墙产品等，满足软件产品线建设的基本要求。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)该公司原有产品相对比较成熟，可以在原有产品的基础上建立产品线。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题2] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　在原有产品的基础上，可采用下列方式之一建立产品线： 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)演化方式，即将现有产品演化为产品线：在基于现有产品体系结构设计的基础上，将特定产品的构件逐步转化为产品线的共用构件，从基于产品的方法逐步转化为基于产品线的软件开发。主要优点是通过对投资回报周期的分解、对现有系统演化的维持使产品线方法的实施风险降到了最小，与革命方式相比，完成核心资源的总周期和总投资较大。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)革命方式，即用软件产品线替代现有产品集：基本停止现有产品的开发，所有工作直接针对软件产品线的核心资源开发。遗留系统只有在符合体系结构和构件需求的情况下，才可以和新的构件协作。因重要需求的变化导致的初始投资报废的风险加大，与演化方式相比，完成核心资源的总周期和总投资较小。由于无法满足产品线方法对软硬件同步的需求，这种方法适用于软硬件结合密切且硬件需求差异大的现有产品集。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[问题3] 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(1)对该领域的产品开发已具备长期积累的经验。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(2)一个用于构建产品的好的核心资源库。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(3)好的产品线体系结构。 
+&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;　　(4)好的管理(软件资源、人员组织、过程)支持。

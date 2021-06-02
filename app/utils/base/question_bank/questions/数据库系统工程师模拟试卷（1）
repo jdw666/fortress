@@ -1,0 +1,429 @@
+
+
+　　数据库系统工程师全真预测试卷(一)上午试题 
+
+　　(考试时 间9：00--11：30 共150分钟) 
+
+　　1．本试卷的试题中共有75个空格，需要全部解答，每个空格1分，满分75分。 
+
+　　2．每个空格对应一个序号，有人b．c~d、四个选项，请选择一个最恰当的选项作为解答。 
+
+　　●《中华人民共和国专利法)及其实施规定，确定发明和实用新型专利权的保护范围的 
+
+　　依据是＿(1)＿ 。&lt;中华人民共和国专利法)规定，专利侵权的诉讼时效是自专利权人或者利 
+
+　　害关系人得知或应当得知侵权行为之日起＿(2)＿。 
+
+　　　　(1)a．说明书　b．请求书　c．权利要求　d．附图 
+
+　　　　(2)a．6个月　 b．18个月　c．四年　　　d．二年 
+
+　　●is09000－3在eis09000族标准中的位置，它是计算机软件机构实施＿(3)＿的＿(4)＿标准，由于＿(5)＿标准本来是针对传统的制造业制定的，而软件业又有许多不同于制造业的特性＿(6)＿起子桥梁作用。＿(7)＿将整个软件生存周期分成17个过程，并且对每一个过程按&#8220;过程&#8212;活动一任务&#8221;的三个层次具体作了解释，为我们进一步理解is09000-3提供了帮助。 
+
+　　　　(3)a．is090011　b．is09001　　c．is09000-3　　d．is0/iecl2207 
+
+　　　　(4)a．指南性　　b．概括性　　 c．详尽的　　　 d．不同的 
+
+　　　　(5)a．iso9000　　b．iso9001　 c．is09002　　　d．gb/t19001-1994 
+
+　　　　(6)a．is09001　 b．iso9000-3　c．iso/icel2207 d．iso9002 
+
+　　　　(7)a，is09000-3 b．is09000　　c．1s09002　　　d．iso/iec12207 
+
+　　●结构化查询语言sql是一种＿(8)＿语言，其主要功能有＿(9)＿，它的典型句型为　　select　a1，a2，&#8230;，an 
+
+　　　　　from　r1，r2，&#8230;，rm 
+
+　　　　　　where　f 
+
+　　其中a1，a2，&#8230;，an和f分别是＿(10)＿。 
+
+　　关系模式scs(sno，cno，score)中，sno是学生的学号，cno是课程号，score为成绩。若要查询每门课程的平均成绩，且要求查询结果按平均成绩升序排列。平均成绩相同时，按课程号降序排列，可用sql语言写为＿(11)＿。若查询结果仅限于平均分数超过85分的，则应＿(12)＿。 
+
+　　　　(8)a．人工智能　　b．关系数据库　　 c．函数型　　d．高级算法 
+
+　　　　(9)a．数据定义、数据操作、数据安全　b．数据安全、数据编辑、数据并发控制 
+
+　　　　　 c．数据定义、数据操作、数据控制　d．数据查询、数据更新、数据输入输出 
+
+　　　　(10)a．目标表列名、基本表名、逻辑表达式 
+
+　　　　　　b．目标表列名、基本表名、数值表达式 
+
+　　　　　　c．基本表名、目标表列名、逻辑表达式 
+
+　　　　　　d．基本表名、目标表列名、数值表达式 
+
+　　　　(11)a．select　cno，avg(score)　　b．seiect　cno，avg(score) 
+
+　　　　　　　 from　scs　　　　　　　　　　 from　scs 
+
+　　　　　　　 group　by　score　　　　　　　group　by　cno 
+
+　　　　　　　 order　by　2，cno　desc　　　 order　by　2，cno　desc 
+
+　　　　　　c．select　cno，avg(score)　　d．select　cno，avg(score) 
+
+　　　　　　　 from　scs　　　　　　　　　　 from scs 
+
+　　　　　　　 where　cno，desc　　　　　　　grou　pby，avg(score) 
+
+　　　　　　　 group　by　score　　　　　　　order　by，cno　desc 
+
+　　　　(12)a．在from子句的下一行加入：where　avg(*)&gt;85 
+
+　　　　　　b．在from子句的下一行加入：where　avg(score)&gt;85 
+
+　　　　　　c．在group　by子句上一行加入：having　avg(score)&gt;85 
+
+　　　　　d．在group　by子句下一行加入：having　avg(scsre)&gt;85 
+
+　　●windows nt或windows 2000是当前流行的一类操作系统，＿(13)＿是windows nt真正的中心，它提供了一组操作系统原语和机制。windows nt采用线程机制提高系统的＿(14)＿。nt采用基于＿(15)＿的方案选定线程执行的次序。 
+
+　　　　(13)a．进程　　　　b．内核　　　　c．线程　　　d．管程 
+
+　　　　(14)a．并行性　　　b．可靠性　　　c．健壮性　　d．兼容性 
+
+　　　　(15)a．先来先服务　b．时 间片轮转　c．随机选择　d．优先级 
+
+　　●局域网是当前计算机网络研究与应用的一个热点，而符合feee802.3标准的传统ethernet应用最为广泛。它在mac层采用方法＿(16)＿，物理层采用＿(17)＿标准。随着网络技术的发展，以及大型信息系统与多媒体技术的应用，出现了满足人们更高需要的fastethemet、交换局域网switchinglan与＿(18)＿等高速局域网产品。他们符合＿(19)＿标准。＿(16)＿方法不适应重负荷与有实时性通信要求。＿(18)＿采用cell作为数据传输基本单元与ethernet帧结构不一致，但具有高带宽，低延时，可动态分配带宽等优点。 
+
+　　　　(16)a．fddi　　　　b． token-ring　　c．csma/cd　　d．tokenbus 
+
+　　　　(17)a．100base-t　 b．80base-t　　　c．10base-t　 d．50base-t 
+
+　　　　(18)a．atm　　　　 b．fastlan　　　 c．www　　　　d．wan 
+
+　　　　(19)a．100base-t　 b．50base2　　　 c．10broad36　d．50base-t 
+
+　　●关系数据库用＿(20)＿来表示实体之间的联系，其任何检索操作的实现都是由＿(21)＿三种基本操作组合而成的。 
+
+　　　　(20)a．层次模型　　b．网状模型　　　c．指针链　　 d．表格数据 
+
+　　　　(21)a．选择、投影和扫描　　　　　　 b．选择、投影和连接 
+
+　　　　　　c．选择、运算和投影　　　　　　 d．选择、投影和比较 
+
+　　●下列数字视频中，＿(22)＿质量最好。 
+
+　　　　(22)a．240&#215;180分辩率、24位真彩色、15帧/秒的帧率 
+
+　　　　　　b．320&#215;240分辩率、30位真彩色、25帧/秒的帧率 
+
+　　　　　　c．320&#215;240分辩率、30位真彩色、30帧/秒的啦率 
+
+　　　　　　d．640&#215;480分辩率、16位真彩色、15帧/秒的帧率 
+
+　　 
+
+
+　　数据库系统工程师全真预测试卷(一)上午试题 
+
+　　(考试时 间9：00--11：30 共150分钟) 
+
+　　1．本试卷的试题中共有75个空格，需要全部解答，每个空格1分，满分75分。 
+
+　　2．每个空格对应一个序号，有人b．c~d、四个选项，请选择一个最恰当的选项作为解答。 
+
+　　●《中华人民共和国专利法)及其实施规定，确定发明和实用新型专利权的保护范围的 
+
+　　依据是＿(1)＿ 。&lt;中华人民共和国专利法)规定，专利侵权的诉讼时效是自专利权人或者利 
+
+　　害关系人得知或应当得知侵权行为之日起＿(2)＿。 
+
+　　　　(1)a．说明书　b．请求书　c．权利要求　d．附图 
+
+　　　　(2)a．6个月　 b．18个月　c．四年　　　d．二年 
+
+　　●is09000－3在eis09000族标准中的位置，它是计算机软件机构实施＿(3)＿的＿(4)＿标准，由于＿(5)＿标准本来是针对传统的制造业制定的，而软件业又有许多不同于制造业的特性＿(6)＿起子桥梁作用。＿(7)＿将整个软件生存周期分成17个过程，并且对每一个过程按&#8220;过程&#8212;活动一任务&#8221;的三个层次具体作了解释，为我们进一步理解is09000-3提供了帮助。 
+
+　　　　(3)a．is090011　b．is09001　　c．is09000-3　　d．is0/iecl2207 
+
+　　　　(4)a．指南性　　b．概括性　　 c．详尽的　　　 d．不同的 
+
+　　　　(5)a．iso9000　　b．iso9001　 c．is09002　　　d．gb/t19001-1994 
+
+　　　　(6)a．is09001　 b．iso9000-3　c．iso/icel2207 d．iso9002 
+
+　　　　(7)a，is09000-3 b．is09000　　c．1s09002　　　d．iso/iec12207 
+
+　　●结构化查询语言sql是一种＿(8)＿语言，其主要功能有＿(9)＿，它的典型句型为　　select　a1，a2，&#8230;，an 
+
+　　　　　from　r1，r2，&#8230;，rm 
+
+　　　　　　where　f 
+
+　　其中a1，a2，&#8230;，an和f分别是＿(10)＿。 
+
+　　关系模式scs(sno，cno，score)中，sno是学生的学号，cno是课程号，score为成绩。若要查询每门课程的平均成绩，且要求查询结果按平均成绩升序排列。平均成绩相同时，按课程号降序排列，可用sql语言写为＿(11)＿。若查询结果仅限于平均分数超过85分的，则应＿(12)＿。 
+
+　　　　(8)a．人工智能　　b．关系数据库　　 c．函数型　　d．高级算法 
+
+　　　　(9)a．数据定义、数据操作、数据安全　b．数据安全、数据编辑、数据并发控制 
+
+　　　　　 c．数据定义、数据操作、数据控制　d．数据查询、数据更新、数据输入输出 
+
+　　　　(10)a．目标表列名、基本表名、逻辑表达式 
+
+　　　　　　b．目标表列名、基本表名、数值表达式 
+
+　　　　　　c．基本表名、目标表列名、逻辑表达式 
+
+　　　　　　d．基本表名、目标表列名、数值表达式 
+
+　　　　(11)a．select　cno，avg(score)　　b．seiect　cno，avg(score) 
+
+　　　　　　　 from　scs　　　　　　　　　　 from　scs 
+
+　　　　　　　 group　by　score　　　　　　　group　by　cno 
+
+　　　　　　　 order　by　2，cno　desc　　　 order　by　2，cno　desc 
+
+　　　　　　c．select　cno，avg(score)　　d．select　cno，avg(score) 
+
+　　　　　　　 from　scs　　　　　　　　　　 from scs 
+
+　　　　　　　 where　cno，desc　　　　　　　grou　pby，avg(score) 
+
+　　　　　　　 group　by　score　　　　　　　order　by，cno　desc 
+
+　　　　(12)a．在from子句的下一行加入：where　avg(*)&gt;85 
+
+　　　　　　b．在from子句的下一行加入：where　avg(score)&gt;85 
+
+　　　　　　c．在group　by子句上一行加入：having　avg(score)&gt;85 
+
+　　　　　d．在group　by子句下一行加入：having　avg(scsre)&gt;85 
+
+　　●windows nt或windows 2000是当前流行的一类操作系统，＿(13)＿是windows nt真正的中心，它提供了一组操作系统原语和机制。windows nt采用线程机制提高系统的＿(14)＿。nt采用基于＿(15)＿的方案选定线程执行的次序。 
+
+　　　　(13)a．进程　　　　b．内核　　　　c．线程　　　d．管程 
+
+　　　　(14)a．并行性　　　b．可靠性　　　c．健壮性　　d．兼容性 
+
+　　　　(15)a．先来先服务　b．时 间片轮转　c．随机选择　d．优先级 
+
+　　●局域网是当前计算机网络研究与应用的一个热点，而符合feee802.3标准的传统ethernet应用最为广泛。它在mac层采用方法＿(16)＿，物理层采用＿(17)＿标准。随着网络技术的发展，以及大型信息系统与多媒体技术的应用，出现了满足人们更高需要的fastethemet、交换局域网switchinglan与＿(18)＿等高速局域网产品。他们符合＿(19)＿标准。＿(16)＿方法不适应重负荷与有实时性通信要求。＿(18)＿采用cell作为数据传输基本单元与ethernet帧结构不一致，但具有高带宽，低延时，可动态分配带宽等优点。 
+
+　　　　(16)a．fddi　　　　b． token-ring　　c．csma/cd　　d．tokenbus 
+
+　　　　(17)a．100base-t　 b．80base-t　　　c．10base-t　 d．50base-t 
+
+　　　　(18)a．atm　　　　 b．fastlan　　　 c．www　　　　d．wan 
+
+　　　　(19)a．100base-t　 b．50base2　　　 c．10broad36　d．50base-t 
+
+　　●关系数据库用＿(20)＿来表示实体之间的联系，其任何检索操作的实现都是由＿(21)＿三种基本操作组合而成的。 
+
+　　　　(20)a．层次模型　　b．网状模型　　　c．指针链　　 d．表格数据 
+
+　　　　(21)a．选择、投影和扫描　　　　　　 b．选择、投影和连接 
+
+　　　　　　c．选择、运算和投影　　　　　　 d．选择、投影和比较 
+
+　　●下列数字视频中，＿(22)＿质量最好。 
+
+　　　　(22)a．240&#215;180分辩率、24位真彩色、15帧/秒的帧率 
+
+　　　　　　b．320&#215;240分辩率、30位真彩色、25帧/秒的帧率 
+
+　　　　　　c．320&#215;240分辩率、30位真彩色、30帧/秒的啦率 
+
+　　　　　　d．640&#215;480分辩率、16位真彩色、15帧/秒的帧率 
+
+　　 
+
+
+　　　　(61)a．小于等于4　b．4　c．小于等于5　d．5　e．大于等于5　f．大于5 
+
+　　　　(62)a．小于等于4　b．4　c．小于等于5　d．5　e．大于等于5　f．大于5 
+
+　　　　(63)a．1010110111111　　　　b．1010111010001 
+
+　　　　　　c．1010110001101　　　　d．1010111101010 
+
+　　　　　　e．1010111011001　　　　f．1010110001100 
+
+　　　　(64)a．1010110111111　　　　b．1010111010001 
+
+　　　　　　c．1010110001101　　　　d．1010111101010 
+
+　　　　　　e．1010111011001　　　　f．1010110001100 
+
+　　　　(65)a．1010110111111　　　　b．1010111010001 
+
+　　　　　　c．1010110001101　　　　d．1010111101010 
+
+　　　　　　e．1010111011001　　　　f．1010110001100 
+
+　　●typically,these are concerm with the establishment of ＿(66)＿ the network and with the control of the flow of messages across this channel. the provision of such facilities is only part of the network requirements,however,since in many applications the communicating computers may be of different types. this means that they may use different programming languages and,more importantly,different forms of ＿(67)＿ interface between user(application) prograrma，normally referred to,as application processes or aps,and the underlying communication services may be ＿(68)＿ for example，one computer may be a smaall single- user computer,while another may be alarge ＿(69)＿ system.in the earlier days of computer communication,these issues meant that only closed communities of computers(that is,from the same manufacturer) could communicate with each other in a meaningful way. ibm&#8217;s systems network 
+
+　　architecture(sna) and dec&#8217;s digital network architecture (dna) are just two examples of communication software packages produced by manufacturers to allow their systems to be int ercormected together.these proprietary packages, however, of which there am still many inexistence, do not address the problem of universal interconnect ability, or open systems interconnection. in an attempt to alleviate this problem,＿(70)＿,in the late 1970s,formulated a reference model to provide a common basis (or the coordination of standards developments and to allow existing and evolving standards acivities to be placed into perspective with one another. 
+
+　　　　(66)a．communication channel access　　b．protocols 
+
+　　　　　　c．datachannei　　　　　　　　　　 d．public communieation 
+
+　　　　(67)a．database　　　　　　　　　　　　b．data representation 
+
+　　　　　　c．protocols　　　　　　　　　　　 d．data communication 
+
+　　　　(68)a．same　　　　b．similar　　c．different　　 d．dependent 
+
+　　　　(69)a．multi-user　b．client　　 c．server　　　　d．full-user 
+
+　　　　(70)a．dna　　　　 b．sna　　　　c．the osi　　　 d．the iso 
+
+　　●one of the functions of the ＿(71)＿ is to store the applications progrms {or the various secondaries. the ＿(72)＿ may have similar or dissimilar functions. the same control code received from two different secondaries may warrant two different actions on the part of the host computer. if the system so requires,the host computer must also provide ＿(73)＿ for the centralized data and the software for database management. data information is normally stored in auxiliary memories to which the computer has ready access. the＿(74)＿ peripherals connected to the host computer allow for human entry and intervention. as needs change, application programs may require additions, deletions, or changes. data link problems also arise which are __(75)＿ the range of the computer&#8217;s programmed capabilities. in such cases, human entry is required to make the necessary changes to resolve the existing problems. 
+
+　　　　(71)a．peripherals　　b．host computer　　c．the interface　　d．the client 
+
+　　　　(72)a．set　　　　　　b．host　　　　　　 c．secondaries　　　d．record 
+
+　　　　(73)a．storage　　　　b．data　　　　　　 c．range　　　　　　d．link 
+
+　　　　(74)a．peripherals　　b．database　　　　 c．the interface　　d．clients 
+
+　　　　(75)a．dose to　　　　b．during　　　　　 c．within　　　　　 d．beyond
+　　数据库系统工程师全真预测试卷(一)上午试题 
+　　(考试时 间9：00--11：30 共150分钟) 
+　　1．本试卷的试题中共有75个空格，需要全部解答，每个空格1分，满分75分。 
+　　2．每个空格对应一个序号，有人b．c~d、四个选项，请选择一个最恰当的选项作为解答。 
+　　●《中华人民共和国专利法)及其实施规定，确定发明和实用新型专利权的保护范围的 
+　　依据是＿(1)＿ 。&lt;中华人民共和国专利法)规定，专利侵权的诉讼时效是自专利权人或者利 
+　　害关系人得知或应当得知侵权行为之日起＿(2)＿。 
+　　　　(1)a．说明书　b．请求书　c．权利要求　d．附图 
+　　　　(2)a．6个月　 b．18个月　c．四年　　　d．二年 
+　　●is09000－3在eis09000族标准中的位置，它是计算机软件机构实施＿(3)＿的＿(4)＿标准，由于＿(5)＿标准本来是针对传统的制造业制定的，而软件业又有许多不同于制造业的特性＿(6)＿起子桥梁作用。＿(7)＿将整个软件生存周期分成17个过程，并且对每一个过程按&#8220;过程&#8212;活动一任务&#8221;的三个层次具体作了解释，为我们进一步理解is09000-3提供了帮助。 
+　　　　(3)a．is090011　b．is09001　　c．is09000-3　　d．is0/iecl2207 
+　　　　(4)a．指南性　　b．概括性　　 c．详尽的　　　 d．不同的 
+　　　　(5)a．iso9000　　b．iso9001　 c．is09002　　　d．gb/t19001-1994 
+　　　　(6)a．is09001　 b．iso9000-3　c．iso/icel2207 d．iso9002 
+　　　　(7)a，is09000-3 b．is09000　　c．1s09002　　　d．iso/iec12207 
+　　●结构化查询语言sql是一种＿(8)＿语言，其主要功能有＿(9)＿，它的典型句型为　　select　a1，a2，&#8230;，an 
+　　　　　from　r1，r2，&#8230;，rm 
+　　　　　　where　f 
+　　其中a1，a2，&#8230;，an和f分别是＿(10)＿。 
+　　关系模式scs(sno，cno，score)中，sno是学生的学号，cno是课程号，score为成绩。若要查询每门课程的平均成绩，且要求查询结果按平均成绩升序排列。平均成绩相同时，按课程号降序排列，可用sql语言写为＿(11)＿。若查询结果仅限于平均分数超过85分的，则应＿(12)＿。 
+　　　　(8)a．人工智能　　b．关系数据库　　 c．函数型　　d．高级算法 
+　　　　(9)a．数据定义、数据操作、数据安全　b．数据安全、数据编辑、数据并发控制 
+　　　　　 c．数据定义、数据操作、数据控制　d．数据查询、数据更新、数据输入输出 
+　　　　(10)a．目标表列名、基本表名、逻辑表达式 
+　　　　　　b．目标表列名、基本表名、数值表达式 
+　　　　　　c．基本表名、目标表列名、逻辑表达式 
+　　　　　　d．基本表名、目标表列名、数值表达式 
+　　　　(11)a．select　cno，avg(score)　　b．seiect　cno，avg(score) 
+　　　　　　　 from　scs　　　　　　　　　　 from　scs 
+　　　　　　　 group　by　score　　　　　　　group　by　cno 
+　　　　　　　 order　by　2，cno　desc　　　 order　by　2，cno　desc 
+　　　　　　c．select　cno，avg(score)　　d．select　cno，avg(score) 
+　　　　　　　 from　scs　　　　　　　　　　 from scs 
+　　　　　　　 where　cno，desc　　　　　　　grou　pby，avg(score) 
+　　　　　　　 group　by　score　　　　　　　order　by，cno　desc 
+　　　　(12)a．在from子句的下一行加入：where　avg(*)&gt;85 
+　　　　　　b．在from子句的下一行加入：where　avg(score)&gt;85 
+　　　　　　c．在group　by子句上一行加入：having　avg(score)&gt;85 
+　　　　　d．在group　by子句下一行加入：having　avg(scsre)&gt;85 
+　　●windows nt或windows 2000是当前流行的一类操作系统，＿(13)＿是windows nt真正的中心，它提供了一组操作系统原语和机制。windows nt采用线程机制提高系统的＿(14)＿。nt采用基于＿(15)＿的方案选定线程执行的次序。 
+　　　　(13)a．进程　　　　b．内核　　　　c．线程　　　d．管程 
+　　　　(14)a．并行性　　　b．可靠性　　　c．健壮性　　d．兼容性 
+　　　　(15)a．先来先服务　b．时 间片轮转　c．随机选择　d．优先级 
+　　●局域网是当前计算机网络研究与应用的一个热点，而符合feee802.3标准的传统ethernet应用最为广泛。它在mac层采用方法＿(16)＿，物理层采用＿(17)＿标准。随着网络技术的发展，以及大型信息系统与多媒体技术的应用，出现了满足人们更高需要的fastethemet、交换局域网switchinglan与＿(18)＿等高速局域网产品。他们符合＿(19)＿标准。＿(16)＿方法不适应重负荷与有实时性通信要求。＿(18)＿采用cell作为数据传输基本单元与ethernet帧结构不一致，但具有高带宽，低延时，可动态分配带宽等优点。 
+　　　　(16)a．fddi　　　　b． token-ring　　c．csma/cd　　d．tokenbus 
+　　　　(17)a．100base-t　 b．80base-t　　　c．10base-t　 d．50base-t 
+　　　　(18)a．atm　　　　 b．fastlan　　　 c．www　　　　d．wan 
+　　　　(19)a．100base-t　 b．50base2　　　 c．10broad36　d．50base-t 
+　　●关系数据库用＿(20)＿来表示实体之间的联系，其任何检索操作的实现都是由＿(21)＿三种基本操作组合而成的。 
+　　　　(20)a．层次模型　　b．网状模型　　　c．指针链　　 d．表格数据 
+　　　　(21)a．选择、投影和扫描　　　　　　 b．选择、投影和连接 
+　　　　　　c．选择、运算和投影　　　　　　 d．选择、投影和比较 
+　　●下列数字视频中，＿(22)＿质量最好。 
+　　　　(22)a．240&#215;180分辩率、24位真彩色、15帧/秒的帧率 
+　　　　　　b．320&#215;240分辩率、30位真彩色、25帧/秒的帧率 
+　　　　　　c．320&#215;240分辩率、30位真彩色、30帧/秒的啦率 
+　　　　　　d．640&#215;480分辩率、16位真彩色、15帧/秒的帧率 
+　　 
+　　数据库系统工程师全真预测试卷(一)上午试题 
+　　(考试时 间9：00--11：30 共150分钟) 
+　　1．本试卷的试题中共有75个空格，需要全部解答，每个空格1分，满分75分。 
+　　2．每个空格对应一个序号，有人b．c~d、四个选项，请选择一个最恰当的选项作为解答。 
+　　●《中华人民共和国专利法)及其实施规定，确定发明和实用新型专利权的保护范围的 
+　　依据是＿(1)＿ 。&lt;中华人民共和国专利法)规定，专利侵权的诉讼时效是自专利权人或者利 
+　　害关系人得知或应当得知侵权行为之日起＿(2)＿。 
+　　　　(1)a．说明书　b．请求书　c．权利要求　d．附图 
+　　　　(2)a．6个月　 b．18个月　c．四年　　　d．二年 
+　　●is09000－3在eis09000族标准中的位置，它是计算机软件机构实施＿(3)＿的＿(4)＿标准，由于＿(5)＿标准本来是针对传统的制造业制定的，而软件业又有许多不同于制造业的特性＿(6)＿起子桥梁作用。＿(7)＿将整个软件生存周期分成17个过程，并且对每一个过程按&#8220;过程&#8212;活动一任务&#8221;的三个层次具体作了解释，为我们进一步理解is09000-3提供了帮助。 
+　　　　(3)a．is090011　b．is09001　　c．is09000-3　　d．is0/iecl2207 
+　　　　(4)a．指南性　　b．概括性　　 c．详尽的　　　 d．不同的 
+　　　　(5)a．iso9000　　b．iso9001　 c．is09002　　　d．gb/t19001-1994 
+　　　　(6)a．is09001　 b．iso9000-3　c．iso/icel2207 d．iso9002 
+　　　　(7)a，is09000-3 b．is09000　　c．1s09002　　　d．iso/iec12207 
+　　●结构化查询语言sql是一种＿(8)＿语言，其主要功能有＿(9)＿，它的典型句型为　　select　a1，a2，&#8230;，an 
+　　　　　from　r1，r2，&#8230;，rm 
+　　　　　　where　f 
+　　其中a1，a2，&#8230;，an和f分别是＿(10)＿。 
+　　关系模式scs(sno，cno，score)中，sno是学生的学号，cno是课程号，score为成绩。若要查询每门课程的平均成绩，且要求查询结果按平均成绩升序排列。平均成绩相同时，按课程号降序排列，可用sql语言写为＿(11)＿。若查询结果仅限于平均分数超过85分的，则应＿(12)＿。 
+　　　　(8)a．人工智能　　b．关系数据库　　 c．函数型　　d．高级算法 
+　　　　(9)a．数据定义、数据操作、数据安全　b．数据安全、数据编辑、数据并发控制 
+　　　　　 c．数据定义、数据操作、数据控制　d．数据查询、数据更新、数据输入输出 
+　　　　(10)a．目标表列名、基本表名、逻辑表达式 
+　　　　　　b．目标表列名、基本表名、数值表达式 
+　　　　　　c．基本表名、目标表列名、逻辑表达式 
+　　　　　　d．基本表名、目标表列名、数值表达式 
+　　　　(11)a．select　cno，avg(score)　　b．seiect　cno，avg(score) 
+　　　　　　　 from　scs　　　　　　　　　　 from　scs 
+　　　　　　　 group　by　score　　　　　　　group　by　cno 
+　　　　　　　 order　by　2，cno　desc　　　 order　by　2，cno　desc 
+　　　　　　c．select　cno，avg(score)　　d．select　cno，avg(score) 
+　　　　　　　 from　scs　　　　　　　　　　 from scs 
+　　　　　　　 where　cno，desc　　　　　　　grou　pby，avg(score) 
+　　　　　　　 group　by　score　　　　　　　order　by，cno　desc 
+　　　　(12)a．在from子句的下一行加入：where　avg(*)&gt;85 
+　　　　　　b．在from子句的下一行加入：where　avg(score)&gt;85 
+　　　　　　c．在group　by子句上一行加入：having　avg(score)&gt;85 
+　　　　　d．在group　by子句下一行加入：having　avg(scsre)&gt;85 
+　　●windows nt或windows 2000是当前流行的一类操作系统，＿(13)＿是windows nt真正的中心，它提供了一组操作系统原语和机制。windows nt采用线程机制提高系统的＿(14)＿。nt采用基于＿(15)＿的方案选定线程执行的次序。 
+　　　　(13)a．进程　　　　b．内核　　　　c．线程　　　d．管程 
+　　　　(14)a．并行性　　　b．可靠性　　　c．健壮性　　d．兼容性 
+　　　　(15)a．先来先服务　b．时 间片轮转　c．随机选择　d．优先级 
+　　●局域网是当前计算机网络研究与应用的一个热点，而符合feee802.3标准的传统ethernet应用最为广泛。它在mac层采用方法＿(16)＿，物理层采用＿(17)＿标准。随着网络技术的发展，以及大型信息系统与多媒体技术的应用，出现了满足人们更高需要的fastethemet、交换局域网switchinglan与＿(18)＿等高速局域网产品。他们符合＿(19)＿标准。＿(16)＿方法不适应重负荷与有实时性通信要求。＿(18)＿采用cell作为数据传输基本单元与ethernet帧结构不一致，但具有高带宽，低延时，可动态分配带宽等优点。 
+　　　　(16)a．fddi　　　　b． token-ring　　c．csma/cd　　d．tokenbus 
+　　　　(17)a．100base-t　 b．80base-t　　　c．10base-t　 d．50base-t 
+　　　　(18)a．atm　　　　 b．fastlan　　　 c．www　　　　d．wan 
+　　　　(19)a．100base-t　 b．50base2　　　 c．10broad36　d．50base-t 
+　　●关系数据库用＿(20)＿来表示实体之间的联系，其任何检索操作的实现都是由＿(21)＿三种基本操作组合而成的。 
+　　　　(20)a．层次模型　　b．网状模型　　　c．指针链　　 d．表格数据 
+　　　　(21)a．选择、投影和扫描　　　　　　 b．选择、投影和连接 
+　　　　　　c．选择、运算和投影　　　　　　 d．选择、投影和比较 
+　　●下列数字视频中，＿(22)＿质量最好。 
+　　　　(22)a．240&#215;180分辩率、24位真彩色、15帧/秒的帧率 
+　　　　　　b．320&#215;240分辩率、30位真彩色、25帧/秒的帧率 
+　　　　　　c．320&#215;240分辩率、30位真彩色、30帧/秒的啦率 
+　　　　　　d．640&#215;480分辩率、16位真彩色、15帧/秒的帧率 
+　　 
+　　　　(61)a．小于等于4　b．4　c．小于等于5　d．5　e．大于等于5　f．大于5 
+　　　　(62)a．小于等于4　b．4　c．小于等于5　d．5　e．大于等于5　f．大于5 
+　　　　(63)a．1010110111111　　　　b．1010111010001 
+　　　　　　c．1010110001101　　　　d．1010111101010 
+　　　　　　e．1010111011001　　　　f．1010110001100 
+　　　　(64)a．1010110111111　　　　b．1010111010001 
+　　　　　　c．1010110001101　　　　d．1010111101010 
+　　　　　　e．1010111011001　　　　f．1010110001100 
+　　　　(65)a．1010110111111　　　　b．1010111010001 
+　　　　　　c．1010110001101　　　　d．1010111101010 
+　　　　　　e．1010111011001　　　　f．1010110001100 
+　　●typically,these are concerm with the establishment of ＿(66)＿ the network and with the control of the flow of messages across this channel. the provision of such facilities is only part of the network requirements,however,since in many applications the communicating computers may be of different types. this means that they may use different programming languages and,more importantly,different forms of ＿(67)＿ interface between user(application) prograrma，normally referred to,as application processes or aps,and the underlying communication services may be ＿(68)＿ for example，one computer may be a smaall single- user computer,while another may be alarge ＿(69)＿ system.in the earlier days of computer communication,these issues meant that only closed communities of computers(that is,from the same manufacturer) could communicate with each other in a meaningful way. ibm&#8217;s systems network 
+　　architecture(sna) and dec&#8217;s digital network architecture (dna) are just two examples of communication software packages produced by manufacturers to allow their systems to be int ercormected together.these proprietary packages, however, of which there am still many inexistence, do not address the problem of universal interconnect ability, or open systems interconnection. in an attempt to alleviate this problem,＿(70)＿,in the late 1970s,formulated a reference model to provide a common basis (or the coordination of standards developments and to allow existing and evolving standards acivities to be placed into perspective with one another. 
+　　　　(66)a．communication channel access　　b．protocols 
+　　　　　　c．datachannei　　　　　　　　　　 d．public communieation 
+　　　　(67)a．database　　　　　　　　　　　　b．data representation 
+　　　　　　c．protocols　　　　　　　　　　　 d．data communication 
+　　　　(68)a．same　　　　b．similar　　c．different　　 d．dependent 
+　　　　(69)a．multi-user　b．client　　 c．server　　　　d．full-user 
+　　　　(70)a．dna　　　　 b．sna　　　　c．the osi　　　 d．the iso 
+　　●one of the functions of the ＿(71)＿ is to store the applications progrms {or the various secondaries. the ＿(72)＿ may have similar or dissimilar functions. the same control code received from two different secondaries may warrant two different actions on the part of the host computer. if the system so requires,the host computer must also provide ＿(73)＿ for the centralized data and the software for database management. data information is normally stored in auxiliary memories to which the computer has ready access. the＿(74)＿ peripherals connected to the host computer allow for human entry and intervention. as needs change, application programs may require additions, deletions, or changes. data link problems also arise which are __(75)＿ the range of the computer&#8217;s programmed capabilities. in such cases, human entry is required to make the necessary changes to resolve the existing problems. 
+　　　　(71)a．peripherals　　b．host computer　　c．the interface　　d．the client 
+　　　　(72)a．set　　　　　　b．host　　　　　　 c．secondaries　　　d．record 
+　　　　(73)a．storage　　　　b．data　　　　　　 c．range　　　　　　d．link 
+　　　　(74)a．peripherals　　b．database　　　　 c．the interface　　d．clients 
+　　　　(75)a．dose to　　　　b．during　　　　　 c．within　　　　　 d．beyond

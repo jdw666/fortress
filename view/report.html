@@ -1,0 +1,14 @@
+{% include 'header.html' %}
+
+<h1>report</h1>
+
+<h2>报告</h2>
+
+{% for i in report %}
+<li class="job-item">
+    {{i.0}},
+    {{i.1}},
+    {{i.3}},
+    <a href="{{ i.2 }}">{{i.2}}</a>,
+</li>
+{% endfor %}
