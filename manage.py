@@ -22,3 +22,4 @@ if __name__ == '__main__':
     Runserver.default_addr = '192.168.1.189'	# 修改默认地址
     Runserver.default_port = '80'	# 修改默认端口
     main()
+
